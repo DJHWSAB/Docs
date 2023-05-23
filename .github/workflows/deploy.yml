@@ -17,31 +17,34 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4 # 将 Node.js 版本更新至 v16
         with:
           node-version: 16
           cache: npm
       - run: npm ci
       - name: Build
         run: npm run docs:build
-      - uses: actions/configure-pages@v2
-      - uses: actions/upload-pages-artifact@v1
+      - uses: actions/configure-github-pages@v1 # 将动作更新至 configure-github-pages
+      - uses: actions/upload-artifact@v2 # 将动作更新至 upload-artifact
         with:
+          name: docs
           path: docs/.vitepress/dist
       - name: Deploy
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: JamesIves/github-pages-deploy-action@4.1.1 # 将动作更新至 github-pages-deploy-action
   algolia:
     needs: deploy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3 # 将 checkout 动作更新至 v3
       - name: Get the content of algolia.json as config
         id: algolia_config
-        run: echo "::set-output name=config::$(cat algolia.json | jq -r tostring)"
+        run: echo ${{ secrets.ALGOLIA_CONFIG }} > algolia.json # 将敏感信息配置在 secrets 中，并使用环境变量输出到文件中
       - name: Push indices to Algolia
-        uses: signcl/docsearch-scraper-action@master
+        uses: signcl/docsearch-scraper-action@v1 # 将动作更新至 v1
         env:
           APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
           API_KEY: ${{ secrets.API_KEY }}
-          CONFIG: ${{ steps.algolia_config.outputs.config }}
+          CONFIG: ${{ env.CONFIG }} # 使用环境变量代替 set-output 命令
+        with:
+          config_file_path: algolia.json # 指定配置文件路径
