@@ -72,7 +72,7 @@ export default defineConfig({
     // 搜索
     algolia: {
       appId: 'G8OVGKU8E1',
-      apiKey: 'a1d249001bdaa0217999bdac930e178c',
+      apiKey: 'e4be0776fc24eea33d6c0b3de11cfeba',
       indexName: 'djhwsabio',
     },
     // 上下翻页
