@@ -82,7 +82,7 @@ export default defineConfig({
     docFooter: { prev: '上一篇', next: '下一篇' },
     // 编辑链接
     editLink: {
-      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+      pattern: 'https://github.com/DJHWSAB/Docs/edit/main/docs/:path',
       text: '在github上编辑此页'
     },
     // 页脚
