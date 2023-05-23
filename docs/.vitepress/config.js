@@ -70,13 +70,10 @@ export default defineConfig({
       ],
     },
     // 搜索
-    search: {
-      provider: 'algolia',
-      options: {
-        appId: 'G8OVGKU8E1',
-        apiKey: 'c51904bfafca29e7aee4108010dbc645',
-        indexName: 'djhwsabio',
-      }
+    algolia: {
+      appId: 'G8OVGKU8E1',
+      apiKey: 'a1d249001bdaa0217999bdac930e178c',
+      indexName: 'djhwsabio',
     },
     // 上下翻页
     docFooter: { prev: '上一篇', next: '下一篇' },
