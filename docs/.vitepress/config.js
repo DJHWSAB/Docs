@@ -73,9 +73,9 @@ export default defineConfig({
     search: {
       provider: 'algolia',
       options: {
-        appId: 'G8OVGKU8E1',
-        apiKey: 'a1d249001bdaa0217999bdac930e178c',
-        indexName: 'djhwsabio',
+        appId: 'UATCJGGFND',
+        apiKey: '7c7853565a6732fd5c6239537e70094c',
+        indexName: 'vitepress_Docs',
       }
     },
     // 上下翻页
