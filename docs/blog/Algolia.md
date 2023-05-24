@@ -52,3 +52,9 @@ export default defineConfig({
 :::
 
  ![s](/blog_24.png)
+
+## 如果没有数据,可以去后台重新手动爬取数据
+
+[后台](https://crawler.algolia.com/admin/users/login)
+
+ ![s](/blog_25.png)
