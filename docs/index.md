@@ -4,8 +4,8 @@ title: coderccb
 
 hero:
   name: Coderccb Docs
-  text: 分享前端知识和遇到的bug。
-  tagline: 争取每天进步一点点
+  text: 从0到1总结前端知识和遇到的各种bug。
+  tagline: 站在巨人的肩膀上，可以看得更远。
   image:
     src: /logo.png
     alt: 网站的 logo 图片
