@@ -59,7 +59,7 @@ export default defineConfig({
           text: '效率提升',
           items: [
             { text: 'Github', link: '/tools/hoist/' }, // /tools/hoist/index.md
-            { text: 'Xcode', link: '/tools/hoist/xcodeds' }, // /tools/hoist/xcode.md
+            { text: 'Xcode', link: '/tools/hoist/xcode' }, // /tools/hoist/xcode.md
             { text: 'Brew', link: '/tools/hoist/brew' }, // /tools/hoist/brew.md
             { text: 'iterm', link: '/tools/hoist/iterm' }, // /tools/hoist/iterm.md
           ],
