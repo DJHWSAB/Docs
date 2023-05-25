@@ -19,6 +19,6 @@ layout: doc
   
   ![xcode](/xcode_02.png)
 
-  2. 根据提示输入 `agree` ，回车就搞定了
+  2. 根据提示输入 `agree` ,回车就搞定了
 
   ![xcode](/xcode_03.png)
