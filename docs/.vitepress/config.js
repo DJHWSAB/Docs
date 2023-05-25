@@ -62,6 +62,7 @@ export default defineConfig({
             { text: 'Xcode', link: '/tools/hoist/xcode' }, // /tools/hoist/xcode.md
             { text: 'Brew', link: '/tools/hoist/brew' }, // /tools/hoist/brew.md
             { text: 'iterm', link: '/tools/hoist/iterm' }, // /tools/hoist/iterm.md
+            { text: 'mac', link: '/tools/hoist/mac' }, // /tools/hoist/iterm.md
           ],
           // 是否收缩
           collapsible: true,
