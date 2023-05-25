@@ -23,7 +23,7 @@ export default defineConfig({
       // activeMatch 无论在 guide 下的哪一个子菜单都会保持高亮。
       { text: 'Blog', link: '/blog/',activeMatch: '/blog/' },
       {
-        text: '工具软件',
+        text: 'Tools',
         activeMatch: '/tools/hoist/',
         items: [
           // { text: '编程软件', link: '/tools/software/' },
@@ -56,7 +56,7 @@ export default defineConfig({
       ],
       '/tools/': [
         {
-          text: 'Tools',
+          text: '提升效率',
           items: [
             { text: 'Github', link: '/tools/hoist/' }, // /tools/hoist/index.md
             { text: 'Xcode', link: '/tools/hoist/xcode' }, // /tools/hoist/xcode.md
