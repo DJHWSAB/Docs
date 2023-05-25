@@ -56,7 +56,7 @@ export default defineConfig({
       ],
       '/tools/': [
         {
-          text: '提升效率',
+          text: '效率提升',
           items: [
             { text: 'Github', link: '/tools/hoist/' }, // /tools/hoist/index.md
             { text: 'Xcode', link: '/tools/hoist/xcode' }, // /tools/hoist/xcode.md
