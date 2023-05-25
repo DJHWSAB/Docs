@@ -25,8 +25,8 @@ export default defineConfig({
       {
         text: '工具软件',
         items: [
-          { text: 'options-1', link: '/' },
-          { text: 'options-2', link: '/guide/' }
+          { text: '编程软件', link: '/tools/software/' },
+          { text: '效率提升', link: '/tools/hoist/' }
         ]
       },
       {
