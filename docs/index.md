@@ -30,7 +30,7 @@ features:
   - icon: 🛠️
     title: 编程工具
     details: 提高效率
-    link: '/blog/'
+    link: '/tools/'
     linkText: 提高效率
   - icon: 🚚
     title: bug总结

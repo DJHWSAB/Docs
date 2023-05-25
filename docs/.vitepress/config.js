@@ -23,7 +23,7 @@ export default defineConfig({
       // activeMatch 无论在 guide 下的哪一个子菜单都会保持高亮。
       { text: 'Blog', link: '/blog/' },
       {
-        text: '下拉选择框',
+        text: '工具软件',
         items: [
           { text: 'options-1', link: '/' },
           { text: 'options-2', link: '/guide/' }
