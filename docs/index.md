@@ -29,7 +29,7 @@ features:
     linkText: 开始学习
   - icon: 🛠️
     title: 编程工具
-    details: blog
+    details: 提高效率
     link: '/blog/'
     linkText: 提高效率
   - icon: 🚚
