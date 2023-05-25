@@ -13,20 +13,16 @@ export default defineConfig({
   themeConfig: {
     siteTitle: 'coderccb',
     logo: '/logo.png',
-    darkModeSwitchLabel: '主题',
-    sidebarMenuLabel: '菜单',
-    returnToTopLabel: '返回顶部',
-    langMenuLabel: '语言切换',
     // 主导航栏
     nav: [
       // link 点击时跳转的默认地址
       // activeMatch 无论在 guide 下的哪一个子菜单都会保持高亮。
-      { text: 'Blog', link: '/blog/',activeMatch: '/blog/' },
+      { text: 'Blog', link: '/blog/', activeMatch: '/blog/' },
       {
         text: 'Tools',
-        activeMatch: '/tools/hoist/',
+        activeMatch: '/tools/',
         items: [
-          // { text: '编程软件', link: '/tools/software/' },
+          { text: '编程软件', link: '/tools/software/' },
           { text: '效率提升', link: '/tools/hoist/' }
         ]
       },
@@ -55,6 +51,12 @@ export default defineConfig({
         }
       ],
       '/tools/': [
+        {
+          text: '编程软件',
+          items: [
+            { text: 'Vscode', link: '/tools/software/' } // /tools/software/index.md
+          ]
+        },
         {
           text: '效率提升',
           items: [
