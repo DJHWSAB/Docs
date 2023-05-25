@@ -59,6 +59,7 @@ export default defineConfig({
           text: 'Tools',
           items: [
             { text: '玩转Github', link: '/tools/hoist/' }, // /tools/hoist/index.md
+            { text: '玩转Xcode', link: '/tools/hoist/Xcode' }, // /tools/hoist/index.md
             { text: '玩转iterm', link: '/tools/hoist/iterm' }, // /tools/hoist/iterm.md
           ],
           // 是否收缩
