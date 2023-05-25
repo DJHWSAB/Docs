@@ -21,9 +21,10 @@ export default defineConfig({
     nav: [
       // link 点击时跳转的默认地址
       // activeMatch 无论在 guide 下的哪一个子菜单都会保持高亮。
-      { text: 'Blog', link: '/blog/' },
+      { text: 'Blog', link: '/blog/',activeMatch: '/blog/' },
       {
         text: '工具软件',
+        activeMatch: '/tools/hoist/',
         items: [
           // { text: '编程软件', link: '/tools/software/' },
           { text: '效率提升', link: '/tools/hoist/' }
@@ -45,8 +46,7 @@ export default defineConfig({
           text: 'Blog',
           items: [
             { text: '搭建自己的 VitePress 个人博客', link: '/blog/' }, // /guide/index.md
-            { text: '博客优化之开启 Algolia 全文搜索', link: '/blog/Algolia' }, // /guide/one.md
-            { text: 'Two', link: '/blog/two' } // /guide/two.md
+            { text: '博客优化之开启 Algolia 全文搜索', link: '/blog/Algolia' } // /guide/one.md
           ],
           // 是否收缩
           collapsible: true,
@@ -59,7 +59,8 @@ export default defineConfig({
           text: 'Tools',
           items: [
             { text: '玩转Github', link: '/tools/hoist/' }, // /tools/hoist/index.md
-            { text: '玩转Xcode', link: '/tools/hoist/Xcode' }, // /tools/hoist/index.md
+            { text: '玩转Xcode', link: '/tools/hoist/xcode' }, // /tools/hoist/xcode.md
+            { text: '玩转Brew', link: '/tools/hoist/brew' }, // /tools/hoist/brew.md
             { text: '玩转iterm', link: '/tools/hoist/iterm' }, // /tools/hoist/iterm.md
           ],
           // 是否收缩
