@@ -66,4 +66,16 @@ layout: doc
             
             ![github](/github_08.png)
 
+## 提高Github下载速度
+
+1. 打开[Crxs搜搜](https://www.crxsoso.com/webstore/category/extensions)
+
+2. 搜索 `tiga github 国内`
+  
+  ![github](/github_09.png)
+
+3. 找到需要下载的Github地址,点击 `Code`,选择下载加速通道
+
+  ![github](/github_10.png)
+
 
