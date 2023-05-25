@@ -10,15 +10,34 @@ layout: doc
 
 1. 下载 [fastgithub](https://github.com/dotnetcore/FastGithub/releases)
 
-![image-20230525150935164](https://html-css-js-vue-es6-git.oss-cn-guangzhou.aliyuncs.com/coderccb/image-20230525150935164.png)
+![image-20230525150935164](/github_01.png)
 
 📢：如果你的mac是M1，安装 `fastgithub_osx-arm64.zip` 可能会出现闪退，请安装 `fastgithub_osx-x64` ;如果是win，安装 `fastgithub_win-x64`
 
 2. 使用 fastgithub
    - win下使用
      - 双击运行FastGithub.UI.exe
-     ![github](/github_01.png)
-     - s
+     
+     ![github](/github_02.png)
+     
+     - # D:\software\fastgithub_win-x64是你将fast GitHub下载存放的位置
+
+     ```shell
+     # 以windows服务安装并启动
+      fastgithub.exe start
+
+      # 以windows服务加载并删除
+      fastgithub.exe stop
+
+     ```
+
+     启动之后fast GitHub会自动更改你的dns
+     
+     ![github](/github_03.png)
+
+     然后就可以顺畅无阻的访问GitHub啦！
+
+     ![github](/github_04.png)
 
 
 
