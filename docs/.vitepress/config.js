@@ -58,10 +58,10 @@ export default defineConfig({
         {
           text: 'Tools',
           items: [
-            { text: '玩转Github', link: '/tools/hoist/' }, // /tools/hoist/index.md
-            { text: '玩转Xcode', link: '/tools/hoist/xcode' }, // /tools/hoist/xcode.md
-            { text: '玩转Brew', link: '/tools/hoist/brew' }, // /tools/hoist/brew.md
-            { text: '玩转iterm', link: '/tools/hoist/iterm' }, // /tools/hoist/iterm.md
+            { text: 'Github', link: '/tools/hoist/' }, // /tools/hoist/index.md
+            { text: 'Xcode', link: '/tools/hoist/xcode' }, // /tools/hoist/xcode.md
+            { text: 'Brew', link: '/tools/hoist/brew' }, // /tools/hoist/brew.md
+            { text: 'iterm', link: '/tools/hoist/iterm' }, // /tools/hoist/iterm.md
           ],
           // 是否收缩
           collapsible: true,
