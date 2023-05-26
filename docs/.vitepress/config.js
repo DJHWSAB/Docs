@@ -126,10 +126,11 @@ export default defineConfig({
   lastUpdated: true,
   // 站点图标
   head: {
-    link: [ { rel: 'icon', href: 'logo.png' } ],
+    links: [ { rel: 'icon', href: 'logo.png' } ],
     // 添加 Permissions-Policy HTTP响应头
-    meta: [ { 'http-equiv': 'Permissions-Policy', content: 'interest-cohort=()' } ]
+    metas: [ { 'http-equiv': 'Permissions-Policy', content: 'interest-cohort=()' } ]
   },
+
   // 简洁化URL，即我们访问文件时不需要加后缀了，直接 /xxx/xxx即可，不要/xxx/xxx.md
   cleanUrls: true,
   // 当设置为true时，VitePress不会因死链接而导致构建失败。
