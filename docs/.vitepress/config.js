@@ -54,7 +54,8 @@ export default defineConfig({
         {
           text: '编程软件',
           items: [
-            { text: 'Vscode', link: '/tools/software/' } // /tools/software/index.md
+            { text: 'Vscode', link: '/tools/software/' }, // /tools/software/index.md
+            { text: 'Chrome', link: '/tools/software/chrome' }, // /tools/software/chrome.md
           ]
         },
         {
@@ -67,6 +68,7 @@ export default defineConfig({
             { text: 'zsh', link: '/tools/hoist/zsh' }, // /tools/hoist/zsh.md
             { text: 'mac', link: '/tools/hoist/mac' }, // /tools/hoist/mac.md
             { text: 'thor', link: '/tools/hoist/thor' }, // /tools/hoist/thor.md
+            { text: 'google', link: '/tools/hoist/google' }, // /tools/hoist/google.md
           ],
           // 是否收缩
           collapsible: true,
