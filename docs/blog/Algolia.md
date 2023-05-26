@@ -5,7 +5,7 @@ layout: doc
 
 # 博客优化之开启 Algolia 全文搜索
 
-## Algolia
+## 1. Algolia
 
 Algolia 是一个数据库实时搜索服务，能够提供毫秒级的数据库搜索服务，并且其服务能以 API 的形式方便地布局到网页、客户端、APP 等多种场景。
 
@@ -13,7 +13,7 @@ Algolia 是一个数据库实时搜索服务，能够提供毫秒级的数据库
 
 ![s](/blog_21.png)
 
-## 申请
+## 2. 申请
 
  - 搜索服务申请地址：[docsearch.algolia.com/apply/](docsearch.algolia.com/apply/)
 
@@ -27,7 +27,7 @@ Algolia 是一个数据库实时搜索服务，能够提供毫秒级的数据库
 
  - 申请成功后,记得保存这三个后续有用到!!!
 
-## 默认主题
+## 3. 默认主题
 
 如果你用的是 VitePress VitePress 直接提供了[themeConfig.algolia](https://vitepress.dev/reference/default-theme-search#algolia-search)选项来用 Algolia 搜索替换内置的搜索框：
 
@@ -53,7 +53,7 @@ export default defineConfig({
 
  ![s](/blog_24.png)
 
-## 如果没有数据,可以去后台重新手动爬取数据
+## 4. 如果没有数据,可以去后台重新手动爬取数据
 
 [后台](https://crawler.algolia.com/admin/users/login)
 
