@@ -33,7 +33,7 @@ layout: doc
   ![mac](/mac_01.png)
   ![mac](/mac_02.png)
   ![mac](/mac_03.png)
-  ![mac](/mac_04.png)
+  ![mac](/mac_04.png)`
 
 
 ## 3. 常见命令
