@@ -66,6 +66,7 @@ export default defineConfig({
             { text: 'iterm', link: '/tools/hoist/iterm' }, // /tools/hoist/iterm.md
             { text: 'zsh', link: '/tools/hoist/zsh' }, // /tools/hoist/zsh.md
             { text: 'mac', link: '/tools/hoist/mac' }, // /tools/hoist/mac.md
+            { text: 'thor', link: '/tools/hoist/thor' }, // /tools/hoist/thor.md
           ],
           // 是否收缩
           collapsible: true,
