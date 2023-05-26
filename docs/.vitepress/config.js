@@ -125,10 +125,10 @@ export default defineConfig({
   // 最后更新时间
   lastUpdated: true,
   head: [
-    { 
-      // 站点图标
+    {
       tag: 'link',
       rel: 'icon',
+      // 站点图标
       href: 'logo.png'
     },
     {
