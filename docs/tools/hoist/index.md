@@ -4,7 +4,7 @@ layout: doc
 
 # Github
 
-## 如何解决Github的访问速度
+## 1. 如何解决Github的访问速度
 
 > **如果你的Github是无法打开，那么这篇文章可能对你没有用，需要你在打开Github情况下使用才行，你可以先考虑更换hosts，再来使用哈！！！💪🏻**
 
@@ -66,7 +66,7 @@ layout: doc
             
             ![github](/github_08.png)
 
-## 提高Github下载速度
+## 2. 提高Github下载速度
 
 1. 打开[Crxs搜搜](https://www.crxsoso.com/webstore/category/extensions)
 
