@@ -126,7 +126,7 @@ export default defineConfig({
   lastUpdated: true,
   // 站点图标
   head: [
-    [ 'link', { rel: 'icon', href: 'logo.png' }],
+    [ 'link', { rel: 'icon', href: '/logo.png' }],
     // 添加 Permissions-Policy HTTP响应头
     [ 'meta', { 'http-equiv': 'Permissions-Policy', content: 'geolocation=(), camera=(), microphone=()' }]
 
