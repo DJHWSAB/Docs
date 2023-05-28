@@ -12,7 +12,7 @@ export default defineConfig({
   // 主题
   themeConfig: {
     siteTitle: 'coderccb',
-    logo: '/logo.png',
+    logo: 'logo.png',
     // 主导航栏
     nav: [
       // link 点击时跳转的默认地址
@@ -129,7 +129,7 @@ export default defineConfig({
   lastUpdated: true,
   // 站点图标
   head: [
-    [ 'link', { rel: 'icon', href: '/logo.png' }],
+    [ 'link', { rel: 'icon', href: 'logo.png' }],
     // 添加 Permissions-Policy HTTP响应头
     [ 'meta', { 'http-equiv': 'Permissions-Policy', content: 'geolocation=(), camera=(), microphone=()' }]
 
