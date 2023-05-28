@@ -303,9 +303,8 @@ layout: doc
 
   对象的遍历（迭代）：表示获取对象中所有的属性和方法。
 
-  Object.keys() 方法会返回一个由一个给定对象的自身可枚举属性组成的数组；
+  1. Object.keys() 方法会返回一个由一个给定对象的自身可枚举属性组成的数组；
 
-  ::: code-group
   ```js
   // 对象的遍历
   var info = {
@@ -323,6 +322,8 @@ layout: doc
   }
   ```
 
+  2. for...in
+
   ```js
   // 对象的遍历
   var info = {
@@ -337,4 +338,80 @@ layout: doc
   }
 
   ```
-  :::
+
+## 4. 栈和堆
+
+  - 内存分为栈内存(stack)和堆内存(heap)
+  
+  - 栈内存存放的是原始类型,在变量中保存的是值本身,也就是值类型
+  
+  - 堆内存存放的是对象类型,在变量中保存的是对象的引用,也就是引用类型
+
+  ```js
+  var obj1 = {}
+  var obj2 = {}
+  // 在堆内存中开辟的内存地址不同
+  console.log(obj1 === obj2) // false
+  ```
+
+  ![code_js](/code_js_02.png)
+
+  ```js
+    var info = {
+    name: "ccb",
+    friend: {
+      name: "kobe"
+    }
+  }
+
+  var friend = info.friend // { name: "kobe" }
+  friend.name = "james" // { name: "james" }
+  console.log(info.friend.name) // james
+  ```
+  
+  ![code_js](/code_js_03.png)
+
+
+  ```js
+  // 值传递
+  function foo(a) { // a = m -> a = 100
+    a = 200
+  }
+  var num = 100
+  foo(num)
+  console.log(num) // 100
+  ```
+  
+  ![code_js](/code_js_04.png)
+
+
+  ```js
+  function foo(a) { // a = obj -> { name: "obj" }
+    a = {
+      name: "ccb" // a = { name: "ccb" }
+    }
+  }
+
+  var obj = {
+    name: "obj" // obj = { name: "obj" } 不变
+  }
+  foo(obj)
+  console.log(obj) // { name: "obj" }
+  ```
+
+  ![code_js](/code_js_05.png)
+
+  ```js
+  function foo(a) { // a = obj -> a = { name: "obj" }
+  a.name = "ccb" // a = { name: "ccb" } -> obj = { name: "ccb" }
+  }
+
+  var obj = {
+    name: "obj"
+  }
+  foo(obj)
+  console.log(obj) // { name: "ccb" }
+```
+
+  ![code_js](/code_js_06.png)
+  
