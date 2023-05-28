@@ -69,6 +69,7 @@ export default defineConfig({
             { text: 'mac', link: '/tools/hoist/mac' }, // /tools/hoist/mac.md
             { text: 'thor', link: '/tools/hoist/thor' }, // /tools/hoist/thor.md
             { text: 'google', link: '/tools/hoist/google' }, // /tools/hoist/google.md
+            { text: 'npkill', link: '/tools/hoist/npkill' }, // /tools/hoist/npkill.md
           ],
           // 是否收缩
           collapsible: true,
