@@ -541,8 +541,8 @@ layout: doc
   console.log(stu1, stu2, stu3) // Object
 
   // 3. 调用对象stu1的playing方法
-  stu1.running()
-  stu2.running()
-  stu3.running()
+  stu1.playing()
+  stu2.playing()
+  stu3.playing()
   ```
   :::
