@@ -69,32 +69,27 @@ layout: doc
   
   ![vscode](/vscode_06.png)
 
-  5. auto rename tag 自动重命名标签
-
-  ![vscode](/vscode_07.png)
-
-  6. Path Intellisens 路径
+  5. Path Intellisens 路径
 
   ![vscode](/vscode_08.png)
 
-  7. Svg Preview svg 图片预览
+  6. Svg Preview svg 图片预览
 
   ![vscode](/vscode_09.png)
 
-
-  8. Better Comments 注释高亮
+  7. Better Comments 注释高亮
 
   ![vscode](/vscode_10.png)
 
   ![vscode](/vscode_11.png)
 
-  9. Error Lens 错误语法提示
+  8. Error Lens 错误语法提示
 
   ![vscode](/vscode_12.png)
   
   ![vscode](/vscode_13.png)
 
-  10. ES7+ React/Redux/React-Native snippets 打印语句(console.log)
+  9. ES7+ React/Redux/React-Native snippets 打印语句(console.log)
 
   ![vscode](/vscode_14.png)
 
@@ -158,42 +153,66 @@ layout: doc
   {
     // 关闭欢迎界面
     "workbench.startupEditor": "none",
+    
     // 颜色主题
     "workbench.colorTheme": "Atom One Dark",
+    
     // 文件图标主题
     "workbench.iconTheme": "vscode-great-icons",
+    
     // 终端字体大小
     "terminal.integrated.fontSize": 18,
+    
     // 终端光标类型
     "terminal.integrated.cursorStyle": "line",
+    
     // 字体大小
     "editor.fontSize": 18,
+    
     // 自动保存
     "files.autoSave": "afterDelay",
+    
     // 代码自动换行
     "editor.wordWrap": "on",
     "diffEditor.wordWrap": "on",
+    
     // 空格的渲染方式
     "editor.renderWhitespace": "all",
+    
     // 代码缩进2个空格
     "editor.tabSize": 2,
+    
     // 行内元素(a、span、i...)自动换行
     "emmet.syntaxProfiles": {
         "html": {
             "inline_break": 1
         }
     },
+
     // 代码块出现提示线
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active",
+    
     // 滚动条滚动时出现代码层级
     "editor.stickyScroll.enabled": true,
+    
     // 允许打开未受信任的文件
     "security.workspace.trust.untrustedFiles": "open",
+    
     // 报错语法提示
     "typescript.locale": "zh-CN",
+    
     // 显示索略图
     "editor.minimap.autohide": true,
+    
+    // Live Server扩展的信息提示
+    "liveServer.settings.donotShowInfoMsg": true,
+    
+    // 保存时自动格式化代码功能
+    "editor.formatOnSave": true,
+    
+    // 更换HTML元素(更换开始标签,结束标签同步更改 / 更换结束标签,开始标签同步更改)
+    "editor.linkedEditing": true,
   }
   ```
 ::: 
