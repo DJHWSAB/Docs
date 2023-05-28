@@ -84,3 +84,42 @@ layout: doc
   ```js
 
   :::
+
+  ::: details Click me to view the code
+  
+  ```js
+  // 斐波那契数列
+  
+  // 数列 1 1 2 3 5 8 13 21 34 55 ... x
+  // 位置 1 2 3 4 5 6 7  8  9  10 ... 100
+
+  // 分析
+  // f1 = 1
+  // f2 = 1
+  // f3 = f1 + f2 = 3 -> fn = fn-1 + fn-2 ✅
+
+  // 1.递归函数
+  function fn(n) {
+    if (n === 1 || n === 2) return 1
+    return fn(n - 1) + fn(n - 2)
+  }
+  console.log(fn(8)) // 21
+
+  // 2.for循环
+  function fn(n) {
+    // 结束条件
+    if (n === 1 || n === 2) return 1
+    
+    var total = 0, num1 = 1, num2 = 1
+    for (var i = 3; i <= n; i++) {
+      total = num1 + num2
+      num1 = num2
+      num2 = total
+    }
+    return total
+  }
+  console.log(fn(8)) // 21
+
+  ```js
+
+  :::
