@@ -24,7 +24,6 @@ layout: doc
   
   undefined
   ```
-  var arr = ["abc", "bac", "acb", "cab", "cba"]
 
 ## 3. 只能在函数中使用return语句
 
