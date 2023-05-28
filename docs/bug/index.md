@@ -41,3 +41,23 @@ layout: doc
   
   Uncaught SyntaxError: Illegal return statement
   ```
+
+  ![bug_js](/bug_js_01.png)
+
+  [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Bad_return)
+
+
+## 4. 使用递归函数必须有结束条件
+
+  ```js
+  var count = 0
+  function bar() {
+    console.log(count++)
+    bar()
+  }
+  bar(0)
+  
+  👇🏻 报错
+
+  Uncaught RangeError: Maximum call stack size exceeded
+  ```
