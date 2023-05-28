@@ -161,8 +161,6 @@ layout: doc
   ```
   ::: 
 
-<<<<<<< HEAD
-
 ### 3. 立即执行函数
   
   - 函数定义完后被立即执行
@@ -193,7 +191,7 @@ layout: doc
   }
   ```
   :::
-=======
+
 ### 3. 立即执行函数
 
   - 一个函数定义完后被立即执行
@@ -205,4 +203,26 @@ layout: doc
     1. 防止全局变量命名冲突
 
     ![code_js](/code_js_01.png){data-zoomable}
->>>>>>> refs/remotes/origin/main
+
+    2. 应用场景二：点击某个按钮，显示第几个按钮被点击了
+
+
+    ::: details Click me to view the code
+    ```js
+    // 1.获取元素
+    var btnEls = document.querySelectorAll("button")
+
+    // 2.循环遍历元素
+    for (var i = 0; i < btnEls.length; i++) {
+      var btnEl = btnEls[i];
+      // 监听元素的点击
+      (function (m) {
+        btnEl.onclick = function () {
+          console.log(m + 1)
+        }
+      })(i)
+    }
+    ```
+    ::: 
+
+
