@@ -109,7 +109,7 @@ layout: doc
   function fn(n) {
     // 结束条件
     if (n === 1 || n === 2) return 1
-    
+
     var total = 0, num1 = 1, num2 = 1
     for (var i = 3; i <= n; i++) {
       total = num1 + num2
@@ -120,6 +120,6 @@ layout: doc
   }
   console.log(fn(8)) // 21
 
-  ```js
+  ```
 
   :::
