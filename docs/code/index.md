@@ -411,7 +411,58 @@ layout: doc
   }
   foo(obj)
   console.log(obj) // { name: "ccb" }
-```
+  ```
 
   ![code_js](/code_js_06.png)
   
+## 5. this
+
+  1. 普通函数调用,this指向的是 `window对象`
+
+  ```js
+  function sayHello(name) {
+    console.log(this) // 全局对象 window 对象
+  }
+  sayHello()
+  ```
+
+  ```js
+  var obj = {
+    name: "ccb",
+    // 在对象中的函数称为方法
+    running: function () {
+      console.log(this) // window
+    }
+  }
+  var fn = obj.running
+  fn()
+  ```
+
+  2. 对象的方法调用,this指向的是 `调用的对象obj`
+
+  ```js
+  var obj = {
+    name: "ccb",
+    // 在对象中的函数称为方法
+    running: function () {
+      console.log(this) // obj 
+      console.log(obj) // obj
+      console.log(obj === this) // true
+    }
+  }
+  obj.running()
+  ```
+
+  ```js
+  function bar() {
+    console.log(this) // obj
+  }
+
+  var obj = {
+    name: "ccb",
+    bar
+  }
+
+  obj.bar()
+  ```
+
