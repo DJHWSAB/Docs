@@ -46,7 +46,6 @@ layout: doc
   > 递归函数: 自己调用自己,但是必须有结束条件
 
   ::: details Click me to view the code
-  
   ```js
   // 实现一个自己的幂函数pow（pow单词可以表示指数的意思）
     //  x^n = x * x^(n-1)
@@ -81,12 +80,10 @@ layout: doc
       return result
     }
     console.log(pow2(2, 3)) // 8
-  ```js
-
+  ```
   :::
 
   ::: details Click me to view the code
-  
   ```js
   // 斐波那契数列
   
@@ -121,5 +118,31 @@ layout: doc
   console.log(fn(8)) // 21
 
   ```
-
   :::
+
+### 2. 回调函数
+
+  回调函数: 作为参数传给另一个函数的函数,然后在外部函数内部调用该回调函数以完成某些操作
+  
+  高阶函数: 传入一个或多个函数 / 输出一个函数
+  
+  回调函数 也是一个 高阶函数
+
+  ::: details Click me to view the code
+  ```js
+  // 1.定义一个foo函数,传入一个回调函数作为参数
+  function foo(fn) {
+    // 在函数内部调用该回调函数,已完成某些操作
+    bar()
+  }
+
+  // 2.定义一个bar函数,作为回调函数的参数
+  function bar() {
+    console.log("bar~")
+  }
+
+  // 3.调用foo调函数,传入一个回调函数作为参数
+  foo(bar)
+  
+  ```
+  ::: 
