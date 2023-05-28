@@ -128,7 +128,7 @@ layout: doc
   
   回调函数 也是一个 高阶函数
 
-  ::: details Click me to view the code
+  ::: code-group
   ```js
   // 1.定义一个foo函数,传入一个回调函数作为参数
   function foo(fn) {
@@ -141,8 +141,22 @@ layout: doc
     console.log("bar~")
   }
 
-  // 3.调用foo调函数,传入一个回调函数作为参数
+  // 3.调用foo调函数,传入一个回调函数bar作为参数
   foo(bar)
   
+  ```
+
+  ```js
+  // 代码重构
+  // 1.定义一个foo函数,传入一个bar回调函数作为参数
+  function foo(bar) {
+    // 在函数内部调用回调函数,以完成某些操作
+    bar()
+  }
+
+  // 2.调用foo函数,传入一个匿名函数作为回调函数bar的参数
+  foo(function () {
+    console.log("bar~")
+  })
   ```
   ::: 
