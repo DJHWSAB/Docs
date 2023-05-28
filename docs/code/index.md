@@ -508,38 +508,39 @@ layout: doc
 
   ::: details Click me to view the code
   ```js
-  // 工厂函数: 可以解决大量重复的对象创建问题,它是一种常见的设计模式,但是不能获取最真实的类型(Object)
-  function createStudent(name, age, height, address, running) {
-    // 1.创建一个新的空对象
+  // ✈️ 工厂函数: 可以解决大量重复的对象创建问题,它是一种常见的设计模式,缺点是不能获取最真实的类型
+
+  // 1.定义一个函数createStudent,传入5个不同的参数
+  function createStudent(name, age, height, address, playing) {
+    // 1.1 创建一个新的空对象
     // var stu = {}
     var stu = new Object()
 
-    // 2.将传入的参数分别赋值给stu对象的属性
+    // 1.2 将传入的参数分别赋值给stu对象的属性
     stu.name = name
-    stu.age = age
     stu.height = height
+    stu.age = age
     stu.address = address
 
-    // 3.定义一个running方法赋值给stu对象的属性
-    stu.running = function () {
-      console.log(stu.name + "正在running~")
+    // 1.3 定义一个匿名函数赋值给stu对象的playing方法
+    stu.playing = function () {
+      console.log(stu.name + "正在playing~")
     }
-    // 4.返回stu对象
+
+    // 1.4 返回这个stu对象
     return stu
   }
 
-  // 调用createStudent函数并传入参数,返回一个stu1对象
+  // 2. 调用函数createStudent,并传入5个不同的参数,返回一个新的对象stu1
   var stu1 = createStudent("张三", 18, 1.77, "北京市")
 
   var stu2 = createStudent("李四", 29, 1.87, "上海市")
 
   var stu3 = createStudent("王五", 19, 1.88, "杭州市")
-  
-  console.log(stu1, stu2, stu3) // Object
 
-  // 调用stu1对象的方法
-  stu1.running() // 张三正在running~
-  stu2.running() // 李四正在running~
-  stu3.running() // 王五正在running~
+  // 3. 调用对象stu1的playing方法
+  stu1.running()
+  stu2.running()
+  stu3.running()
   ```
   :::
