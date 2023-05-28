@@ -25,7 +25,7 @@ features:
   - icon: ⚡️
     title: 前端开发
     details: 从0开始学前端
-    link: '/blog/'
+    link: '/code/'
     linkText: 开始学习
   - icon: 🛠️
     title: 编程工具
@@ -35,7 +35,7 @@ features:
   - icon: 🚚
     title: bug总结
     details: 将日常工作中遇到的问题做一份备忘录，方便查阅。。
-    link: '/blog/'
+    link: '/bug/'
     linkText: 开始查阅
   - icon: 🌱
     title: 成长之路

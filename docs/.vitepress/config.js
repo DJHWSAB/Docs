@@ -24,6 +24,13 @@ export default defineConfig({
           { text: 'js', link: '/code/' },
         ]
       },
+      {
+        text: 'Bug',
+        activeMatch: '/bug/',
+        items: [
+          { text: 'js', link: '/bug/' },
+        ]
+      },
       { text: 'Blog', link: '/blog/', activeMatch: '/blog/' },
       {
         text: 'Tools',
@@ -62,6 +69,18 @@ export default defineConfig({
           text: 'Code',
           items: [
             { text: 'js', link: '/code/' }, // /code/index.md
+          ],
+          // 是否收缩
+          collapsible: true,
+          // 是否折叠
+          collapsed: false,
+        }
+      ],
+      '/bug/': [
+        {
+          text: 'Bug',
+          items: [
+            { text: 'js', link: '/bug/' }, // /bug/index.md
           ],
           // 是否收缩
           collapsible: true,
