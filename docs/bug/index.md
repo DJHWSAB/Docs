@@ -61,3 +61,25 @@ layout: doc
 
   Uncaught RangeError: Maximum call stack size exceeded
   ```
+
+## 5. 函数声明 和 函数表达式 的执行顺序不同
+
+  ```js
+  // 函数声明
+  foo() // 1
+
+  function foo() {
+    console.log(1)
+  }
+
+  // 函数表达式 
+  bar()
+  var bar = function() {
+    console.log(2)
+  }
+
+  `函数声明` 可以在 `定义函数前面先调用函数`, `函数表达式` `只能先定义函数才能调用函数` ,要不然会报错
+  👇🏻
+  Uncaught TypeError: bar is not a function
+
+  ```
