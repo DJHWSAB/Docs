@@ -68,28 +68,34 @@ layout: doc
   4. Live Server 自动在浏览器中打开网页
   
   ![vscode](/vscode_06.png)
+  
+  > 如果状态栏没有 `Go Live`,可以考虑降级
 
-  5. Path Intellisens 路径
+  5. 翻译(英汉词典)
+
+  ![vscode](/vscode_07.png)
+
+  6. Path Intellisens 路径
 
   ![vscode](/vscode_08.png)
 
-  6. Svg Preview svg 图片预览
+  7. Svg Preview svg 图片预览
 
   ![vscode](/vscode_09.png)
 
-  7. Better Comments 注释高亮
+  8. Better Comments 注释高亮
 
   ![vscode](/vscode_10.png)
 
   ![vscode](/vscode_11.png)
 
-  8. Error Lens 错误语法提示
+  9. Error Lens 错误语法提示
 
   ![vscode](/vscode_12.png)
   
   ![vscode](/vscode_13.png)
 
-  9. ES7+ React/Redux/React-Native snippets 打印语句(console.log)
+  10. ES7+ React/Redux/React-Native snippets 打印语句(console.log)
 
   ![vscode](/vscode_14.png)
 
@@ -213,6 +219,12 @@ layout: doc
     
     // 更换HTML元素(更换开始标签,结束标签同步更改 / 更换结束标签,开始标签同步更改)
     "editor.linkedEditing": true,
+
+    // 修改liveServer端口
+    "liveServer.settings.port": 8080,
+    
+    // 开启悬停显示翻译结果
+    "EnglishChineseDictionary.enableHover": true
   }
   ```
 ::: 
