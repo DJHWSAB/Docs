@@ -538,6 +538,8 @@ layout: doc
 
   var stu3 = createStudent("王五", 19, 1.88, "杭州市")
 
+  console.log(stu1, stu2, stu3) // Object
+
   // 3. 调用对象stu1的playing方法
   stu1.running()
   stu2.running()
