@@ -160,3 +160,35 @@ layout: doc
   })
   ```
   ::: 
+
+
+### 3. 立即执行函数
+  
+  - 函数定义完后被立即执行
+
+    - 前面的()表示定义了一个匿名函数,函数有自己单独的作用域
+    - 后面的()表示这个函数被执行了
+  
+  - 应用场景一: 防止全局变量的命名冲突（了解即可）
+
+  ![code_js](/code_js_01.png)
+
+  - 应用场景二: 点击某个按钮，显示第几个按钮被点击了
+
+  ::: details Click me to view the code
+  ```js
+  // 1.获取元素
+  var btnEls = document.querySelectorAll("button")
+
+  // 2.循环遍历元素
+  for (var i = 0; i < btnEls.length; i++) {
+    var btnEl = btnEls[i];
+    // 监听元素的点击
+    (function (m) {
+      btnEl.onclick = function () {
+        console.log(m + 1)
+      }
+    })(i)
+  }
+  ```
+  :::
