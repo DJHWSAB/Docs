@@ -194,4 +194,147 @@ layout: doc
     ```
     ::: 
 
+## 3. 对象
 
+### 1. 对象的类型
+
+  1. 对象字面量: 通过{}
+
+  ::: details Click me to view the code
+  ```js
+  // 定义一个person对象
+  var person = {
+    name: "coderccb",
+    age: 25,
+    friend: {
+      name: "coderwhy",
+      age: 39
+    },
+    play: function () {
+      console.log("playing~")
+    }
+  }
+  
+  // 访问对象属性
+  console.log(person.name) // "coderccb"
+  console.log(person.friend.name) // "coderwhy"
+  person.play() // "playing~"
+
+  // 添加对象属性 / 修改对象属性 都是通过 = 赋值
+  person.age = 18
+  person.address = "深圳市"
+
+  // 删除对象属性
+  delete person.age
+  ```
+  :::
+
+  2. new Object() + 动态添加属性
+
+  ::: details Click me to view the code
+  ```js
+  // 定义一个person对象
+  var person = new Object
+  person.name = "coderccb"
+  person.age = 25,
+  person.friend = new Object
+  person.friend.name = "coderwhy",
+  person.friend.age = 39
+  person.play = function () {
+    console.log("playing~")
+  }
+  console.log(person)
+
+  // 访问对象属性
+  console.log(person.name) // "coderccb"
+  console.log(person.friend.name) // "coderwhy"
+  person.play() // "playing~"
+
+  // 添加对象属性 / 修改对象属性 都是通过 = 赋值
+  person.age = 18
+  person.address = "深圳市"
+
+  // 删除对象属性
+  delete person.age
+
+  ```
+  :::
+
+  3. new 其他类
+
+  details Click me to view the code
+  ```js
+
+  // 定义一个Person类
+  function Person(name, age) {
+    this.name = name
+    this.age = age
+
+    this.Friend = function(name, age) {
+      this.name = name
+      this.age = age
+    }
+
+    this.play = function(){
+      console.log("playing~")
+    }
+  }
+
+  var person = new Person("coderccb", 28)
+  var friend = new person.Friend("coderwhy", 39)
+  console.log(person, friend)
+
+  // 访问对象属性
+  console.log(person.name) // "coderccb"
+  console.log(friend.name) // "coderwhy"
+  person.play() // "playing~"
+
+  // 添加对象属性 / 修改对象属性 都是通过 = 赋值
+  person.age = 18
+  person.address = "深圳市"
+
+  // 删除对象属性
+  delete person.age
+
+  ```
+  :::
+
+### 2. 对象的遍历
+
+  对象的遍历（迭代）：表示获取对象中所有的属性和方法。
+
+  Object.keys() 方法会返回一个由一个给定对象的自身可枚举属性组成的数组；
+
+  ::: code-group
+  ```js
+  // 对象的遍历
+  var info = {
+    name: "ccb",
+    age: 18,
+    height: 1.88
+  }
+
+  var infoKeys = Object.keys(info) // [name, age, heigth]
+
+  for (var i = 0; i < infoKeys.length; i++) {
+    var key = infoKeys[i]
+    var value = info[key]
+    console.log(key, value)
+  }
+  ```
+
+  ```js
+  // 对象的遍历
+  var info = {
+    name: "ccb",
+    age: 18,
+    height: 1.88
+  }
+
+  for (var key in info) {
+    var value = info[key]
+    console.log(key, value)
+  }
+
+  ```
+  :::
