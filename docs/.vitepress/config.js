@@ -17,6 +17,13 @@ export default defineConfig({
     nav: [
       // link 点击时跳转的默认地址
       // activeMatch 无论在 guide 下的哪一个子菜单都会保持高亮。
+      {
+        text: 'Code',
+        activeMatch: '/code/',
+        items: [
+          { text: 'js', link: '/code/' },
+        ]
+      },
       { text: 'Blog', link: '/blog/', activeMatch: '/blog/' },
       {
         text: 'Tools',
@@ -43,6 +50,18 @@ export default defineConfig({
           items: [
             { text: '搭建自己的 VitePress 个人博客', link: '/blog/' }, // /guide/index.md
             { text: '博客优化之开启 Algolia 全文搜索', link: '/blog/Algolia' } // /guide/one.md
+          ],
+          // 是否收缩
+          collapsible: true,
+          // 是否折叠
+          collapsed: false,
+        }
+      ],
+      '/code/': [
+        {
+          text: 'Code',
+          items: [
+            { text: 'js', link: '/code/' }, // /code/index.md
           ],
           // 是否收缩
           collapsible: true,
