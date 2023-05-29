@@ -558,3 +558,66 @@ layout: doc
     - 在es5之前,我们通过function声明一个构造函数,然后通过new关键字来调用.
 
     - 在es6之后,JavaScript可以像别的语言一样,通过class来声明一个类.
+  
+  - 构造函数命名都是采用 `大驼峰`
+
+  ::: details Click me to view the code
+  ```js
+  // 1. 定义了一个名为 Student 的构造函数，该函数接受四个参数
+  function Student(name, age, height, address) {
+    // 1.1 使用 this 关键字创建对象属性，并将参数值分别赋值给属性
+    this.name = name;
+    this.age = age;
+    this.height = height;
+    this.address = address;
+
+    // 1.2 在 Student 构造函数 内部创建一个 running 的方法
+    // 构造函数上的方法称之为类方法
+    this.running = function () {
+      console.log(this.name + "正在running~")
+    }
+  }
+
+  // 2. 通过 new 关键字调用 Student 构造函数，并传入参数，赋值给新的对象 stu1
+  var stu1 = new Student("ccb", 18, 1.65, "深圳市")
+  console.log(stu1) // Student
+
+  // 3. 调用 stu1 对象上的 running 方法
+  stu1.running()
+
+  ```
+  ::: 
+
+  ::: details Click me to view the code
+  ```js
+  // 类(构造函数) es6 通过class
+
+  // 定义一个 Student 类
+  class Student {
+    // constructor() 是一个构造函数，用于创建 Student 类的实例对象。 
+    // 构造函数接收4个参数
+    constructor(name, age, height, address) {
+      // 使用 this 关键字创建对象属性，并将传入的参数赋值给这些属性
+      this.name = name
+      this.age = age
+      this.height = height
+      this.address = address
+    }
+    
+    // 在 Student 类内部定义一个 running 类方法
+    running() {
+      console.log(this.name + "正在running~") // 输出学生姓名和正在奔跑
+    }
+  }
+
+  // 通过 new 关键字调用 Student 类，然后传入参数，创建名为 stu1 的新对象
+  var stu1 = new Student("ccb", 25, 1.65, "深圳市")
+
+  // 输出 stu1 对象的内容
+  console.log(stu1)
+
+  // 调用 stu1 对象上的 running 方法并输出结果
+  stu1.running()
+
+  ```
+  :::
