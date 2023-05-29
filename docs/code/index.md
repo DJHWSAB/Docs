@@ -563,28 +563,37 @@ layout: doc
 
   ::: details Click me to view the code
   ```js
-  // 1. 定义了一个名为 Student 的构造函数，该函数接受四个参数
-  function Student(name, age, height, address) {
-    // 1.1 使用 this 关键字创建对象属性，并将参数值分别赋值给属性
-    this.name = name;
-    this.age = age;
-    this.height = height;
-    this.address = address;
+  
+  // 1.定义一个名为 createStundet 的函数，该函数接受五个参数
+  function createStundet(name, age, height, address, running) {
+    // 1.1 在函数内部定义一个空对象 stu
+    // var stu = new Object()
+    var stu = {}
 
-    // 1.2 在 Student 构造函数 内部创建一个 running 的方法
-    // 构造函数上的方法称之为类方法
-    this.running = function () {
-      console.log(this.name + "正在running~")
+    // 1.2 在 stu 对象中创建属性，并将传入的参数值分别赋值给这些属性
+    stu.name = name
+    stu.height = height
+    stu.age = age
+    stu.address = address
+
+    // 对象上的函数称之为方法
+    // 1.3 在 stu 对象中创建一个 running 方法
+    // 注意：由于每次调用 createStundet 函数都会在内存中创建一个新的空对象，因此每个 stu 对象所包含的 running 方法都是不同的
+    stu.running = function () {
+      console.log("running~") // 输出正在奔跑
     }
+
+    // 1.4 返回 stu 对象
+    return stu
   }
 
-  // 2. 通过 new 关键字调用 Student 构造函数，并传入参数，赋值给新的对象 stu1
-  var stu1 = new Student("ccb", 18, 1.65, "深圳市")
-  console.log(stu1) // Student
+  // 2. 通过 createStundet 函数并传入参数，然后赋值给一个 stu1 的新对象
+  var stu1 = createStundet("ccb", 25, 1.65, "深圳市")
+
+  console.log(stu1)
 
   // 3. 调用 stu1 对象上的 running 方法
   stu1.running()
-
   ```
   ::: 
 
