@@ -565,25 +565,25 @@ layout: doc
   ::: details Click me to view the code
   ```js
   
-  // 1.定义一个 createStundet 构造函数，并传入5个参数
-  function createStundet(name, age, height, address, running) {
+  // 1.定义一个 Stundet 构造函数，并传入4个参数
+  function Stundet(name, age, height, address) {
     // 1.1 使用this关键字创建对象属性,然后将传入的参数分别赋值给属性
     this.name = name
     this.height = height
     this.age = age
     this.address = address
 
-    // 1.3 使用this关键字创建对象的running方法
+    // 1.3 使用this关键字给对象添加一个名为running的方法
     // 对象上的函数称之为方法
     this.running = function () {
       console.log("running~")
     }
   }
 
-  // 2.通过new关键字调用createStundet 构造函数并传入参数，然后赋值给一个 stu1 的新对象
-  var stu1 = createStundet("ccb", 25, 1.65, "深圳市")
+  // 2.通过new关键字调用Stundet 构造函数并传入参数，然后赋值给一个 stu1 的新对象
+  var stu1 = new Stundet("ccb", 25, 1.65, "深圳市")
 
-  console.log(stu1)
+  console.log(stu1) // Stundet
 
   // 3. 调用 stu1 对象上的 running 方法
   stu1.running()
