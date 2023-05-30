@@ -99,6 +99,10 @@ layout: doc
 
   ![vscode](/vscode_14.png)
 
+  11. Code Spell Checke
+
+  ![vscode](/vscode_28.png)
+
 ## 4. 配置
 
 ### 4.1 相关配置
@@ -224,7 +228,13 @@ layout: doc
     "liveServer.settings.port": 8080,
     
     // 开启悬停显示翻译结果
-    "EnglishChineseDictionary.enableHover": true
+    "EnglishChineseDictionary.enableHover": true,
+
+    // Code Spell Checker 标记后不会被认为是拼写错误
+    "cSpell.userWords": [
+        "autohide",
+        "donot"
+    ]
   }
   ```
 ::: 
