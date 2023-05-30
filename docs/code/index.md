@@ -573,7 +573,7 @@ layout: doc
     this.age = age
     this.address = address
 
-    // 1.3 使用this关键字给对象添加一个名为running的方法
+    // 1.3 使用this关键字给对象添加一个running的方法
     // 对象上的函数称之为方法
     this.running = function () {
       console.log("running~")
