@@ -522,7 +522,8 @@ layout: doc
     stu.age = age
     stu.address = address
 
-    // 1.3 定义一个匿名函数赋值给stu对象的playing方法
+    // 1.3 在stu对象创建一个running方法
+    // 对象上的函数称之为方法
     stu.playing = function () {
       console.log(stu.name + "正在playing~")
     }
@@ -531,7 +532,7 @@ layout: doc
     return stu
   }
 
-  // 2. 调用函数createStudent,并传入5个不同的参数,返回一个新的对象stu1
+  // 2. 调用函数createStudent,并传入参数,返回一个新的对象stu1
   var stu1 = createStudent("张三", 18, 1.77, "北京市")
 
   var stu2 = createStudent("李四", 29, 1.87, "上海市")
@@ -564,30 +565,22 @@ layout: doc
   ::: details Click me to view the code
   ```js
   
-  // 1.定义一个名为 createStundet 的函数，该函数接受五个参数
+  // 1.定义一个 createStundet 构造函数，并传入5个参数
   function createStundet(name, age, height, address, running) {
-    // 1.1 在函数内部定义一个空对象 stu
-    // var stu = new Object()
-    var stu = {}
+    // 1.1 使用this关键字创建对象属性,然后将传入的参数分别赋值给属性
+    this.name = name
+    this.height = height
+    this.age = age
+    this.address = address
 
-    // 1.2 在 stu 对象中创建属性，并将传入的参数值分别赋值给这些属性
-    stu.name = name
-    stu.height = height
-    stu.age = age
-    stu.address = address
-
+    // 1.3 使用this关键字创建对象的running方法
     // 对象上的函数称之为方法
-    // 1.3 在 stu 对象中创建一个 running 方法
-    // 注意：由于每次调用 createStundet 函数都会在内存中创建一个新的空对象，因此每个 stu 对象所包含的 running 方法都是不同的
-    stu.running = function () {
-      console.log("running~") // 输出正在奔跑
+    this.running = function () {
+      console.log("running~")
     }
-
-    // 1.4 返回 stu 对象
-    return stu
   }
 
-  // 2. 通过 createStundet 函数并传入参数，然后赋值给一个 stu1 的新对象
+  // 2.通过new关键字调用createStundet 构造函数并传入参数，然后赋值给一个 stu1 的新对象
   var stu1 = createStundet("ccb", 25, 1.65, "深圳市")
 
   console.log(stu1)
