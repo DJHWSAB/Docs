@@ -103,6 +103,11 @@ layout: doc
 
   ![vscode](/vscode_28.png)
 
+  12. Template String Converter
+
+  ![vscode](/vscode_29.png)
+
+
 ## 4. 配置
 
 ### 4.1 相关配置
@@ -234,7 +239,21 @@ layout: doc
     "cSpell.userWords": [
         "autohide",
         "donot"
-    ]
+    ],
+
+    // template-string-converter 相关配置(只需要输入${},自动将 双引号"" 转换成 模版字符串`${}`)
+    // 扩展适用的语言
+    "template-string-converter.validLanguages": [
+        "svelte",
+        "typescript",
+        "javascript",
+        "typescriptreact",
+        "javascriptreact",
+        "html"
+    ],
+    // 👇🏻两行代码 ----- 删除 `${}` 中的 $, {, } 都会自动转换成 双引号
+    "template-string-converter.autoRemoveTemplateString": true,
+    "template-string-converter.convertWithinTemplateString": false, 
   }
   ```
 ::: 
