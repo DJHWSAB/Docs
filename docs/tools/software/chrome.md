@@ -20,7 +20,13 @@ layout: doc
 
   ![chrome](/chrome_05.png)
   
-## 3. 常见问题
+## 3. 常见快捷键
+
+  1. 搜索框自动聚焦：/
+  
+  2. 关闭当前标签页：
+
+## 4. 常见问题
 
   1. Chrome控制台提示“Slow network is detected. Fallback font will be used while loading
 
