@@ -106,6 +106,7 @@ export default defineConfig({
             { text: 'iterm', link: '/tools/hoist/iterm' }, // /tools/hoist/iterm.md
             { text: 'zsh', link: '/tools/hoist/zsh' }, // /tools/hoist/zsh.md
             { text: 'mac', link: '/tools/hoist/mac' }, // /tools/hoist/mac.md
+            { text: 'win', link: '/tools/hoist/win' }, // /tools/hoist/win.md
             { text: 'thor', link: '/tools/hoist/thor' }, // /tools/hoist/thor.md
             { text: 'google', link: '/tools/hoist/google' }, // /tools/hoist/google.md
             { text: 'npkill', link: '/tools/hoist/npkill' }, // /tools/hoist/npkill.md
