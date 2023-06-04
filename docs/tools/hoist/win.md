@@ -54,3 +54,5 @@ layout: doc
   ```sh
   rm -rf xxx
   ```
+  
+  12. 重命名: F2
