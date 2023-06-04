@@ -107,6 +107,7 @@ export default defineConfig({
             { text: 'zsh', link: '/tools/hoist/zsh' }, // /tools/hoist/zsh.md
             { text: 'mac', link: '/tools/hoist/mac' }, // /tools/hoist/mac.md
             { text: 'win', link: '/tools/hoist/win' }, // /tools/hoist/win.md
+            { text: 'listary', link: '/tools/hoist/listary' }, // /tools/hoist/listary.md
             { text: 'thor', link: '/tools/hoist/thor' }, // /tools/hoist/thor.md
             { text: 'google', link: '/tools/hoist/google' }, // /tools/hoist/google.md
             { text: 'npkill', link: '/tools/hoist/npkill' }, // /tools/hoist/npkill.md
