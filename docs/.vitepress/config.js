@@ -95,6 +95,7 @@ export default defineConfig({
             { text: 'Vscode', link: '/tools/software/' }, // /tools/software/index.md
             { text: 'Chrome', link: '/tools/software/chrome' }, // /tools/software/chrome.md
             { text: 'Souhu', link: '/tools/software/souhu' }, // /tools/software/souhu.md
+            { text: 'Typora', link: '/tools/software/typora' }, // /tools/software/typora.md
           ]
         },
         {
