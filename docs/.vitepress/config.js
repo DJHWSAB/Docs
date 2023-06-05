@@ -25,6 +25,13 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Interview',
+        activeMatch: '/interview/',
+        items: [
+          { text: 'js', link: '/interview/' },
+        ]
+      },
+      {
         text: 'Bug',
         activeMatch: '/bug/',
         items: [
