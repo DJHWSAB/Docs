@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /blog/
+      link: /interview/
     - theme: alt
       text: 在 github 上查看
       link: https://github.com/DJHWSAB/Docs
@@ -20,7 +20,7 @@ features:
   - icon: 📋
     title: 面试专栏
     details: 海量前端面试问题解答，一站式阅读体验。
-    link: '/blog/'
+    link: '/interview/'
     linkText: 开始刷题
   - icon: ⚡️
     title: 前端开发
