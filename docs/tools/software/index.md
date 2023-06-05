@@ -251,9 +251,13 @@ layout: doc
         "javascriptreact",
         "html"
     ],
+    
     // 👇🏻两行代码 ----- 删除 `${}` 中的 $, {, } 都会自动转换成 双引号
     "template-string-converter.autoRemoveTemplateString": true,
     "template-string-converter.convertWithinTemplateString": false, 
+    
+    // 禁止突出显示歧义字符
+    "editor.unicodeHighlight.ambiguousCharacters": false,
   }
   ```
 ::: 
