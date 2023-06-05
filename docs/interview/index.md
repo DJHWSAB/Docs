@@ -51,23 +51,23 @@ layout: doc
   ```js
   // a == 1 && a == 2 && a == 3 什么时候成立
 
-    var a = {
-      value: 1,
-      valueOf: function() {
-        return this.value++
-      }
+  var a = {
+    value: 1,
+    valueOf: function() {
+      return this.value++
     }
+  }
 
-    console.log(a == 1 && a == 2 && a == 3) // true
+  console.log(a == 1 && a == 2 && a == 3) // true
 
-    // b == "1" && b == "2" && b == "3" 什么时候成立
+  // b == "1" && b == "2" && b == "3" 什么时候成立
 
-    var b = {
-      value: 1,
-      toString: function () {
-        return this.value++
-      }
+  var b = {
+    value: 1,
+    toString: function () {
+      return this.value++
     }
+  }
 
-    console.log(b == "1" && b == "2" && b == "3") // true
-    ```
+  console.log(b == "1" && b == "2" && b == "3") // true
+  ```
