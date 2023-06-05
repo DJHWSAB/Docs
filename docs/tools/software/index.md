@@ -248,8 +248,7 @@ layout: doc
         "typescript",
         "javascript",
         "typescriptreact",
-        "javascriptreact",
-        "html"
+        "javascriptreact"
     ],
     
     // 👇🏻两行代码 ----- 删除 `${}` 中的 $, {, } 都会自动转换成 双引号
