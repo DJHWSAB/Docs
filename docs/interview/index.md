@@ -71,3 +71,95 @@ layout: doc
 
   console.log(b == "1" && b == "2" && b == "3") // true
   ```
+## 2. 实现倒计时功能
+
+  ```html
+  <div class="countdown">
+    <span class="time hour">00</span>
+    <span class="split">:</span>
+    <span class="time minute">00</span>
+    <span class="split">:</span>
+    <span class="time second">00</span>
+  </div>
+  ```
+
+  ```css
+  .countdown {
+    display: flex;
+    /* 垂直居中 */
+    align-items: center;
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .countdown .time {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    background-color: #f00;
+    border-radius: 11px;
+  }
+
+  .countdown .split {
+    padding: 0 6px;
+    color: #f00;
+  }
+  ```
+
+  ::: details Click me to view the code
+  ```js
+  // 1.获取元素
+  var hourEl = document.querySelector(".hour")
+  var minuteEl = document.querySelector(".minute")
+  var secondEl = document.querySelector(".second")
+
+  // 2.获取24:00:00的时间戳
+  // 🚚 直接设置 不推荐 ❌
+  // var endDate = new Date("2023-06-07T00:00:00").valueOf()
+
+  // ✈️ 先获取当前时间戳,再设置24:00:00
+  var endDate = new Date()
+  endDate.setHours(24, 0, 0, 0)
+  endDate = endDate.getTime()
+
+  // 3.封装工具类函数 ---- 解决长度不足的情况
+  function padLeft(content, count, padStr) {
+    // 3.1 如果没有传入参数,默认使用当前值
+    count = count || 2
+    padStr = padStr || "0"
+
+    // 3.2 保证传入的类型是String,可以使用 xx.toString() / String(xx)
+    content = content.toString()
+
+    // 3.3 调用函数 padStart 方法实现填充操作，并返回结果
+    return content.padStart(count, padStr)
+  }
+
+  // 4.定义函数 ---- 设置倒计时
+  function setCountdown() {
+    // 4.1 获取当前时间戳
+    var nowDate = Date.now()
+
+    // 4.2 获取剩下的时间戳 1s = 1000ns
+    var time = Math.floor((endDate - nowDate) / 1000)
+
+    // 4.3 获取具体的 时 / 分 / 秒
+    var hour = Math.floor(time / 3600)
+    var minute = Math.floor(time / 60) % 60
+    var second = time % 60
+
+    // 4.4 设置内容
+    hourEl.textContent = padLeft(hour)
+    minuteEl.textContent = padLeft(minute)
+    secondEl.textContent = padLeft(second)
+  }
+
+  // 5.保证第一次进来就调用
+  setCountdown()
+
+  // 6.设置定时器,每隔1s刷新一次
+  setInterval(setCountdown, 1000)
+  ```
+  :::
