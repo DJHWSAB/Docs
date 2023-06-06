@@ -235,3 +235,23 @@ layout: doc
   - 当子元素被点击时，父元素可以通过冒泡可以监听到子元素的点击
   
   - 并且可以通过event.target获取到当前监听的元素
+
+  > 一个ul中存放多个li，点击某一个li会变成红色
+
+  ::: details Click me to view the code
+  ```js
+  // 获取元素
+  var ulEl = document.querySelector("ul")
+
+  // 监听元素的点击
+  ulEl.onclick = function (event) {
+    // event.target 事件发生对象 <-> 点击哪个元素
+    // event.currentTarget 当前处理的对象 <-> 绑定的点击事件
+
+    // 如果是 li,变色
+    if (event.target !== ulEl) {
+      event.target.style.backgroundColor = "red"
+    }
+  }
+  ```
+  :::
