@@ -89,6 +89,27 @@ layout: doc
   ```
   ::: 
 
+### 3. 提取百/分/秒
+  
+  > 传入一个3位数的值,从中分别提取 百 / 分 / 秒
+
+  ::: details Click me to view the code
+  ```js
+  var message = 123
+  
+  // 3
+  console.log(message % 10)
+
+  // 1
+  console.log(Math.floor(message / 100))
+
+  // 2
+  console.log(Math.floor(message / 10) % 10)
+  ```
+  :::
+
+  📢: 👆🏻的方法也适用于 `时间戳转换具体的 时 / 分 / 秒` ,只需要把 `10` 换成 `60` 即可
+
 
 
 
