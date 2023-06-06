@@ -81,7 +81,7 @@ layout: doc
     // content = String(content)
     content = content.toString()
 
-    // 3.调用padStart方法实现左填充操作，并返回结果
+    // 3.调用padEnd方法实现右填充操作，并返回结果
     return content.padEnd(count, padStr)
   }
 
