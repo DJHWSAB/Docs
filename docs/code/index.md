@@ -39,6 +39,59 @@ layout: doc
   ```
   :::
 
+### 2. 位数不足补充情况
+
+  > 传入一个数,判断长度是否达到要求,如果不足,就以xxx补充,利用 [String.prototype.padStart()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart) / [String.prototype.padEnd()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd)
+
+  ::: details Click me to view the code
+  ```js
+  function padLeft(content, count, padStr) {
+    // 1.如果没有传入参数,默认使用
+
+    // 1.1 长度
+    count = count || 2
+
+    // 1.2 补充内容
+    padStr = padStr || "0"
+
+    // 2.保证传入的类型必须是String
+    // content = String(content)
+    content = content.toString()
+
+    // 3.调用padStart方法实现左填充操作，并返回结果
+    return content.padStart(count, padStr)
+  }
+
+  console.log(padLeft(3)) // "03"
+  ```
+  ::: 
+
+  ::: details Click me to view the code
+  ```js
+  function padRight(content, count, padStr) {
+    // 1.如果没有传入参数,默认使用
+
+    // 1.1 长度
+    count = count || 2
+
+    // 1.2 补充内容
+    padStr = padStr || "0"
+
+    // 2.保证传入的类型必须是String
+    // content = String(content)
+    content = content.toString()
+
+    // 3.调用padStart方法实现左填充操作，并返回结果
+    return content.padEnd(count, padStr)
+  }
+
+  console.log(padRight(3)) // "30"
+  ```
+  ::: 
+
+
+
+
 ## 2. 函数的使用
 
 ### 1. 递归函数
