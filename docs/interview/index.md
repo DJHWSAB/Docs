@@ -236,10 +236,29 @@ layout: doc
   
   - 并且可以通过event.target获取到当前监听的元素
 
-  > 一个ul中存放多个li，点击某一个li会变成红色
+  > 一个ul中存放多个li，点击某一个li会变成红色 ✅
 
-  ::: details Click me to view the code
+  ::: code-group
   ```js
+  // 🚚 每一个li都监听自己的点击,并且有自己的处理函数(自己的函数)
+  // 1.获取元素
+  var liEls = document.querySelectorAll("li")
+  // 2.循环遍历元素
+  for (var liEl of liEls) {
+    // 给liEl绑定点击事件
+    liEl.onclick = function (event) {
+      // event.target 事件发生对象 <-> 点击那个元素
+      // event.currentTarget 当前处理的对象 <-> 绑定的点击事件
+      event.target.style.color = "#f00"
+      console.log(event.target) // li
+    }
+  }
+  ```
+
+  ```js
+  // 🔥 事件委托: 它也是一种设计模式,子类发生的事情,我委托给父类,让父类给它做处理,这个叫做事件委托(事件代理)
+
+  // 🚚 统一在ul中监听(推荐使用) ✅
   // 获取元素
   var ulEl = document.querySelector("ul")
 
@@ -252,6 +271,91 @@ layout: doc
     if (event.target !== ulEl) {
       event.target.style.backgroundColor = "red"
     }
+  }
+  ```
+  :::
+
+  > **一个ul中存放多个li，点击某一个li会变成红色,其余不变色** ✅
+
+  - 思路分析: 通过监听ul元素的点击事件，然后根据点击的元素来添加或移除active类名
+
+  ::: code-group
+  ```js
+  🚚 方案一：通过循环遍历ul元素的子元素，判断当前点击的元素是否是ul元素本身，
+  以及子元素是否有active类名，然后根据判断结果来添加或移除active类名。
+
+  // 1.获取ul元素
+  var ulEl = document.querySelector("ul")
+
+  // 2.给ul元素绑定点击事件
+  ulEl.onclick = function (event) {
+    // 循环遍历ul元素的子元素
+    for (var liEl of ulEl.children) {
+      // 如果当前点击的元素不是ul元素本身，并且子元素有active类名，则移除active类名
+      // event.target !== ulEl && liEl.classList.contains("active") && liEl.classList.remove("active")
+
+      // 等价于👆🏻代码
+      if (event.target !== ulEl && liEl.classList.contains("active")) {
+        liEl.classList.add("active")
+      }
+    }
+
+    // 如果当前点击的元素不是ul元素本身，则给当前点击的元素添加active类名
+    if (event.target !== ulEl) {
+      // event.target 事件发生对象 <-> 点击那个元素
+      // event.currentTarget 当前处理的对象 <-> 绑定的点击事件
+      event.target.classList.add("active")
+    }
+  }
+  ```
+
+  ```js
+  // 1.获取元素
+  var ulEl = document.querySelector("ul")
+
+  // 2.给 ulEls 绑定点击事件
+  ulEl.onclick = function (event) {
+    // 🚚 方法二: 直接找到active的li,移除掉active
+    var activeEl = ulEl.querySelector(".active")
+    // 如果有这个active类,再移除active
+    activeEl && event.target !== ulEl && activeEl.classList.remove("active")
+    // 等价于 👆🏻代码
+    // if (activeEl && event.target !== ulEl) {
+    //   activeEl.classList.remove("active")
+    // }
+
+    // 2.2 给点击元素添加active
+    // event.target 事件发生对象 <-> 点击那个元素
+    // event.currentTarget 当前处理的对象 <-> 绑定的点击事件
+    if (event.target !== ulEl) {
+      event.target.classList.add("active") 
+    }
+  }
+  ```
+
+  ```js
+  // 1.获取元素
+  var ulEl = document.querySelector("ul")
+  var activeEl = null
+
+  // 2.给 ulEls 绑定点击事件
+  ulEl.onclick = function (event) {
+    // 🚚 方法三: 通过变量记录最新的active元素 ✅
+    // 2.1 如果有active这个li，就移除他
+    activeEl && event.target !== ulEl && activeEl.classList.remove("active")
+    // if (activeEl && event.target !== ulEl) {
+    //   activeEl.classList.remove("active")
+    // }
+
+    // 2.2 给点击元素添加active
+    // event.target 事件发生对象 <-> 点击那个元素
+    // event.currentTarget 当前处理的对象 <-> 绑定的点击事件
+    if (event.target !== ulEl) { // 判断当前处理的对象是不是ulEl
+      event.target.classList.add("active") 
+    }
+
+    // 2.3 记录最新的active对应的li
+    activeEl = event.target
   }
   ```
   :::
