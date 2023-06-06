@@ -73,6 +73,8 @@ layout: doc
   ```
 ## 2. 实现倒计时功能
 
+  ![interview](/interview_js_01.png)
+
   ```html
   <div class="countdown">
     <span class="time hour">00</span>
