@@ -85,6 +85,7 @@ layout: doc
   </div>
   ```
 
+  ::: details Click me to view the code css
   ```css
   .countdown {
     display: flex;
@@ -109,8 +110,9 @@ layout: doc
     color: #f00;
   }
   ```
+  :::
 
-  ::: details Click me to view the code
+  ::: details Click me to view the code js
   ```js
   // 1.获取元素
   var hourEl = document.querySelector(".hour")
