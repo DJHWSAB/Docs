@@ -167,3 +167,59 @@ layout: doc
   setInterval(setCountdown, 1000)
   ```
   :::
+
+## 3. 实现返回顶部功能
+
+  ![interview](/interview_js_02.png)
+
+  ```html
+  <button class="backTop" title="返回顶部">返回顶部</button>
+  ```
+
+  ::: details Click me to view the code css
+  ```css
+  body {
+    height: 1500px;
+  }
+
+  .backTop {
+    position: fixed;
+    right: 10px;
+    bottom: 40px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    background-color: #f00;
+  }
+  ```
+  :::
+
+  ::: details Click me to view the code js
+  ```js
+  // 1.获取元素
+  var btnEl = document.querySelector(".backTop")
+
+  // 2.默认返回顶部按钮隐藏
+  btnEl.hidden = true
+
+  // 3.监听window的滚动事件
+  window.onscroll = function () {
+    // 如果出现拉动滚动条,显示返回顶部按钮,否则隐藏返回顶部按钮
+    if (this.scrollY > 0) {
+      btnEl.hidden = false
+
+      // 监听返回按钮的点击事件
+      btnEl.onclick = function () {
+        // scrollTo(pageX,pageY) 将页面滚动至 绝对坐标
+        window.scrollTo(0, 0)
+        // 隐藏返回顶部按钮
+        this.hidden = true
+      }
+    } else {
+      // 在拉动滚动条位置为0时,保证隐藏返回顶部按钮
+      btnEl.hidden = true
+    }
+  }
+  ```
+  :::
