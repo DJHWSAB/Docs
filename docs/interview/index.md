@@ -490,7 +490,7 @@ layout: doc
     // 3.2 设置随机颜色
     divEl.style.backgroundColor = randomColor()
 
-    // 🚚 监听的对象是divEl元素本身
+    // 🚚 监听的对象是divEl元素本身 onmouseenter 不支持冒泡(不能使用事件委托)
     // 3.3 监听divEl元素的鼠标移动事件
     divEl.onmouseenter = function (event) {
       // console.log(this) // divEl
@@ -501,7 +501,7 @@ layout: doc
     }
   }
 
-  // ✈️ 事件委托 推荐使用 ✅
+  // ✈️ 事件委托 推荐使用 ✅  onmouseover 支持冒泡(不能使用事件委托)
   // 4.监听鼠标移动到divEl元素上显示该元素的内容
   boxEl.onmouseover = function (event) {
     // console.log(this) // boxEl
@@ -517,3 +517,47 @@ layout: doc
 
 ## 8. 实现搜索功能, 点击搜索按钮 / 按回车键 直接搜索
 
+  ```html
+  <input type="text">
+  <button>搜索</button>
+  ```
+
+  ```js
+  // 1.获取元素
+  var inputEl = document.querySelector("input")
+  var btnEl = document.querySelector("button")
+
+  // 2.监听btnEl元素的点击事件
+  btnEl.onclick = function () {
+    console.log(`搜索${inputEl.value}`)
+  }
+
+  // 3.监听inputEl元素的键盘按下的回车事件
+  inputEl.onkeydown = function (event) {
+    // console.log(event.key) // "Enter"
+    // console.log(event.code) //  "Enter"
+    
+    // 如果在inputEl元素中按下回车键,直接搜索
+    if (event.code === "Enter") {
+      console.log(`搜索${inputEl.value}`)
+    }
+  }
+  ```
+
+## 9. 按下 s 的时候，搜索自动获取焦点
+
+  ```js
+  // 1.获取元素
+  var inputEl = document.querySelector("input")
+
+  // 2.监听document的键盘按下事件
+  document.onkeydown = function (event) {
+    // console.log(event.code) // "KeyS" 推荐使用 ✅
+    // console.log(event.key) // "s" || "S" 区分大小写
+
+    if (event.code === "KeyS") {
+      // 按下s(S)键,input表单自动聚焦
+      inputEl.focus()
+    }
+  }
+  ```
