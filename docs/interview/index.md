@@ -359,3 +359,161 @@ layout: doc
   }
   ```
   :::
+
+## 6. 鼠标按下去再移动,鼠标抬起来停止移动
+
+  ::: details Click me to view the code js
+  ```js
+  // 1.获取元素
+  var boxEl = document.querySelector(".box")
+
+  // 2.记录鼠标是否点击下去
+  var isDown = false
+
+  // 3.监听boxEl元素的鼠标按下事件
+  boxEl.onmousedown = function() {
+    console.log("鼠标按下去")
+    isDown = true
+  }
+
+  // 4.监听boxEl元素的鼠标弹起事件
+  boxEl.onmouseup =  function() {
+    console.log("鼠标弹起")
+    isDown = false
+  }
+
+  // 5.监听boxEl元素的鼠标被移动事件
+  boxEl.onmousemove = function() {
+    if (isDown) {
+      console.log("鼠标在box上移动")
+    }
+  }
+  ```
+  :::
+
+## 7. 鼠标经过元素,显示该元素的内容
+
+  ![interview](/interview_js_03.png)
+
+  ```css
+  .container {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .container .item {
+    flex: 1;
+  }
+  ```
+
+  ::: details Click me to view the code js
+  ```js
+  // 1.获取元素
+  var body = document.body
+
+  // 2.创建元素
+  var boxEl = document.createElement("div")
+
+  // 3.设置类
+  boxEl.className = "container"
+
+  // 4.插入到body中
+  body.append(boxEl)
+
+  // 5.封装工具类函数 --- 实现随机颜色
+  function randomColor() {
+    return `rgb(${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)})`
+  }
+
+  // 6.循环遍历元素
+  for (var i = 0; i < 4; i++) {
+    // 6.1 创建元素
+    var divEl = document.createElement("div")
+    // 6.2 设置类
+    divEl.className = "item"
+    // 6.3 设置内容
+    divEl.textContent = i + 1
+    // 6.4设置随机颜色
+    divEl.style.backgroundColor = randomColor()
+    // 6.5 插入到boxEl中
+    boxEl.append(divEl)
+
+    // 🚚 监听的对象是divEl元素本身
+    // 6.6 监听divEl元素的鼠标移动事件
+    divEl.onmouseenter = function (event) {
+      // console.log(this) // divEl
+      // event.target 事件发生的对象 <-> 鼠标移动哪个元素上
+      // event.currentTarget 当前处理的对象 <-> 绑定的点击事件
+      // console.log(event.target === event.currentTarget) // true
+      console.log(event.target.textContent)
+    }
+  }
+
+  // ✈️ 事件委托 推荐使用 ✅
+  // 7.监听鼠标移动到divEl元素上显示该元素的内容
+  boxEl.onmouseover = function (event) {
+    // console.log(this) // boxEl
+    // event.target 事件发生的对象 <-> 鼠标移动哪个元素上
+    // event.currentTarget 当前处理的对象 <-> 绑定的点击事件
+    // console.log(event.target === event.currentTarget) // false
+    console.log(event.target.textContent)
+  }
+  ```
+  :::
+
+  > **如果你在html已经创建好了👇🏻内容**
+
+  ![interview](/interview_js_04.png)
+
+  > **使用👇🏻**
+
+  ::: details Click me to view the code js
+  ```js
+  // 1.获取元素
+  var boxEl = document.querySelector("div")
+
+  // 2.封装工具类函数 --- 实现随机颜色
+  function randomColor() {
+    return `rgb(${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)})`
+  }
+
+  // 3.循环遍历元素
+  for (var divEl of boxEl) {
+    // 3.1 创建元素
+    divEl.textContent = i + 1
+
+    // 3.2 设置随机颜色
+    divEl.style.backgroundColor = randomColor()
+
+    // 🚚 监听的对象是divEl元素本身
+    // 3.3 监听divEl元素的鼠标移动事件
+    divEl.onmouseenter = function (event) {
+      // console.log(this) // divEl
+      // event.target 事件发生的对象 <-> 鼠标移动哪个元素上
+      // event.currentTarget 当前处理的对象 <-> 绑定的点击事件
+      // console.log(event.target === event.currentTarget) // true
+      console.log(event.target.textContent)
+    }
+  }
+
+  // ✈️ 事件委托 推荐使用 ✅
+  // 4.监听鼠标移动到divEl元素上显示该元素的内容
+  boxEl.onmouseover = function (event) {
+    // console.log(this) // boxEl
+    // event.target 事件发生的对象 <-> 鼠标移动哪个元素上
+    // event.currentTarget 当前处理的对象 <-> 绑定的点击事件
+    // console.log(event.target === event.currentTarget) // false
+    console.log(event.target.textContent)
+  }
+  ```
+  :::
+
+
+
+## 8. 实现搜索功能, 点击搜索按钮 / 按回车键 直接搜索
+
