@@ -561,3 +561,133 @@ layout: doc
     }
   }
   ```
+
+## 10. 轮播消息提示
+  
+  ![interview](/interview_js_05.png)
+
+  ```html
+  <div class="tip-bar">
+    <img src="./images/avatar.png" alt="">
+    <span>coderccb对这件商品感兴趣</span>
+  </div>
+  ```
+  ![interview](/interview_js_06.png)
+
+  ```css
+  .tip-bar {
+    display: inline-flex;
+    align-items: center;
+    height: 30px;
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 16px;
+    box-sizing: border-box;
+  }
+
+  .tip-bar img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+
+  .tip-bar span {
+    margin: 0 8px;
+    font-size: 14px;
+    color: #333;
+  }
+  ```
+
+  > **按顺序每隔3s刷新一次数据**
+
+  ::: details Click me to view the code js
+  ```js
+  // 1.从服务器拿到数据 ajax/fetch请求
+  var tipList = [
+    {
+      icon: "https://tse4-mm.cn.bing.net/th/id/OIP-C.0KvO81VQ-QeWbGVRhT8E8wHaHa?w=209&h=209&c=7&r=0&o=5&dpr=2&pid=1.7",
+      title: "167***348对这件商品感兴趣"
+    },
+    {
+      icon: "https://p.qqan.com/up/2021-2/16123225767181974.jpg",
+      title: "183***138对这件商品感兴趣"
+    },
+    {
+      icon: "https://tse3-mm.cn.bing.net/th/id/OIP-C.aQRoVI_BQCO4ua8drGqu-gHaFj?w=257&h=193&c=7&r=0&o=5&dpr=2&pid=1.7",
+      title: "193***788对这件商品感兴趣"
+    }
+  ]
+
+  // 2.动态切换数据
+  
+  // 2.1 获取元素
+  var tipbarEl = document.querySelector(".tip-bar")
+  var imgEl = tipbarEl.querySelector("img")
+  var spanEl = tipbarEl.querySelector("span")
+
+  // 2.2 记住当前索引变量
+  var currentIndex = Math.floor(Math.random() * tipList.length)
+
+  // 2.2 每隔3s刷新一次数据
+  setInterval(function () {
+
+    // 2.2.1 如果当前索引 等于 数组长度,默认当前索引为0
+    if (currentIndex === tipList.length) {
+      currentIndex = 0
+    }
+
+    // 2.2.2 更新数据
+    imgEl.src = tipList[currentIndex].icon
+    spanEl.textContent = tipList[currentIndex].title
+
+    // 2.2.3 当前索引自增
+    currentIndex++
+  }, 3000)
+  ```
+  :::
+
+  > **随机每隔3s刷新一次数据**
+
+  ::: details Click me to view the code js
+  ```js
+  // 1.从服务器拿到数据 ajax/fetch请求
+  var tipList = [
+    {
+      icon: "https://tse4-mm.cn.bing.net/th/id/OIP-C.0KvO81VQ-QeWbGVRhT8E8wHaHa?w=209&h=209&c=7&r=0&o=5&dpr=2&pid=1.7",
+      title: "167***348对这件商品感兴趣"
+    },
+    {
+      icon: "https://p.qqan.com/up/2021-2/16123225767181974.jpg",
+      title: "183***138对这件商品感兴趣"
+    },
+    {
+      icon: "https://tse3-mm.cn.bing.net/th/id/OIP-C.aQRoVI_BQCO4ua8drGqu-gHaFj?w=257&h=193&c=7&r=0&o=5&dpr=2&pid=1.7",
+      title: "193***788对这件商品感兴趣"
+    }
+  ]
+
+  // 2.动态切换数据
+  
+  // 2.1 获取元素
+  var tipbarEl = document.querySelector(".tip-bar")
+  var imgEl = tipbarEl.querySelector("img")
+  var spanEl = tipbarEl.querySelector("span")
+
+  // 2.2 每隔3s刷新一次数据
+  setInterval(function () {
+    // 2.2.1 记住当前随机生成的索引
+    var currentIndex = Math.floor(Math.random() * tipList.length)
+
+    // 2.2.2 如果当前索引 等于 数组长度,默认当前索引为0
+    if (currentIndex === tipList.length) {
+      currentIndex = 0
+    }
+
+    // 2.2.3 更新数据
+    imgEl.src = tipList[currentIndex].icon
+    spanEl.textContent = tipList[currentIndex].title
+
+    // 2.2.4 当前索引自增
+    currentIndex++
+  }, 3000)
+  ```
+  :::
