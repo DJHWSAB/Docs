@@ -832,3 +832,227 @@ layout: doc
   }
   ```
   :::
+
+## 12. 侧边栏展示
+
+  ![interview](/interview_js_08.png)
+
+  ```html
+  <div class="tool-bar">
+    <div class="item">
+      <i class="icon"></i>
+      <div class="name">购物车</div>
+    </div>
+    <div class="item">
+      <i class="icon"></i>
+      <div class="name">收藏</div>
+    </div>
+    <div class="item">
+      <i class="icon"></i>
+      <div class="name">限时活动</div>
+    </div>
+    <div class="item">
+      <i class="icon"></i>
+      <div class="name">大礼包</div>
+    </div>
+  </div>
+  ```
+
+  > **通过css实现效果**
+
+  ::: details Click me to view the code css
+  ```css
+  /* 样式重置 */
+  html,
+  body,
+  div,
+  i {
+    /* 去除默认样式 */
+    margin: 0;
+    padding: 0;
+  }
+
+  .tool-bar {
+    position: fixed;
+    top: 30%;
+    right: 0;
+    width: 35px;
+    display: flex;
+    /* 改变主轴的方向 y */
+    flex-direction: column;
+  }
+
+  .tool-bar .item {
+    position: relative;
+    height: 35px;
+    margin-bottom: 1px;
+    background-color: #7a6e6e;
+    border-radius: 3px 0 0 3px;
+    /* 鼠标小手 */
+    cursor: pointer;
+  }
+
+  .tool-bar .item:hover .name,
+  .tool-bar .item:hover .icon {
+    background-color: #cd1926;
+  }
+
+  .tool-bar .item:hover .name {
+    width: 62px;
+  }
+
+  .tool-bar .item .icon {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/toolbars.png);
+    /* 🔥 由于精灵图排放位置，所以x轴为(-48px）不变，y轴(0) *50 */
+    background-position: -48px 0;
+  }
+
+  .tool-bar .item:nth-child(2) .icon {
+    background-position: -48px -50px;
+  }
+
+  .tool-bar .item:nth-child(3) .icon {
+    background-position: -48px -100px;
+  }
+
+  .tool-bar .item:nth-child(4) .icon {
+    background-position: -48px -150px;
+  }
+
+  .tool-bar .item .name {
+    position: absolute;
+    top: 0;
+    right: 35px;
+    width: 0;
+    /* width: 62px; */
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    background-color: #7a6e6e;
+    border-radius: 3px 0 0 3px;
+    /* 在默认收缩 width为0 的情况下,隐藏文字 */
+    /* 🚚 隐藏文字 */
+    /* overflow: hidden; */
+    /* 🚚 定位层叠 */
+    z-index: -1;
+    /* 添加动画 */
+    transition: width .2s ease;
+  }
+  ```
+  :::
+  
+  > **动态给 icon 设置backgroundPosition**
+    
+  ![interview](/interview_js_09.png)
+  
+  ![interview](/interview_js_10.png)
+
+  ::: details Click me to view the code css
+  ```js
+  // 1.获取元素
+  var toolbarEl = document.querySelector(".tool-bar")
+  var iconEls = document.querySelectorAll(".icon")
+
+  // 2.循环遍历元素,给每个 icon 设置 background-position
+  for (var i = 0; i < iconEls.length; i++) {
+    iconEls[i].style.backgroundPosition = `-48px ${-50 * i}px`
+  }
+  ```
+  :::
+
+  > **实现鼠标进入动画**
+
+  1. 事件委托 onmouseover / onmouseout 鼠标经过/离开事件
+
+  ::: details Click me to view the code js
+  ```js
+  // 1.获取元素
+  var toolbarEl = document.querySelector(".tool-bar")
+
+  // 2.监听toolbarEl的鼠标经过事件
+  toolbarEl.onmouseover = function (event) {
+    handleMouseEvent(event, "#cd1926", "62px")
+  }
+
+  // 3.监听toolbarEl的鼠标离开事件
+  toolbarEl.onmouseout = function (event) {
+    handleMouseEvent(event, "#7a6e6e")
+  }
+
+  // 4.封装工具类函数 ---- 实现鼠标在元素上经过和离开
+  function handleMouseEvent(event, backgroundColor, width) {
+    // event.target 事件发生的对象 <-> 鼠标移动哪个元素上
+    // event.currentTarget 当前处理的对象 <-> 绑定的点击事件
+
+    if (event.target !== this) {
+      /* // 获取唯一的item
+      var itemEl = null
+      if (event.target.classList.contains("item")) {
+        itemEl = event.target
+      } else {
+        itemEl = event.target.parentElement
+      } */
+
+      // 获取itemEl元素(// 等价于👆🏻 如果当前元素有item这个类,就直接返回当前元素,如果没有,就返回当前元素的父元素)
+      var itemEl = event.target.classList.contains("item") ? event.target : event.target.parentElement
+
+      // 获取iconEl元素
+      var iconEl = itemEl.children[0]
+
+      // 获取nameEl元素
+      var nameEl = itemEl.children[1]
+
+      // 设置iconEl的背景颜色
+      iconEl.style.backgroundColor = backgroundColor
+
+      // 设置nameEl的背景颜色
+      nameEl.style.backgroundColor = backgroundColor
+
+      // 设置nameEl的宽度(将值设置为空字符串,那么会使用CSS的默认样式),如果不传入参数,使用默认值 输入
+      nameEl.style.width = width || ""
+    }
+  }
+  ```
+  :::
+
+  2. mouseenter(不能使用事件委托)
+
+  ::: details Click me to view the code css 
+  ```js
+  // 1.获取元素
+  var itemEls = document.querySelectorAll(".item")
+
+
+  // 2.循环遍历元素
+  for (var itemEl of itemEls) {
+    // 2.1 监听itemEl元素的鼠标经过事件
+    itemEl.onmouseenter = function (event) {
+      handleMouseEvent(event, "#cd1926", "62px")
+    }
+
+    // 2.2 监听itemEl元素的鼠标离开事件
+    itemEl.onmouseleave = function (event) {
+      handleMouseEvent(event, "#7a6e6e")
+    }
+
+    // 2.3 封装工具类函数 --- 实现在元素的鼠标经过/离开
+    function handleMouseEvent(event, backgroundColor, width) {
+      // 获取iconEl,nameEl元素
+      var iconEl = event.target.children[0]
+      var nameEl = event.target.children[1]
+
+      // 设置iconEl,nameEl的背景颜色
+      iconEl.style.backgroundColor = backgroundColor
+      nameEl.style.backgroundColor = backgroundColor
+
+      // 设置nameEl的宽度(将值设置为空字符串,那么会使用CSS的默认样式)
+      nameEl.style.width = width || ""
+    }
+  }
+  ```
+  :::
