@@ -691,3 +691,144 @@ layout: doc
   }, 3000)
   ```
   :::
+
+
+## 11. 关闭隐藏消息
+
+  ![interview](/interview_js_07.png)
+
+  ::: details Click me to view the code css
+  ```css
+  /* 样式重置 */
+  html,
+  body,
+  div,
+  img,
+  span {
+    /* 去除默认样式 */
+    margin: 0;
+    padding: 0;
+  }
+
+  /* 布局样式 */
+  .top-bar {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    background-color: #333;
+    /* 防止高度为0,其他内容没有隐藏 */
+    overflow: hidden;
+    /* 添加过渡动画 */
+    transition: height .3s ease-out;
+  }
+
+  .top-bar .close {
+    width: 8%;
+  }
+
+  .top-bar .close img {
+    width: 10px;
+    height: 10px;
+    transition: prop time;
+  }
+
+  .top-bar .logo {
+    width: 30px;
+    height: 30px;
+    margin: 0 4px;
+  }
+
+  .top-bar span {
+    flex: 1;
+    height: 45px;
+    padding-top: 2px;
+    box-sizing: border-box;
+  }
+
+  .top-bar .btn {
+    width: 25%;
+    height: 45px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    background-color: #F63515;
+  }
+  ```
+  :::
+
+  ```html
+  <div class="top-bar">
+    <div class="close">
+      <img src="https://m.360buyimg.com/mobilecms/jfs/t19480/10/1439571805/820/787bec2c/5ac9d730N04e6d766.png" alt="">
+    </div>
+    <img src="https://img13.360buyimg.com/img/jfs/t1/185008/26/33606/2587/641973cbFd5acd3e9/ad0294917f47e6b8.png"
+      alt="京东" class="logo">
+    <span>打开京东APP，实惠又轻松</span>
+    <div class="btn">立即打开</div>
+  </div>
+  ```
+
+  > **🚚: 直接删除,没有动画效果**
+
+  ::: details Click me to view the code js
+  ```js
+  // 1.获取元素
+  var topbarEl = document.querySelector(".top-bar")
+  var closeEl = topbarEl.querySelector(".close")
+
+  // 2.监听closeEl元素的点击事件
+  closeEl.onclick = function () {
+    // 删除元素
+    topbarEl.remove() 
+  }
+  ```
+  :::
+
+  > **🚚: 有动画效果,需要设置高度为0,定时器移除,但是定时器的时间必须跟动画保持一致**
+
+  ::: details Click me to view the code js
+  ```js
+  // 1.获取元素
+  var topbarEl = document.querySelector(".top-bar")
+  var closeEl = topbarEl.querySelector(".close")
+
+  // 2.监听closeEl元素的点击事件
+  closeEl.onclick = function () {
+
+    // 2.1 有动画效果,需要设置高度为0
+    topbarEl.style.height = 0
+
+    // 2.2 定时器移除,但是定时器的时间必须跟动画保持一致
+    setTimeout(function () {
+      topbarEl.remove()
+    }, 300)      
+  }
+
+  ```
+  :::
+
+  > **🚚: 有动画效果,需要设置高度为0,利用动画结束事件 transitionend 清除元素**
+
+  ::: details Click me to view the code js
+  ```js
+  // 1.获取元素
+  var topbarEl = document.querySelector(".top-bar")
+  var closeEl = topbarEl.querySelector(".close")
+
+  // 2.监听closeEl元素的点击事件
+  closeEl.onclick = function () {
+
+    // 1.有动画效果,需要设置高度为0
+    topbarEl.style.height = 0
+  }
+
+  // ✈️: 2.利用动画结束事件 transitionend事件的事件处理函数，在某个CSS过渡完成时触发。
+  topbarEl.ontransitionend = function() {
+    // 删除元素
+    this.remove()
+  }
+  ```
+  :::
