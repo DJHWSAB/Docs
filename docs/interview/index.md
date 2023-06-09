@@ -1057,13 +1057,27 @@ layout: doc
   ```
   :::
 
-## 13. 说说load和DOMContentLoaded的区别
+## 13. 说出mouseenter和mouseover的区别
+
+  - mouseenter
+
+    - 不会冒泡 
+  
+    - 进入子元素的时候不会有任何行为
+
+  - mouseover
+
+    - 会进行冒泡行为
+
+    - 进入子元素 会先out父元素 在over子元素 在over父元素
+
+## 14. 说说load和DOMContentLoaded的区别
 
   - load: 浏览器加载完所有的HTML 还加载完所有的外部资源 样式 图⽚等
 
   - DOMContentLoaded: HTML⽂档所有资源都加载完成 并构建了DOM树 但是⼀些外部资源还没有加载完成 如图⽚的src
 
-## 14. 王者荣耀tabControl切换
+## 15. 王者荣耀tabControl切换
 
   ![interview](/interview_js_12.png)
 
@@ -1137,20 +1151,18 @@ layout: doc
 
   // 2.监听tabControlEl元素在鼠标上经过的事件(事件委托)
   tabControlEl.onmouseover = function (event) {
-    // 2.1 获取itemEl元素
-    var itemEl = event.target.classList.contains("item")
+    // 2.1 确定发生鼠标经过的元素
+    var itemEl = event.target
+    if (!itemEl.classList.contains("item")) return
 
-    // 2.2 如果事件发生对象是itemEl且含有类active,就移除含有类active这个元素
-    if (itemEl && activeEl) {
-      activeEl.classList.remove("active");
-    }
+    // 2.2 移除之前的active
+    activeEl.classList.remove("active")
 
-    // 2.2 如果事件发生对象是itemEl,就给这个对象添加类active
-    if (itemEl) {
-      event.target.classList.add("active");
-      // 将最新的itemEl变成activeEl
-      activeEl = event.target;
-    }
+    // 2.3 将active添加到鼠标经过的元素
+  itemEl.classList.add("active")
+
+    // 2.4 让activeEl指向最新的元素
+    activeEl = itemEl
   }
   ```
   :::
