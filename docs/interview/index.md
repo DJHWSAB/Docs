@@ -1056,3 +1056,9 @@ layout: doc
   }
   ```
   :::
+
+## 13. 说说load和DOMContentLoaded的区别
+
+  - load: 浏览器加载完所有的HTML 还加载完所有的外部资源 样式 图⽚等
+
+  - DOMContentLoaded: HTML⽂档所有资源都加载完成 并构建了DOM树 但是⼀些外部资源还没有加载完成 如图⽚的src
