@@ -863,6 +863,7 @@ layout: doc
   ::: details Click me to view the code css
   ```css
   /* 样式重置 */
+  /* 样式重置 */
   html,
   body,
   div,
@@ -892,6 +893,7 @@ layout: doc
     cursor: pointer;
   }
 
+  /* ✈️ 通过js实现鼠标经过元素，减少csS代码！！！ */
   .tool-bar .item:hover .name,
   .tool-bar .item:hover .icon {
     background-color: #cd1926;
@@ -910,6 +912,7 @@ layout: doc
     background-position: -48px 0;
   }
 
+  /* ✈️ 通过js实现精灵图的排放位置，减少csS代码！！！ */
   .tool-bar .item:nth-child(2) .icon {
     background-position: -48px -50px;
   }
