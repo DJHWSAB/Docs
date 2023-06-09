@@ -1062,3 +1062,95 @@ layout: doc
   - load: 浏览器加载完所有的HTML 还加载完所有的外部资源 样式 图⽚等
 
   - DOMContentLoaded: HTML⽂档所有资源都加载完成 并构建了DOM树 但是⼀些外部资源还没有加载完成 如图⽚的src
+
+## 14. 王者荣耀tabControl切换
+
+  ![interview](/interview_js_12.png)
+
+  ::: details Click me to view the code html 
+  ```html
+  <div class="tab_control">
+    <div class="item active">精品栏目</div>
+    <div class="line"></div>
+    <div class="item">赛事精品</div>
+    <div class="line"></div>
+    <div class="item">英雄攻略</div>
+  </div>
+  ```
+  :::
+
+  ::: details Click me to view the code css
+  ```css
+  /* 样式重置 */
+  html,
+  body,
+  div {
+    /* 去除默认样式 */
+    margin: 0;
+    padding: 0;
+  }
+
+  /* 布局样式 */
+  .tab_control {
+    display: flex;
+    width: 872px;
+    /* margin: 0 auto; */
+    /* margin-bottom: 13px; */
+    margin: 100px auto 13px;
+    background-color: #f5f5f5;
+  }
+
+  .tab_control .item {
+    flex: 1;
+    height: 32px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 29px;
+    font-size: 14px;
+    color: #999;
+    border-bottom: 3px solid transparent;
+    /* 鼠标小手 */
+    cursor: pointer;
+    /* 添加动画 */
+    transition: all .3s ease-in;
+  }
+
+  .tab_control .item.active {
+    color: #333;
+    border-color: #f3c258;
+  }
+
+  .tab_control .line {
+    width: 1px;
+    height: 20px;
+    margin: 5px 0;
+    background-color: #e1e1e1;
+  }
+  ```
+  :::
+
+  ::: details Click me to view the code js
+  ```js
+  // 1.获取元素
+  var tabControlEl = document.querySelector(".tab_control")
+  var activeEl = tabControlEl.querySelector(".active")
+
+  // 2.监听tabControlEl元素在鼠标上经过的事件(事件委托)
+  tabControlEl.onmouseover = function (event) {
+    // 2.1 获取itemEl元素
+    var itemEl = event.target.classList.contains("item")
+
+    // 2.2 如果事件发生对象是itemEl且含有类active,就移除含有类active这个元素
+    if (itemEl && activeEl) {
+      activeEl.classList.remove("active");
+    }
+
+    // 2.2 如果事件发生对象是itemEl,就给这个对象添加类active
+    if (itemEl) {
+      event.target.classList.add("active");
+      // 将最新的itemEl变成activeEl
+      activeEl = event.target;
+    }
+  }
+  ```
+  :::
