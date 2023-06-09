@@ -1043,8 +1043,8 @@ layout: doc
     // 2.3 封装工具类函数 --- 实现在元素的鼠标经过/离开
     function handleMouseEvent(event, backgroundColor, width) {
       // 获取iconEl,nameEl元素
-      var iconEl = event.target.children[0]
-      var nameEl = event.target.children[1]
+      var iconEl = this.children[0]
+      var nameEl = this.children[1]
 
       // 设置iconEl,nameEl的背景颜色
       iconEl.style.backgroundColor = backgroundColor
