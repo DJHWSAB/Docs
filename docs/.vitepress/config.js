@@ -76,6 +76,7 @@ export default defineConfig({
           text: 'Code',
           items: [
             { text: 'js', link: '/code/' }, // /code/index.md
+            { text: 'words', link: '/code/words' }, // /code/words.md
           ],
           // 是否收缩
           collapsible: true,
