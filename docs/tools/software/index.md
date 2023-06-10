@@ -107,6 +107,11 @@ layout: doc
 
   ![vscode](/vscode_29.png)
 
+  13. Image preview 图片预览
+
+  ![vscode](/vscode_30.png)
+
+
 
 ## 4. 配置
 
