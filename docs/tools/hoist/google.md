@@ -4,13 +4,32 @@ layout: doc
 
 # 谷歌翻译
 
-  1. Mac 中使用: 打开终端 输入cd 把解压后的文件夹拖进终端，点击回车 复制粘贴代码，点击回车
+  > 修改 `hosts` 文件
 
-  ```shell
-  chmod +x GoogleTranslateIpCheck
-  sudo ./GoogleTranslateIpCheck
+## 1. mac
+
+  目录地址: /etc/hosts
+
+  ![google_translate](/google_translate_01.png)
+
+  ```js
+  216.239.32.40 translate.googleapis.com
+  142.251.161.90 translate.googleapis.com
+  108.177.97.100 translate.googleapis.com
+  142.250.1.90 translate.googleapis.com
+  142.251.1.90 translate.googleapis.com
+  142.250.149.90 translate.googleapis.com
   ```
 
-  2. Mac 提示来自不明身份: 系统偏好设置－－>安全性与隐私--->选择允许
-  
-  推荐看这个 [mac](/tools/hoist/mac#_2-%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
+## 2. win
+
+  目录地址: C:\Windows\System32\drivers\etc
+
+  ```js
+  216.239.32.40 translate.googleapis.com
+  142.251.161.90 translate.googleapis.com
+  108.177.97.100 translate.googleapis.com
+  142.250.1.90 translate.googleapis.com
+  142.251.1.90 translate.googleapis.com
+  142.250.149.90 translate.googleapis.com
+  ```
