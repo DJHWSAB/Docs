@@ -1,0 +1,29 @@
+---
+layout: doc
+---
+# 节点更新
+
+## 1. 知风(已更新)
+
+  https://suo.yt/RMqUGpi
+
+## 2. 阿伟科技(已更新)
+
+  https://wwhb.lanzouw.com/b0bu1n68f 密码: 151
+
+## 3. 节点日记(已更新)
+
+  https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/5/610
+
+
+## 4. 由零开始(已更新)
+
+  https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/5/c11
+
+## 5. 玉豆节点(已更新)
+
+  http://yy.yudou66.top/202306/2023.6.11Clash55gg.yaml
+
+## 6. yu科技(已更新)
+
+ https://wwix.lanzoue.com/i4JhN0yu4a2b 密码: 554
