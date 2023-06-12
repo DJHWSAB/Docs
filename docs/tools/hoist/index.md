@@ -6,76 +6,129 @@ layout: doc
 
 ## 1. 如何解决Github的访问速度
 
-> **如果你的Github是无法打开，那么这篇文章可能对你没有用，需要你在打开Github情况下使用才行，你可以先考虑更换hosts，再来使用哈！！！💪🏻**
+  > **最直接的效果是GitHub图片可以正常加载，网页也稳定了。GitHub Hosts主要是通过修改host的方式加速GitHub访问，解决图片无法加载以及访问速度慢的问题。**
 
-1. 下载 [fastgithub](https://github.com/dotnetcore/FastGithub/releases)
+  [Github hosts](https://github.com/ineo6/hosts#windows)
 
-![image-20230525150935164](/github_01.png)
+## 2. 使用方式
 
-:loudspeaker: 如果你的mac是M1，安装 `fastgithub_osx-arm64.zip` 可能会出现闪退，请安装 `fastgithub_osx-x64` ;如果是win，安装 `fastgithub_win-x64`
+### 2.1 远程主机 
 
-2. 使用 fastgithub
-   - win下使用
-     - 双击运行FastGithub.UI.exe
-     
-     ![github](/github_02.png)
+  ![github](/github_01.png)
+
+  https://gitlab.com/ineo6/hosts/-/raw/master/next-hosts
+
+  ![github](/github_02.png)
+
+### 2.2 本地主持服务
+
+  **本地区hosts服务获得的ip是经过本地区测试，所以成功率比较高。而与会时取得最新的ip，尽管可能保证访问。注意，该方案需要结合SwitchHosts起来使用，或者你也可以直接访问地址，手动复制。**
+
+  1. macOS(Intel)
+
+  执行下面命令, 服务会运行在： http://localhost:8888
+
+  ```shell
+  # 下载Hosts 服务器的安装包，并将其解压缩到当前目录中
+  curl -L https://github.com/ineo6/hosts/releases/download/v1.0.1/hosts-server-pkg-mac-x64.tar.gz | tar xzvf -
+
+  # 删除属性列表，这不是必须的，但是可以确保您的服务器不会受到阻止
+  xattr -d com.apple.quarantine ./hosts-server-pkg-mac-x64/hosts-server
+
+  # 启动 Hosts 服务器，并将其监听在传递给 --port 选项的端口
+  ./hosts-server-pkg-mac-x64/hosts-server --port=8888
+  ```
+
+  2. macOS(Apple Silicon)
+
+  执行下面命令, 服务会运行在： http://localhost:8888
+
+  ```shell
+  # 下载Hosts 服务器的安装包，并将其解压缩到当前目录中
+  curl -L https://github.com/ineo6/hosts/releases/download/v1.0.1/hosts-server-pkg-mac-arm64.tar.gz | tar xzvf -
+
+  # 启动 Hosts 服务器，并将其监听在传递给 --port 选项的端口
+  ./hosts-server-pkg-mac-arm64/hosts-server --port=8888
+  ```
+
+  ![github](/github_03.png)
+  
+  ![github](/github_04.png)
+
+  下一次我们可以通过以下方式启动软件:
+
+  ![github](/github_05.png)
+
+  ![github](/github_04.png)
+
+  也可以直接修改端口号
+  
+  ```shell
+  # 指定端口号
+  ./hosts-server --port=9999
+
+  # 👇🏻 拓展
+  # 查看8080端口是否被占用
+  sudo lsof -i tcp:8080
+
+  # 删除进程的PID
+  sudo kill -9 PID
+  ```
+
+  3. Windows
+  
+  下载 https://github.com/ineo6/hosts/releases/download/v1.0.1/hosts-server-pkg-win-x64.zip ，解压后执行下面命令，服务会运行在： http://localhost:8888
+
+  ```shell
+  .\hosts-server.exe --port=8888
+  ```
 
 
-    :loudspeaker: D:\software\fastgithub_win-x64是你将fast GitHub下载存放的位置
-     ```shell
-     # 以windows服务安装并启动
-      fastgithub.exe start
 
-      # 以windows服务加载并删除
-      fastgithub.exe stop
+## 3. 配置hosts教程
 
-     ```
+### 3.1 SwitchHosts 自动更新
 
-     启动之后fast GitHub会自动更改你的dns
-     
-     ![github](/github_03.png)
+  **这里推荐使用 SwitchHosts 配置hosts，操作很简单，支持跨平台。**
 
-     然后就可以顺畅无阻的访问GitHub啦！
+  > 注意：首次使用先备份下本地hosts。
 
-     ![github](/github_04.png)
+  1. 下载地址: [https://github.com/oldj/SwitchHosts/releases](https://github.com/oldj/SwitchHosts/releases)
 
-   - Mac下使用
+  ![github](/github_06.png)
 
-     - 双击运行fastgithub
+  2. 操作作步骤
 
-     - 安装cacert/fastgithub.cer并设置信息
-     
-     - 设置系统自动代理为`http://127.0.0.1:38457`，或手动代理http/https为`127.0.0.1:38457`
-     
-     - 配套配置详情
-     
-       - 打开`FastGithub`后，目录会生成`cacert`目录，双点击打开`fastgithub.cer`，系统弹出`Keychain Access`窗口，列表中双点击`FastGitHub`，弹出证明书详细信息窗口，展开打开信任并选择始终信任。
-     
-       ![github](/github_05.png)
+  ![github](/github_07.png)
 
-       ![github](/github_06.png)
+### 3.2 手动配置
 
-       - 配置代理
-          - 自动代理
-            - 打开mac设置，网络，点击高级，选择代理，勾选网自动代理配置，填写FastGithub窗口提示的地址
-            
-            ![github](/github_07.png)
-            
-          - 手动代理
-            - 打开mac设置，网络，点击高级，选择代理，勾选网页代理(HTTP)及安全网页代理(HTTPS),填写FastGithub窗口提示的地址
-            
-            ![github](/github_08.png)
+  1. macOS
 
-## 2. 提高Github下载速度
+  hosts文件位置：`/etc/hosts`
 
-1. 打开[Crxs搜搜](https://www.crxsoso.com/webstore/category/extensions)
-
-2. 搜索 `tiga github 国内`
+  ![github](/github_08.png)
   
   ![github](/github_09.png)
 
-3. 找到需要下载的Github地址,点击 `Code`,选择下载加速通道
+  复制hosts文件到桌面上，鼠标右键右击它，选择「打开方式」—「文本编辑」，打开这个hosts文件，把前面的hosts内容复制进来。
 
-  ![github](/github_10.png)
+  然后把你修改好的hosts文件替换掉：/etc/hosts 文件。
 
+  注意：如果弹出密码输入框，你需要输入你当前登录账号对应的密码。
 
+  最后刷新缓存：
+
+  ```shell
+  sudo killall -HUP mDNSResponder
+  ```
+
+  2. Windows
+
+  hosts文件位置：`C:/windows/system32/drivers/etc/hosts`
+
+  将前文hosts内容追加到hosts文件，然后刷新DNS缓存：
+
+  ```shell
+  ipconfig /flushdns
+  ```
