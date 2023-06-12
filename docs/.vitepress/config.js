@@ -63,7 +63,8 @@ export default defineConfig({
           text: 'Blog',
           items: [
             { text: '搭建自己的 VitePress 个人博客', link: '/blog/' }, // /guide/index.md
-            { text: '博客优化之开启 Algolia 全文搜索', link: '/blog/Algolia' } // /guide/one.md
+            { text: '博客优化之开启 Algolia 全文搜索', link: '/blog/Algolia' }, // /guide/Algolia.md
+            { text: '每日节点', link: '/blog/nodeUpdate' } // /guide/nodeUpdate.md
           ],
           // 是否收缩
           collapsible: true,
