@@ -11,14 +11,14 @@ layout: doc
 
   https://wwhb.lanzouw.com/b0bu1n68f 密码: 151
 
-## 3. 节点日记(未更新)
-
-  https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/5/610
-
-
-## 4. 由零开始(未更新)
+## 3. 节点日记(已更新)
 
   https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/5/c11
+
+
+## 4. 由零开始(已更新)
+
+  https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/5/12c
 
 ## 5. 玉豆节点(已更新)
 
