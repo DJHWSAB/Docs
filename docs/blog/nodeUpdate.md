@@ -9,7 +9,7 @@ layout: doc
 
 ## 2. 阿伟科技(未更新)
 
-  https://wwhb.lanzouw.com/b0bu1n68f 密码: 151
+  https://wwhb.lanzouw.com/b0bu1rgof 密码: 850
 
 ## 3. 节点日记(已更新)
 
