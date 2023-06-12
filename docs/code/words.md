@@ -2,7 +2,7 @@
 layout: doc
 ---
 
-# 183个前端高频词
+# 185个前端高频词
 
 ## 1. HTML
 
@@ -269,6 +269,10 @@ layout: doc
   75. children 孩子
   
   76. countdown 倒计时
+  
+  77. mouse 鼠标
+  
+  78. key（onkeyup 键盘弹起事件） 键盘
   ```
   :::
 
