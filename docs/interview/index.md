@@ -1380,3 +1380,236 @@ layout: doc
   :::
 
 ## 17. 普通轮播图
+
+  ![interview](/interview_js_14.png)
+
+  ::: details Click me to view the code html 
+  ```html
+  <div class="banner">
+    <!-- 图片数据 -->
+    <ul class="image-list">
+      <li class="item">
+        <a href="#">
+          <img src="./images/banner_01.jpeg" alt="星梦皮肤大赛">
+        </a>
+      </li>
+      <li class="item">
+        <a href="#">
+          <img src="./images/banner_02.jpeg" alt="全国大赛赛程">
+        </a>
+      </li>
+      <li class="item">
+        <a href="#">
+          <img src="./images/banner_03.jpeg" alt="K甲夏季赛赛程">
+        </a>
+      </li>
+      <li class="item">
+        <a href="#">
+          <img src="./images/banner_04.jpeg" alt="全民单挑赛招募">
+        </a>
+      </li>
+      <li class="item">
+        <a href="#">
+          <img src="./images/banner_05.jpeg" alt="王者萌萌假日">
+        </a>
+      </li>
+    </ul>
+    <!-- 列表数据 -->
+    <ul class="title-list">
+      <li class="item active">
+        <a href="#">星梦皮肤大赛</a>
+      </li>
+      <li class="item">
+        <a href="#">全国大赛赛程</a>
+      </li>
+      <li class="item">
+        <a href="#">K甲夏季赛赛程</a>
+      </li>
+      <li class="item">
+        <a href="#">全民单挑赛招募</a>
+      </li>
+      <li class="item">
+        <a href="#">王者萌萌假日</a>
+      </li>
+    </ul>
+  </div>
+  ```
+  :::
+
+  ::: details Click me to view the code css 
+  ```css
+  /* 样式重置 */
+  html,
+  body,
+  div,
+  ul,
+  li,
+  a,
+  img {
+    /* 去除默认样式 */
+    margin: 0;
+    padding: 0;
+  }
+
+  ul,
+  li {
+    /* 去除小圆点 */
+    list-style: none;
+  }
+
+  a {
+    /* 不要下划线 */
+    text-decoration: none;
+    /* 不要外轮廓 */
+    outline: none;
+  }
+
+  img {
+    vertical-align: top;
+  }
+
+  /* 布局代码 */
+  .banner {
+    width: 604px;
+    margin: 100px auto;
+    /* 超出隐藏 */
+    overflow: hidden;
+  }
+
+  /* 1.图片数据 */
+  .banner .image-list {
+    display: flex;
+  }
+
+  .banner .image-list .item {
+    flex-shrink: 0;
+  }
+
+  .banner .image-list .item a {
+    display: inline-block;
+  }
+
+  .banner .image-list .item a img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* 2.标题数据 */
+  .banner .title-list {
+    display: flex;
+  }
+
+  .banner .title-list .item {
+    flex: 1;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    background-color: #000;
+  }
+
+  .banner .title-list .item a {
+    display: block;
+    font-size: 14px;
+    color: #b1b2be;
+  }
+
+  .banner .title-list .item.active a {
+    color: #f3c258;
+  }
+  ```
+  :::
+
+  ::: details Click me to view the code js
+  ```js
+  // 1.获取元素
+  var bannerEl = document.querySelector(".banner")
+  var imageListEl = bannerEl.querySelector(".image-list")
+  var titleListEl = bannerEl.querySelector(".title-list")
+
+  // 2.记录一些常见的变量
+  var currentIndex = 0 // 当前索引
+  var activeEl = titleListEl.querySelector(".active") // 选中的标题
+  var timeID = null // 定时器
+
+  // 3.自动轮播
+  startTime()
+
+  // 4.鼠标经过titleEl元素
+  titleListEl.onmouseover = function (event) {
+    // 4.1 获取itemEl元素
+    var itemEl = event.target.parentElement
+    if (!itemEl.classList.contains("item")) return
+
+    // 4.2 鼠标经过itemEl元素显示对应索引的图片
+    // 获取索引
+    
+    var index = Array.from(this.children).findIndex(function (item) {
+      return item === itemEl
+    })
+
+    // 记录最新的索引
+    currentIndex = index
+
+    // 切换轮播图
+    switchBanner()
+  }
+
+  // 5.鼠标经过banner元素,停止定时器
+  bannerEl.onmouseenter = function () {
+    clearInterval(timeID)
+  }
+
+  // 6.鼠标离开bannerEl元素时,开启定时器
+  bannerEl.onmouseleave = function() {
+    startTime()
+  }
+
+  // 5.切换轮播图
+  function switchBanner() {
+    // 自动轮播图片
+    imageListEl.style.transform = `translate(${-currentIndex * 604}px, 0)`;
+    imageListEl.style.transition = `all .3s ease`
+
+    // 4.3 鼠标经过itemEl元素显示对应索引的标题
+    // 移除之前的active
+    activeEl.classList.remove("active")
+
+    // 添加active
+    var itemEl = titleListEl.children[currentIndex]
+    itemEl.classList.add("active")
+
+    // 记住最新的active
+    activeEl = itemEl
+  }
+
+  // 6.定时器
+  function startTime() {
+    timeID = setInterval(function () {
+      currentIndex++
+      if (currentIndex === imageListEl.children.length) currentIndex = 0
+
+      // 切换轮播图
+      switchBanner()
+    }, 3000)
+  }
+  ```
+  :::
+
+  ## 18. 定位轮播图
+  
+  ![interview](/interview_js_14.png)
+
+  ::: details Click me to view the code html
+  ```html
+  ```
+  :::
+
+  ::: details Click me to view the code css
+  ```css
+  ```
+  :::
+
+  ::: details Click me to view the code js
+  ```js
+  ```
+  :::
