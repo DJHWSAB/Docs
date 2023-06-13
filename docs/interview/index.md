@@ -1169,3 +1169,214 @@ layout: doc
   }
   ```
   :::
+
+## 16. 登录框
+
+  ![interview](/interview_js_13.png)
+
+  ::: details Click me to view the code html 
+  ```html
+  <div class="box">
+    <h1 class="title">登录页面</h1>
+    <!-- 提示文本 -->
+    <div class="error hidden">
+      <i class="err-icon"></i>
+      <span class="err-msg">用户名或密码不能为空</span>
+    </div>
+    <!-- 用户名 -->
+    <div class="user-item">
+      <label for="username" class="user-icon"></label>
+      <input id="username" type="username" placeholder="邮箱/用户名/登录手机">
+      <span class="u-clear"></span>
+    </div>
+    <!-- 密码 -->
+    <div class="password-item">
+      <label for="password" class="pwd-icon"></label>
+      <input id="password" type="password" placeholder="密码">
+      <span class="eye-icon"></span>
+      <span class="p-clear"></span>
+    </div>
+    <!-- 登录 -->
+    <div class="login">登录</div>
+  </div>
+  ```
+  :::
+
+  ::: details Click me to view the code css
+  ```css
+  html,
+  body,
+  div,
+  h1,
+  i,
+  span,
+  input {
+    /* 去除默认样式 */
+    margin: 0;
+    padding: 0;
+  }
+
+  input {
+    /* 去除边框 */
+    border: none;
+    /* 不要外轮廓 */
+    outline: none;
+  }
+
+  /* 布局代码 */
+  .box {
+    width: 304px;
+    margin: 100px auto;
+    text-align: center;
+  }
+
+  /* 1.标题 */
+  .box .title {
+    margin-bottom: 8px;
+  }
+
+  /* 2.提示文本 */
+  .box .error {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    background-color: #ffebeb;
+    padding: 5px 0;
+    color: #e4393c;
+    border: 1px solid #faccc6;
+  }
+
+  .box .error.hidden {
+    visibility: hidden;
+  }
+
+  .box .error .err-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+    background: url(./images/css_sprites.png) no-repeat -114px -59px;
+  }
+
+  .box .error .err-msg {
+    margin-left: 10px;
+    font-size: 12px;
+  }
+
+  /* 3.用户名/密码 */
+  .box .user-item,
+  .box .password-item {
+    position: relative;
+    display: flex;
+    height: 38px;
+    margin-bottom: 8px;
+    border: 1px solid #bdbdbd;
+  }
+
+  .box .user-item .user-icon,
+  .box .password-item .pwd-icon {
+    width: 38px;
+    height: 38px;
+    background: url(./images/css_sprites.png) no-repeat -10px -10px;
+    border-right: 1px solid #bdbdbd;
+  }
+
+  .box .user-item input,
+  .box .password-item input {
+    flex: 1;
+    padding: 10px 0 10px 12px;
+    font-size: 14px;
+  }
+
+  .box .user-item .u-clear,
+  .box .password-item .p-clear {
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 14px;
+    height: 14px;
+    background: url(./images/css_sprites.png) -36px -154px;
+  }
+
+  .box .password-item .eye-icon {
+    position: absolute;
+    right: 27px;
+    top: 15px;
+    width: 25px;
+    height: 15px;
+    background: url(./images/css_sprites.png) no-repeat -152px -18px;
+  }
+
+  /* 4.登录 */
+  .box .login {
+    height: 32px;
+    line-height: 32px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #e4393c;
+    border: 1px solid #cb2a2d;
+  }
+  ```
+  :::
+
+  ::: details Click me to view the code js
+  ```js
+  // 1.获取元素
+  var boxEl = document.querySelector(".box")
+  var errorEl = boxEl.querySelector(".error")
+  var uClearEl = boxEl.querySelector(".u-clear")
+  var pClearEl = boxEl.querySelector(".p-clear")
+  var usernameInputEl = boxEl.querySelector("#username")
+  var passwordInputEl = boxEl.querySelector("#password")
+  var eyeIconEl = boxEl.querySelector(".eye-icon")
+  var loginEl = boxEl.querySelector(".login")
+
+
+  // 2.监听loginEl元素的点击
+  loginEl.onclick = function (event) {
+    // 如果表单没有输入直接提示并直接返回
+    if (!usernameInputEl.value || !passwordInputEl.value) {
+      errorEl.classList.remove("hidden")
+      return
+    }
+  }
+
+  // 3.监听uClearEl元素的点击
+  uClearEl.onclick = function () {
+    // 清除表单内容
+    usernameInputEl.value = ""
+  }
+
+  // 4.监听pClearEl元素的点击
+  pClearEl.onclick = function () {
+    // 清除表单内容
+    passwordInputEl.value = ""
+  }
+
+  // 5.记住当前开眼/闭眼状态
+  var isFlag = false
+  // 6.监听eyeIconEl元素的点击
+  eyeIconEl.onclick = function () {
+    isFlag = !isFlag
+    // if (isFlag) {
+    //   passwordInputEl.type = "text"
+    //   this.style.backgroundPosition = "-150px -60px"
+    //   this.style.top = "13px"
+    // } else {
+    //   passwordInputEl.type = "password"
+    // 将值设置为空字符串,那么会使用CSS的默认样式
+    //   this.style.backgroundPosition = ""
+    // }
+
+    // 等价于👆🏻注释代码
+    passwordInputEl.type = isFlag ? "text" : "password"
+    // 将值设置为空字符串,那么会使用CSS的默认样式
+    this.style.backgroundPosition = isFlag ? "-150px -60px" : ""
+    // 将值设置为空字符串,那么会使用CSS的默认样式
+    this.style.top = isFlag ? "13px" : ""
+  }
+  ```
+  :::
+
+## 17. 普通轮播图
