@@ -1599,17 +1599,112 @@ layout: doc
   
   ![interview](/interview_js_14.png)
 
-  ::: details Click me to view the code html
-  ```html
-  ```
-  :::
-
   ::: details Click me to view the code css
   ```css
+  /* 图片数据 */
+  .banner .image-list {
+    position: relative;
+    height: 298px;
+    overflow: hidden;
+  }
+
+  .banner .image-list .item {
+    position: absolute;
+    left: 100%;
+    width: 100%;
+  }
+
+  .banner .image-list .item:first-child {
+    left: 0;
+  }
   ```
   :::
 
   ::: details Click me to view the code js
   ```js
+  // 1.获取元素
+  var bannerEl = document.querySelector(".banner")
+  var imageListEl = bannerEl.querySelector(".image-list")
+  var titleListEl = bannerEl.querySelector(".title-list")
+
+  // 2.定义一些常见的变量
+  var activeEl = titleListEl.querySelector(".active") // 选中标题
+  var currentIndex = 0 // 当前索引
+  var previousIndex = 0 // 上一个索引
+  var timeID = null // 定时器
+
+  // 3.自动轮播
+  startTimer()
+
+  // 4.鼠标经过titleListEl元素
+  titleListEl.onmouseover = function (event) {
+    var itemEl = event.target.parentElement
+    if (!itemEl.classList.contains("item")) return
+    // 获取索引
+    var index = Array.from(this.children).findIndex(function (item) {
+      return itemEl === item
+    })
+
+    currentIndex = index
+
+    // 切换轮播图
+    switchBanner()
+  }
+
+  // 5.鼠标经过banner元素,停止定时器
+  bannerEl.onmouseenter = function () {
+    clearInterval(timeID)
+  }
+
+  bannerEl.onmouseleave = function() {
+    startTimer()
+  }
+
+  // 切换轮播图
+  function switchBanner() {
+    // 3.2 图片自动轮播
+    for (var i = 0; i < imageListEl.children.length; i++) {
+      var itemEl = imageListEl.children[i]
+      // currentIndex 和 previousIndex 有动画
+      if (i === currentIndex) {
+        itemEl.style.left = "0"
+        itemEl.style.transition = "left 300ms ease"
+      } else if (i > currentIndex) {
+        if (i !== previousIndex) {
+          itemEl.style.transition = "none"
+        }
+        itemEl.style.left = "100%"
+      } else {
+        if (i !== previousIndex) {
+          itemEl.style.transition = "none"
+        }
+        itemEl.style.left = "-100%"
+      }
+    }
+
+    // 3.3 标题自动轮播
+    // 移除之前的active
+    activeEl.classList.remove("active")
+
+    // 添加active
+    var currentItemEl = titleListEl.children[currentIndex]
+    currentItemEl.classList.add("active")
+
+    // 记录最新的activeEl
+    activeEl = currentItemEl
+  }
+
+  // 定时器
+  function startTimer() {
+    timeID = setInterval(function () {
+      // 3.1 记住最新的上一个索引
+      previousIndex = currentIndex
+      currentIndex++
+      if (currentIndex === imageListEl.children.length) currentIndex = 0
+
+      // 切换轮播图
+      switchBanner()
+    }, 3000)
+  }
   ```
   :::
