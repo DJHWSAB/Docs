@@ -18,7 +18,7 @@ layout: doc
 
 ## 4. 由零开始(已更新)
 
-  https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/5/c13
+  https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/5/14
 
 ## 5. 玉豆节点(已更新)
 
