@@ -1708,3 +1708,159 @@ layout: doc
   }
   ```
   :::
+
+  ## 19. 书籍购物车
+
+  ![interview](/interview_js_15.png)
+
+  ::: details Click me to view the code html
+  ```html
+  <table>
+    <thead>
+      <th>编号</th>
+      <th>书籍名词</th>
+      <th>出版日期</th>
+      <th>价格</th>
+      <th>购买数量</th>
+      <th>操作</th>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <h2 class="price">总价格: ¥<span class="price-count">0</span></h2>
+  ```
+  :::
+  ::: details Click me to view the code css
+  ```css
+  table {
+    /* 合并边框 */
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    padding: 5px 20px;
+    text-align: center;
+    border: 1px solid #000;
+  }
+  ```
+  :::
+  ::: details Click me to view the code js
+  ```js
+  var books = [
+    {
+      id: 1,
+      name: '《算法导论》',
+      date: '2006-09',
+      price: 85.00,
+      count: 3
+    },
+    {
+      id: 2,
+      name: '《UNIX编程艺术》',
+      date: '2006-02',
+      price: 59.00,
+      count: 2
+    },
+    {
+      id: 3,
+      name: '《编程珠玑》',
+      date: '2008-10',
+      price: 39.00,
+      count: 5
+    },
+    {
+      id: 4,
+      name: '《代码大全》',
+      date: '2006-03',
+      price: 128.00,
+      count: 8
+    }
+  ]
+  // 1.获取元素
+  var tbodyEl = document.querySelector("tbody")
+  var priceEl = document.querySelector(".price-count")
+
+  // 2.循环动态创建表格
+  for (var i = 0; i < books.length; i++) {
+    // 2.1 创建tr元素
+    var rowEl = document.createElement("tr")
+
+    var book = books[i] // {...}
+
+    for (var j in book) {
+      // 创建td元素
+      var cellEl = document.createElement("td")
+
+      var value = book[j]
+
+      if (j === "price") {
+        value = "¥" + value
+      }
+
+      // 设置td元素内容
+      cellEl.textContent = value
+
+      // 插入到tr中
+      rowEl.append(cellEl)
+    }
+
+    // 创建删除按钮的td元素
+    var deleteCell = document.createElement("td")
+    // 创建删除按钮的button元素
+    var deleteEl = document.createElement("button")
+
+    // 设置删除按钮的内容
+    deleteEl.textContent = "删除"
+
+    // 删除按钮button插入删除按钮的td
+    deleteCell.append(deleteEl)
+
+    // 删除按钮的td插入到tr
+    rowEl.append(deleteCell)
+
+    // 监听删除按钮的点击
+    deleteEl.onclick = function (event) {
+      // 当前行
+      var currentCell = event.target.parentElement.parentElement
+      // 当前行的索引
+      var currentIndex = currentCell.sectionRowIndex
+
+      // 删除tr
+      currentCell.remove()
+
+      // 删除books中的数据
+      books.splice(currentIndex, 1)
+
+      // 重新计算总价格
+      totalPrice()
+    }
+
+    // 计算总价格
+    totalPrice()
+
+
+    // 定义计算总价格函数
+    function totalPrice() {
+      var total = 0
+
+      // 计算总和方法:
+      // 🚚 for 循环
+      // for (var i = 0; i < books.length; i++) {
+      // total += books[i].price * books[i].count
+      // }
+
+      // ✈️  arr.reduce
+      total = books.reduce(function(preValue, item) {
+        return preValue + item.price * item.count
+      }, 0)
+
+      priceEl.textContent = total
+    }
+
+
+    // 2. 插入到tbodyEl中
+    tbodyEl.append(rowEl)
+  }
+  ```
+  :::

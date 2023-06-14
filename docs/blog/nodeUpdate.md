@@ -22,7 +22,7 @@ layout: doc
 
 ## 5. 玉豆节点(已更新)
 
-  http://yy.yudou66.top/202306/2023.6.13Clas2ash.yaml
+  http://yy.yudou66.top/202306/2023.6.14ClasSSRh.yaml
   
 ## 6. yu科技(已更新)
 
