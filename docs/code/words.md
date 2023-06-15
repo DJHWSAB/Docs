@@ -45,8 +45,7 @@ layout: doc
   19. navbar 导航栏
 
   20. topbar 顶部栏
-
-  21. banner(PC) / swiper(移动端、小程序)	轮播图
+  
   ```
   :::
 
@@ -111,6 +110,8 @@ layout: doc
   28. overflow 超出
 
   29. cover 覆盖/遮盖
+
+  30. wrapper 版心
   ```
   :::
 
@@ -344,7 +345,7 @@ layout: doc
   
   4. menu 菜单
   
-  5. banner 横幅广告
+  5. banner (PC) / swiper(移动端、小程序)	轮播图
   
   6. main 主要
   
