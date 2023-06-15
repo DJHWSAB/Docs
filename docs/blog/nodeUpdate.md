@@ -9,7 +9,7 @@ layout: doc
 
 ## 2. 阿伟科技(已更新)
 
-  https://www.lanzoub.com/iiYIW0z3sgpi 密码: 888
+  https://www.lanzoub.com/b0bu236le 密码:107
 
 ## 3. 节点日记(已更新)
 
