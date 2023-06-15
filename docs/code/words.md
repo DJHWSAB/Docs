@@ -2,7 +2,7 @@
 layout: doc
 ---
 
-# 185个前端高频词
+# 188个前端高频词
 
 ## 1. HTML
 
@@ -45,6 +45,12 @@ layout: doc
   19. navbar 导航栏
 
   20. topbar 顶部栏
+
+  21. operation 操作
+
+  22. discount 折扣/优惠
+
+  23. sort 排序
   
   ```
   :::
