@@ -2,7 +2,7 @@
 layout: doc
 ---
 
-# 188个前端高频词
+# 190个前端高频词
 
 ## 1. HTML
 
@@ -118,6 +118,10 @@ layout: doc
   29. cover 覆盖/遮盖
 
   30. wrapper 版心
+
+  31. describe 描述
+
+  32. service 服务
   ```
   :::
 
