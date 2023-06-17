@@ -9,7 +9,7 @@ layout: doc
 
 ## 2. 阿伟科技(已更新)
 
-  https://www.lanzoub.com/b0bu236le 密码:107
+  https://wwhb.lanzouw.com/b0bu277mf 密码:810
 
 ## 3. 节点日记(已更新)
 
@@ -21,7 +21,7 @@ layout: doc
 
 ## 5. 玉豆节点(已更新)
 
-  http://yy.yudou66.top/202306/2023.6.16ClasDD33h.yaml
+  http://yy.yudou66.top/202306/2023.6.17ClasFFTh.yaml
   
 ## 6. yu科技(已更新)
 
