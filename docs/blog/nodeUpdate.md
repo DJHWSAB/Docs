@@ -5,7 +5,7 @@ layout: doc
 
 ## 1. 知风(已更新)
 
-  https://suo.yt/VGFTJ5T
+  https://suo.yt/zui76ud
 
 ## 2. 阿伟科技(已更新)
 
@@ -13,7 +13,7 @@ layout: doc
 
 ## 3. 节点日记(已更新)
 
-  https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/5/15c
+  https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/5/c16
 
 ## 4. 由零开始(已更新)
 
