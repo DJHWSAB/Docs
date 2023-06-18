@@ -111,6 +111,9 @@ layout: doc
 
   ![vscode](/vscode_30.png)
 
+  14. Code Runner
+
+  ![vscode](/vscode_31.png)
 
 
 ## 4. 配置
@@ -377,3 +380,22 @@ layout: doc
   ![vscode](/vscode_27.png)
 
   4. 最后重启vscode就好啦~
+
+### 7.3 Code Runner 上的“运行”按钮时，出现错误“未找到命令‘code-runner.run’ ”
+
+  1. 卸载 CodeRunner 插件
+
+  2. 删除 Code Runner 配置文件和文件夹
+
+  3. mac 打开extensions
+  ```shell
+  ~/.vscode
+  open extensions
+  ```
+  ![vscode](/vscode_32.png)
+
+  4. win 打开extensions
+  ```shell
+  cd ~/.vscode
+  start extensions
+  ```
