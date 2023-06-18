@@ -58,3 +58,5 @@ layout: doc
   12. 重命名: F2
 
   13. 显示/隐藏程序: win + d
+
+  14. 打开xx文件: start xx
