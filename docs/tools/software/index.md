@@ -392,6 +392,7 @@ layout: doc
   ~/.vscode
   open extensions
   ```
+  
   ![vscode](/vscode_32.png)
 
   4. win 打开extensions
@@ -399,3 +400,5 @@ layout: doc
   cd ~/.vscode
   start extensions
   ```
+
+  ![vscode](/vscode_33.png)
