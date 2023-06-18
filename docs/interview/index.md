@@ -1858,9 +1858,40 @@ layout: doc
       priceEl.textContent = total
     }
 
-
     // 2. 插入到tbodyEl中
     tbodyEl.append(rowEl)
+
   }
+  ```
+  :::
+
+## 20. 商品过滤的算法
+  
+  ![interview](/interview_js_16.png)
+  
+  ::: details Click me to view the code js
+  ```js
+  var infos = [
+    { name: "ccb", friends: ["abc", "cba"] },
+    { name: "kobe", friends: ["nba", "cba"] },
+    { name: "james", friends: ["nba", "cba", "abc"] }
+  ]
+
+  var filters = ["abc", "cba"]
+
+  var filterInfos = infos.filter(function(item) {
+    var isFlag = true
+    var friends = item.friends
+
+    for (var filterItemEl of filters) {
+      if (!friends.includes(filterItemEl)) {
+        isFlag = false
+        break
+      }
+    }
+    return isFlag
+  })
+
+  console.log(filterInfos)
   ```
   :::
