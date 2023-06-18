@@ -1895,3 +1895,124 @@ layout: doc
   console.log(filterInfos)
   ```
   :::
+
+## 21. 颜色过滤的算法
+
+  ![interview](/interview_js_17.png)
+
+  ::: details Click me to view the code html
+  ```html
+  <div class="box">
+    <button>red</button>
+    <button>yellow</button>
+    <button>blue</button>
+  </div>
+
+  <ul></ul>
+  ```
+  :::
+
+  ::: details Click me to view the code css
+  ```css
+  .box button {
+    /* 鼠标小手 */
+    cursor: pointer;
+  }
+
+  .box button.active {
+    color: #f00;
+  }
+  ```
+  :::
+
+  ::: details Click me to view the code js
+  ```js
+  // 1.默认大量的数据
+  var students = [
+    { name: "小明", colors: ["red", "blue", "green"] },
+    { name: "小王", colors: ["orange", "yellow", "red"] },
+    { name: "小龙", colors: ["purple", "yellow", "black"] },
+    { name: "小李", colors: ["red", "orange", "blue"] }
+  ]
+
+  // 2.点击按钮,按钮变成选中状态
+  var boxEl = document.querySelector(".box")
+
+  // 3.定义变量
+  var filters = [] // 记录用户选中的颜色
+  var filterStudents = students // 筛选后的数据
+
+  // 4.点击按钮慢变成选中状态
+  boxEl.onclick = function (event) {
+    if (event.target === this) return
+
+    // 切换active
+    event.target.classList.toggle("active")
+
+    // 修改filters
+    if (event.target.classList.contains("active")) {
+      filters.push(event.target.textContent.trim())
+    } else {
+      var filterItem = event.target.textContent.trim()
+      var index = filters.findIndex(function (item) {
+        return item === filterItem
+      })
+      filters.splice(index, 1)
+    }
+
+    // 过滤数据
+    filterStudentsAction()
+  }
+
+  // 封装函数: 过滤数据
+  function filterStudentsAction() {
+    // ✈️ 方法一: filter
+    // filterStudents = students.filter(function (item) {
+    //   var isFlag = true
+    //   var colors = item.colors
+    //   for (var itemEl of filters) {
+    //     if (!colors.includes(itemEl)) {
+    //       isFlag = false
+    //       break
+    //     }
+    //   }
+    //   return isFlag
+    // })
+
+    // 🚚 方法二: for...of
+    filterStudents = []
+    for (var stu of students) {
+      var colors = stu.colors
+      var isFlag = true
+      for (var itemEl of filters) {
+        if (!colors.includes(itemEl)) {
+          isFlag = false
+          break
+        }
+      }
+      if (isFlag === true) {
+        filterStudents.push(stu)
+      }
+    }
+
+    // 展示数据
+    showStudentsAction()
+  }
+
+  // 封装函数: 展示数据
+  var ulEl = document.querySelector("ul")
+  showStudentsAction()
+  function showStudentsAction() {
+    ulEl.innerHTML = ""
+    for (var i = 0; i < filterStudents.length; i++) {
+      var liEl = document.createElement("li")
+      liEl.textContent = filterStudents[i].name
+      ulEl.append(liEl)
+    }
+  }
+  ```
+  :::
+
+
+
+  
