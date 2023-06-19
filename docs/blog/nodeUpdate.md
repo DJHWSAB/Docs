@@ -20,10 +20,10 @@ layout: doc
 
   https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/5/18c
 
-## 5. 玉豆节点(未更新)
+## 5. 玉豆节点(已更新)
 
   http://yy.yudou66.top/202306/2023.6.18Cldd33ash.yaml
   
 ## 6. yu科技(已更新)
 
-  https://www.lanzoub.com/iA8BT0zf7hmh 密码: 255
+  https://www.lanzoub.com/ilp0E0zhx87g 密码: 744
