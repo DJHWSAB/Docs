@@ -9,7 +9,7 @@ https://suo.yt/cLfRcXO
 
 ## 2. 阿伟科技(已更新)
 
-  https://www.lanzoub.com/b0bu2f1af 密码:617
+  https://www.lanzoub.com/b0bu2jeli 密码: 158
 
 ## 3. 节点日记(已更新)
 
