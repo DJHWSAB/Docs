@@ -5,7 +5,7 @@ layout: doc
 
 ## 1. 知风(已更新)
 
-https://suo.yt/cLfRcXO
+https://suo.yt/XRJSlgC
 
 ## 2. 阿伟科技(已更新)
 
@@ -17,12 +17,12 @@ https://suo.yt/cLfRcXO
 
 ## 4. 由零开始(已更新)
 
-https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/5/19c
+https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/5/c20
 
 ## 5. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202306/2023.6.19ClashD.yaml
+http://yy.yudou66.top/202306/2023.6.20ClasSS3h.yaml
   
 ## 6. yu科技(已更新)
 
-  https://www.lanzoub.com/ilp0E0zhx87g 密码: 744
+https://www.lanzoub.com/iBti30zkk1re 密码: 666
