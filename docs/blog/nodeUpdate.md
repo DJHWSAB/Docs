@@ -13,7 +13,7 @@ https://suo.yt/XRJSlgC
 
 ## 3. 节点日记(已更新)
 
-  https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/5/18c
+  https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/5/c20
 
 ## 4. 由零开始(已更新)
 
