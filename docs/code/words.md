@@ -2,7 +2,7 @@
 layout: doc
 ---
 
-# 190个前端高频词
+# 191个前端高频词
 
 ## 1. HTML
 
@@ -122,6 +122,8 @@ layout: doc
   31. describe 描述
 
   32. service 服务
+
+  33. empty 空的
   ```
   :::
 
