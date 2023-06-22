@@ -191,7 +191,7 @@ layout: doc
 
   30. siblings 兄弟
 
-  31. previous 上一个
+  31. previous(prev) 上一个
 
   32. current 当前
 
