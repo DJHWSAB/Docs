@@ -2,7 +2,7 @@
 layout: doc
 ---
 
-# 191个前端高频词
+# 192个前端高频词
 
 ## 1. HTML
 
@@ -412,5 +412,7 @@ layout: doc
   31. warn 警告
 
   32. score 分数
+
+  33. indicator 指示器
   ```
   :::
