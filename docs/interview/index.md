@@ -4483,7 +4483,11 @@ layout: doc
 
   ::: details Click me to view the code css
   ```css
-
+  .banner .images .item {
+    ...
+    /* 添加过渡动画 */
+    transition: opacity 500ms ease;
+  }
   ```
   :::
 
@@ -4565,3 +4569,113 @@ layout: doc
   :::
 
   `👆🏻方法 推荐使用第二种方法`
+
+### 4. 鼠标移动到banner上清除定时器
+
+  ::: details Click me to view the code js
+  ```js
+  ...
+
+  // 2.定义变量
+  ...
+  var timeID = null // 定时器
+
+  ...
+
+  // 4.自动轮播(开启定时器)
+  startTime()
+
+  // 5.鼠标移动到banner上清除定时器
+  bannerEl.onmouseenter = function () {
+    // 清除定时器
+    stopTime()
+  }
+
+  // 6.鼠标离开banner开启定时器
+  bannerEl.onmouseleave = function () {
+    //开启定时器
+    startTime()
+  }
+
+  ...
+
+  // 封装函数: 开启定时器
+  function startTime() {
+    if (timeID) return
+    timeID = setInterval(function () {
+      previousIndex = currentIndex
+      currentIndex++
+      if (currentIndex === bannersCount) currentIndex = 0
+
+      // 切换轮播图
+      switchBanner()
+    }, 3000)
+  }
+
+  // 封装函数: 清除定时器
+  function stopTime() {
+    if (!timeID) return
+    clearInterval(timeID)
+    timeID = null // 清除定时器之后, 必须timeID赋值为null
+  }
+  ```
+  :::
+
+### 5. 指示器(小圆点)的点击
+
+  ::: details Click me to view the code js
+  ::: code-group
+  ```js
+  ...
+
+  // 3.2 动态添加指示器(小圆点)内容
+  for (var i = 0; i < bannersCount; i++) {
+    ...
+
+    // 监听指示器(小圆点)的点击
+    // 🚚 方法一
+    // 获取索引
+    itemEl.index = i
+    itemEl.onclick = function() {
+      previousIndex = currentIndex
+      currentIndex = this.index
+      // 切换轮播图
+      switchBanner()
+    }
+  }
+  ...
+  ```
+  ```js
+  // 7.监听指示器(小圆点)的点击
+  indicatorEl.onclick = function (event) {
+    if (event.target === this) return
+    currentInItemEl = event.target
+
+    // 获取索引
+    // 🚚 方法一: for
+    // for (var i = 0; i < indicatorEl.children.length; i++) {
+    //   var itemEl = indicatorEl.children[i]
+    //   if (itemEl === currentInItemEl) {
+    //     var index = i
+    //     break
+    //   }
+    // }
+
+    // 🚚 方法二: indexOf
+    // var index = Array.from(this.children).indexOf(currentInItemEl)
+
+    // 🚚 方法一: findIndex
+    var index = Array.from(this.children).findIndex(function (item) {
+      return item === currentInItemEl
+    })
+
+    previousIndex = currentIndex
+    currentIndex = index
+
+    // 切换轮播图
+    switchBanner()
+  }
+  ```
+  :::
+
+  `👆🏻方法 推荐使用第一种方法`
