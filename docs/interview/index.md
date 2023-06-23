@@ -2550,10 +2550,7 @@ layout: doc
   ```
   :::
 
-  :::
-  :::
-
-### 2. 动态商品列表
+### 2. 动态展示数据
 
   ::: details Click me to view the code html
   ```html
@@ -3606,7 +3603,6 @@ layout: doc
     `
   }
   ```
-  :::
   :::
 
 ### 3. 服务优惠的筛选
