@@ -4013,3 +4013,237 @@ layout: doc
   </html>
   ```
   :::
+
+
+## 23. 华为商城的轮播图
+
+  ![interview](/interview_js_19.png)
+
+
+### 1. 界面搭建
+
+  ::: details Click me to view the code html
+  ```html
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VM-Banner</title>
+    <!-- 样式重置 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- 站点图标 -->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <!-- banner -->
+    <link rel="stylesheet" href="./css/banner.css">
+  </head>
+  <body>
+    <div class="banner">
+      <!-- 1.图片 -->
+      <ul class="images">
+        <li class="item active">
+          <a href="#">
+            <img src="./img/banner_01.webp" alt="">
+          </a>
+        </li>
+        <li class="item">
+          <a href="#">
+            <img src="./img/banner_02.webp" alt="">
+          </a>
+        </li>
+        <li class="item">
+          <a href="#">
+            <img src="./img/banner_03.webp" alt="">
+          </a>
+        </li>
+        <li class="item">
+          <a href="#">
+            <img src="./img/banner_04.webp" alt="">
+          </a>
+        </li>
+        <li class="item">
+          <a href="#">
+            <img src="./img/banner_05.webp" alt="">
+          </a>
+        </li>
+        <li class="item">
+          <a href="#">
+            <img src="./img/banner_06.webp" alt="">
+          </a>
+        </li>
+        <li class="item">
+          <a href="#">
+            <img src="./img/banner_07.webp" alt="">
+          </a>
+        </li>
+        <li class="item">
+          <a href="#">
+            <img src="./img/banner_08.webp" alt="">
+          </a>
+        </li>
+        
+      </ul>
+      
+      <!-- 2.左右按钮 -->
+      <div class="control prev"></div>
+      <div class="control next"></div>
+
+      <!-- 3.指示器(小圆点) -->
+      <div class="indicator">
+        <div class="item active"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+      </div>
+    </div>
+  </body>
+  </html>
+  ```
+  :::
+
+  ::: details Click me to view the code css
+  ```css
+  /* 这里存放的是样式重置 */
+  html,
+  body,
+  div,
+  ul,
+  li,
+  a,
+  img {
+    /* 去除默认样式 */
+    margin: 0;
+    padding: 0;
+  }
+
+  ul,
+  li {
+    /* 去除小圆点 */
+    list-style: none;
+  }
+
+  a {
+    /* 去除下划线 */
+    text-decoration: none;
+    /* 不要外轮廓 */
+    outline: none;
+  }
+
+  img {
+    vertical-align: top;
+  }
+  ```
+  :::
+
+  ::: details Click me to view the code css
+  ```css
+  /* 这里存放的是轮播图样式 */
+  .banner {
+    position: relative;
+  }
+
+  /* 1.图片 */
+  .banner .images {
+    position: relative;
+    height: 550px;
+  }
+
+  .banner .images .item {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    opacity: 0;
+  }
+
+  .banner .images .item.active {
+    opacity: 1;
+  }
+
+  .banner .images .item a {
+    /* 必须是block,默认独占一行,宽度为100% */
+    display: block;
+  }
+
+  .banner .images .item a img {
+    /* 🚚 图片居中且等比例缩放 */
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 1440px;
+    height: 550px;
+  }
+
+  /* 2.左右按钮 */
+  .banner .control {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 41px;
+    height: 69px;
+    background: url(../img/spirit_bg.png) no-repeat;
+    /* 鼠标小手 */
+    cursor: pointer;
+    /* 默认隐藏 */
+    opacity: 0;
+  }
+
+  .banner:hover .control {
+    opacity: 1;
+  }
+
+  .banner .control.prev {
+    /* 🚚 1440 - 1200 + 200 = 440px */
+    left: 440px;
+    background-position: -84px 50%;
+  }
+
+  .banner .control.prev:hover {
+    background-position: 0 50%;
+  }
+
+  .banner .control.next {
+    right: 440px;
+    background-position: -125px 50%;
+  }
+
+  .banner .control.next:hover {
+    background-position: -42px 50%;
+  }
+
+  /* 3.指示器(小圆点) */
+  .banner .indicator {
+    position: absolute;
+    left: 50%;
+    bottom: 24px;
+    transform: translate(-50%, 0);
+    height: 32px;
+    display: flex;
+    /* 垂直居中 */
+    align-items: center;
+    /* 水平居中 */
+    justify-content: space-between;
+  }
+
+  .banner .indicator .item {
+    width: 8px;
+    height: 8px;
+    margin: 0 6px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    /* 鼠标小手 */
+    cursor: pointer;
+  }
+
+  .banner .indicator .item.active {
+    width: 12px;
+    background-color: #fff;
+  }
+  ```
+  :::
