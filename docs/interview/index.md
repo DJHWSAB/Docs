@@ -5458,3 +5458,94 @@ function nextSwitch() {
   }
   ```
   :::
+
+## 25. 华为商城的轮播图(无限轮播图)
+
+  ![interview](/interview_js_19.png)
+
+  > **https://djhwsab.github.io/VM-Banner/**
+
+### 无限滚动
+
+  ::: details Click me to view the code js
+  ```js
+  // 8.无限轮播图
+  var firstItemEl = imagesEl.children[0].cloneNode(true)
+  var lastItemEl = imagesEl.children[bannersCount - 1].cloneNode(true)
+  imagesEl.append(firstItemEl)
+  imagesEl.prepend(lastItemEl)
+  // 位置调整
+  firstItemEl.style.left = `${bannersCount * 100}%`
+  lastItemEl.style.left = "-100%"
+
+  ...
+
+  // 对功能封装的函数
+  // 封装函数: 切换轮播图
+  function switchBanner() {
+    // 1.切换整个imagesEl的transform
+    ....
+
+    if (currentIndex === bannersCount) {
+      currentIndex = 0
+
+      setTimeout(function () {
+        // imagesEl.style.transform = "translateX(0)"
+        // 等价于👆🏻注释代码
+        imagesEl.style.transform = `translateX(${-currentIndex * 100}%)`
+        imagesEl.style.transition = "none"
+      }, animationDuration)
+    } else if (currentIndex === -1) {
+      currentIndex = bannersCount - 1
+
+    setTimeout(function () {
+        // imagesEl.style.transform = `translateX(${-(bannersCount - 1) * 100}%)`
+        // 等价于👆🏻注释代码
+        imagesEl.style.transform = `translateX(${-currentIndex * 100}%)`
+        imagesEl.style.transition = "none"
+      }, animationDuration)
+    }
+
+    // 2.切换指示器(小圆点)的item
+    ...
+  }
+  ```
+  :::
+
+  > **代码重构**
+
+  ::: details Click me to view the code js
+  ```js
+  ...
+   // 封装函数: 切换轮播图
+  function switchBanner() {
+    // 1.图片自动轮播
+    ...
+
+    if (currentIndex === bannersCount) {
+      currentIndex = 0
+      // 修正位移的位置
+      fixBannerPosition()
+    } else if (currentIndex === -1) {
+      currentIndex = bannersCount - 1
+      // 修正位移的位置
+      fixBannerPosition()
+    }
+
+    // 2.指示器(小圆点)轮播
+    ...
+  }
+
+  ...
+
+  // 封装函数: 修正位移的位置
+  function fixBannerPosition() {
+    setTimeout(function () {
+      imagesEl.style.transform = `translateX(${-currentIndex * 100}%)`
+      imagesEl.style.transition = "none"
+    }, animationDuration)
+  }
+
+  ...
+  ```
+  :::
