@@ -4679,3 +4679,112 @@ layout: doc
   :::
 
   `👆🏻方法 推荐使用第一种方法`
+
+### 6. 左右按钮的点击
+
+  ::: details Click me to view the code js
+  ```js
+  // 1.获取元素
+  ...
+  var prevBtnEl = bannerEl.querySelector(".prev")
+  var nextBtnEl = bannerEl.querySelector(".next")
+
+  ...
+
+  // 6.上下按钮的点击切换
+  prevBtnEl.onclick = function () {
+    // 找到上一个
+    previousIndex = currentIndex
+    currentIndex--
+    if (currentIndex === -1) currentIndex = bannersCount - 1
+
+    // 切换轮播图
+    switchBanner()
+  }
+
+  nextBtnEl.onclick = function () {
+    // 找到下一个
+    previousIndex = currentIndex
+    currentIndex++
+    if (currentIndex === bannersCount) currentIndex = 0
+
+    // 切换轮播图
+    switchBanner()
+  }
+  ```
+  :::
+
+  > `代码重构`
+
+  ::: details Click me to view the code js
+  ```js
+  ...
+
+  // 简洁写法: nextBtnEl.onclick = nextSwitch 不推荐 阅读性太差 🔥
+  nextBtnEl.onclick = function () {
+    // 切换下一个
+    nextSwitch()
+  }
+
+  ...
+
+  // 封装函数: 开启定时器
+  function startTime() {
+    if (timeID) return
+    // 简洁写法: timeID = setInterval(nextSwitch,3000) 不推荐 阅读性太差 🔥
+    timeID = setInterval(function () {
+      // 切换下一个
+      nextSwitch()
+    }, 3000)
+  }
+
+  // 封装函数: 播放下一个
+  function nextSwitch() {
+    // 找到下一个
+    previousIndex = currentIndex
+    currentIndex++
+    if (currentIndex === bannersCount) currentIndex = 0
+
+    // 切换轮播图
+    switchBanner()
+  }
+
+...
+
+// 封装函数: 开启定时器
+function startTime() {
+  if (timeID) return
+  // 简洁写法: timeID = setInterval(nextSwitch,3000) 不推荐 阅读性太差 🔥
+  timeID = setInterval(function () {
+    // 切换下一个
+    nextSwitch()
+  }, 3000)
+}
+
+// 封装函数: 播放下一个
+function nextSwitch() {
+  // 找到下一个
+  previousIndex = currentIndex
+  currentIndex++
+  if (currentIndex === bannersCount) currentIndex = 0
+
+  // 切换轮播图
+  switchBanner()
+}
+  ```
+  :::
+
+### 7. 离开浏览器窗口时,清除定时器
+
+  ```js
+  // window的焦点(离开浏览器窗口时,清除定时器)
+  document.onvisibilitychange = function () {
+    // 如果离开当前浏览器页面,清除定时器; 如果在当前浏览器页面,开启定时器; 
+    if (this.visibilityState === "hidden") {
+      stopTime()
+    } else if (this.visibilityState === "visible") {
+      startTime()
+    }
+  }
+  ```
+  :::
