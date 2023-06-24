@@ -4019,7 +4019,7 @@ layout: doc
 
   ![interview](/interview_js_19.png)
 
-  > **https://djhwsab.github.io/products_Filters/**
+  > **https://djhwsab.github.io/VM_Banner_opatity/**
 
 ### 1. 界面搭建
 
@@ -4777,6 +4777,7 @@ function nextSwitch() {
 
 ### 7. 离开浏览器窗口时,清除定时器
 
+  ::: details Click me to view the code js
   ```js
   // window的焦点(离开浏览器窗口时,清除定时器)
   document.onvisibilitychange = function () {
