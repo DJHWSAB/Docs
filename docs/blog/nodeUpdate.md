@@ -3,9 +3,9 @@ layout: doc
 ---
 # 节点更新
 
-## 1. 知风(未更新)
+## 1. 知风(已更新)
 
-https://suo.yt/inBmT4p
+https://suo.yt/axIlBW2
 
 ## 2. 阿伟科技(未更新)
 
@@ -23,6 +23,6 @@ https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/6/24c
 
 http://yy.yudou66.top/202306/2023.6.24Clasfyhh.yaml
   
-## 6. yu科技(未更新)
+## 6. yu科技(已更新)
 
-https://www.lanzoub.com/i5SYh0zskrgh 密码: 623
+https://www.lanzoub.com/iIG9S0zxm0hi 密码: 22
