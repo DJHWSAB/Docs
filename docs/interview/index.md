@@ -4015,7 +4015,7 @@ layout: doc
   :::
 
 
-## 23. 华为商城的轮播图
+## 23. 华为商城的轮播图(opacity)
 
   ![interview](/interview_js_19.png)
 
@@ -4047,42 +4047,7 @@ layout: doc
             <img src="./img/banner_01.webp" alt="">
           </a>
         </li>
-        <li class="item">
-          <a href="#">
-            <img src="./img/banner_02.webp" alt="">
-          </a>
-        </li>
-        <li class="item">
-          <a href="#">
-            <img src="./img/banner_03.webp" alt="">
-          </a>
-        </li>
-        <li class="item">
-          <a href="#">
-            <img src="./img/banner_04.webp" alt="">
-          </a>
-        </li>
-        <li class="item">
-          <a href="#">
-            <img src="./img/banner_05.webp" alt="">
-          </a>
-        </li>
-        <li class="item">
-          <a href="#">
-            <img src="./img/banner_06.webp" alt="">
-          </a>
-        </li>
-        <li class="item">
-          <a href="#">
-            <img src="./img/banner_07.webp" alt="">
-          </a>
-        </li>
-        <li class="item">
-          <a href="#">
-            <img src="./img/banner_08.webp" alt="">
-          </a>
-        </li>
-        
+        ...
       </ul>
       
       <!-- 2.左右按钮 -->
@@ -4092,13 +4057,7 @@ layout: doc
       <!-- 3.指示器(小圆点) -->
       <div class="indicator">
         <div class="item active"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
+        ...
       </div>
     </div>
   </body>
@@ -4650,7 +4609,716 @@ layout: doc
   // 7.监听指示器(小圆点)的点击
   indicatorEl.onclick = function (event) {
     if (event.target === this) return
-    currentInItemEl = event.target
+    var currentInItemEl = event.target
+
+    // 获取索引
+    // 🚚 方法一: for
+    // for (var i = 0; i < indicatorEl.children.length; i++) {
+    //   var itemEl = indicatorEl.children[i]
+    //   if (itemEl === currentInItemEl) {
+    //     var index = i
+    //     break
+    //   }
+    // }
+
+    // 🚚 方法二: indexOf
+    // var index = Array.from(this.children).indexOf(currentInItemEl)
+
+    // 🚚 方法一: findIndex
+    var index = Array.from(this.children).findIndex(function (item) {
+      return item === currentInItemEl
+    })
+
+    previousIndex = currentIndex
+    currentIndex = index
+
+    // 切换轮播图
+    switchBanner()
+  }
+  ```
+  :::
+
+  `👆🏻方法 推荐使用第一种方法`
+
+### 6. 左右按钮的点击
+
+  ::: details Click me to view the code js
+  ```js
+  // 1.获取元素
+  ...
+  var prevBtnEl = bannerEl.querySelector(".prev")
+  var nextBtnEl = bannerEl.querySelector(".next")
+
+  ...
+
+  // 6.上下按钮的点击切换
+  prevBtnEl.onclick = function () {
+    // 找到上一个
+    previousIndex = currentIndex
+    currentIndex--
+    if (currentIndex === -1) currentIndex = bannersCount - 1
+
+    // 切换轮播图
+    switchBanner()
+  }
+
+  nextBtnEl.onclick = function () {
+    // 找到下一个
+    previousIndex = currentIndex
+    currentIndex++
+    if (currentIndex === bannersCount) currentIndex = 0
+
+    // 切换轮播图
+    switchBanner()
+  }
+  ```
+  :::
+
+  > `代码重构`
+
+  ::: details Click me to view the code js
+  ```js
+  ...
+
+  // 简洁写法: nextBtnEl.onclick = nextSwitch 不推荐 阅读性太差 🔥
+  nextBtnEl.onclick = function () {
+    // 切换下一个
+    nextSwitch()
+  }
+
+  ...
+
+  // 封装函数: 开启定时器
+  function startTime() {
+    if (timeID) return
+    // 简洁写法: timeID = setInterval(nextSwitch,3000) 不推荐 阅读性太差 🔥
+    timeID = setInterval(function () {
+      // 切换下一个
+      nextSwitch()
+    }, 3000)
+  }
+
+  // 封装函数: 播放下一个
+  function nextSwitch() {
+    // 找到下一个
+    previousIndex = currentIndex
+    currentIndex++
+    if (currentIndex === bannersCount) currentIndex = 0
+
+    // 切换轮播图
+    switchBanner()
+  }
+
+...
+
+// 封装函数: 开启定时器
+function startTime() {
+  if (timeID) return
+  // 简洁写法: timeID = setInterval(nextSwitch,3000) 不推荐 阅读性太差 🔥
+  timeID = setInterval(function () {
+    // 切换下一个
+    nextSwitch()
+  }, 3000)
+}
+
+// 封装函数: 播放下一个
+function nextSwitch() {
+  // 找到下一个
+  previousIndex = currentIndex
+  currentIndex++
+  if (currentIndex === bannersCount) currentIndex = 0
+
+  // 切换轮播图
+  switchBanner()
+}
+  ```
+  :::
+
+### 7. 离开浏览器窗口时,清除定时器
+
+  ::: details Click me to view the code js
+  ```js
+  // window的焦点(离开浏览器窗口时,清除定时器)
+  document.onvisibilitychange = function () {
+    // 如果离开当前浏览器页面,清除定时器; 如果在当前浏览器页面,开启定时器; 
+    if (this.visibilityState === "hidden") {
+      stopTime()
+    } else if (this.visibilityState === "visible") {
+      startTime()
+    }
+  }
+  ```
+  :::
+
+## 24. 华为商城的轮播图(transform: translateX())
+
+  ![interview](/interview_js_19.png)
+
+  > **https://djhwsab.github.io/VM_Banner_transform/**
+
+### 1. 界面搭建
+
+  ::: details Click me to view the code html
+  ```html
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 站点图标 -->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <!-- 样式重置 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- banner -->
+    <link rel="stylesheet" href="./css/banner.css">
+  </head>
+
+  <body>
+    <div class="banner">
+      <!-- 1.图片 -->
+      <ul class="images">
+        <li class="item">
+          <a href="#">
+            <img src="./img/banner_01.webp" alt="">
+          </a>
+        </li>
+        ...
+      </ul>
+
+      <!-- 2.左右按钮 -->
+      <div class="control prev"></div>
+      <div class="control next"></div>
+
+      <!-- 3.指示器(小圆点) -->
+      <div class="indicator">
+        <div class="item active"></div>
+      </div>
+    </div>
+
+  </body>
+
+  </html>
+  ```
+  :::
+
+  ::: details Click me to view the code css
+  ```css
+  /* 这里存放的是样式重置 */
+  html,body,div,ul,li,a,img {
+    margin: 0;
+    padding: 0;
+  }
+
+  ul,li {
+    /* 去除小圆点 */
+    list-style: none;
+  }
+
+  a {
+    /* 去除下划线 */
+    text-decoration: none;
+    /* 不要外轮廓 */
+    outline: none;
+  }
+
+  img {
+    /* 顶部基线对齐 */
+    vertical-align: top;
+  }
+  ```
+  :::
+
+  ::: details Click me to view the code css
+  ```css
+  /* 这是存放的是轮播图的样式 */
+  .banner {
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* 1.图片 */
+  .banner .images {
+    position: relative;
+    height: 550px;
+  }
+
+  .banner .images .item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .banner .images .item a {
+    display: block;
+  }
+
+  .banner .images .item a img {
+    /* 图片水平居中且等比例缩放 */
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 1440px;
+    height: 550px;
+  }
+
+  /* 2.左右按钮 */
+  .banner .control {
+    /* 垂直居中 */
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 41px;
+    height: 69px;
+    background: url(../img/sprite_bg.png) no-repeat;
+    /* 默认隐藏 */
+    opacity: 0;
+    /* 鼠标小手 */
+    cursor: pointer;
+  }
+
+  .banner:hover .control {
+    opacity: 1;
+  }
+
+  .banner .control.prev {
+    /* (1440 - 1200)/2 +200 = 320px */
+    left: 320px;
+    background-position: -84px 50%;
+  }
+
+  .banner .control.prev:hover {
+    background-position: 0 50%;
+  }
+
+  .banner .control.next {
+    right: 320px;
+    background-position: -125px 50%;
+  }
+
+  .banner .control.next:hover {
+    background-position: -42px 50%;
+  }
+
+  /* 3.指示器(小圆点) */
+  .banner .indicator {
+    position: absolute;
+    bottom: 24px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 32px;
+    display: flex;
+    /* 垂直居中 */
+    align-items: center;
+  }
+
+  .banner .indicator .item {
+    width: 8px;
+    height: 8px;
+    margin: 0 6px;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+    /* 鼠标小手 */
+    cursor: pointer;
+  }
+
+  .banner .indicator .item.active {
+    width: 12px;
+    background-color: #fff;
+  }
+  ```
+  :::
+
+  ### 2. 动态数据展示
+
+  ::: details Click me to view the code js
+  ```js
+  // banner_data.js
+  var banners = [
+    {
+      "actionUrlWap": "",
+      "actionUrlWeb": "https://www.vmall.com/portal/activity/index.html?pn=zhuhuichangpc",
+      "actonUrl": "",
+      "bgColor": "#ED2E35",
+      "dataSourceCode": "DB000044",
+      "dataSourceType": "ad",
+      "id": 20533,
+      "imgUrl": "/uomcdn/CN/cms/202202/F1B873739558FB5D1059099F4220ABA4.jpg",
+      "imgWebpUrlMap": {
+        "webp_1": "/uomcdn/CN/cms/202202/F1B873739558FB5D1059099F4220ABA4.jpg.25.webp",
+        "webp_2": "/uomcdn/CN/cms/202202/F1B873739558FB5D1059099F4220ABA4.jpg.50.webp",
+        "webp_3": "/uomcdn/CN/cms/202202/F1B873739558FB5D1059099F4220ABA4.jpg.75.webp",
+        "webp_4": "/uomcdn/CN/cms/202202/F1B873739558FB5D1059099F4220ABA4.jpg.webp"
+      },
+      "tagSelected": "{}",
+      "title": "主"
+    },
+    {
+      "actionUrlWap": "",
+      "actionUrlWeb": "https://www.vmall.com/portal/activity/index.html?pn=huaweizonePC",
+      "actonUrl": "",
+      "bgColor": "#ED2E35",
+      "dataSourceCode": "DB000044",
+      "dataSourceType": "ad",
+      "id": 17691,
+      "imgUrl": "/uomcdn/CN/cms/202202/9B8652362711564FEB2B33793250D8B9.png",
+      "imgWebpUrlMap": {
+        "webp_1": "/uomcdn/CN/cms/202202/9B8652362711564FEB2B33793250D8B9.png.25.webp",
+        "webp_2": "/uomcdn/CN/cms/202202/9B8652362711564FEB2B33793250D8B9.png.50.webp",
+        "webp_3": "/uomcdn/CN/cms/202202/9B8652362711564FEB2B33793250D8B9.png.75.webp",
+        "webp_4": "/uomcdn/CN/cms/202202/9B8652362711564FEB2B33793250D8B9.png.webp"
+      },
+      "tagSelected": "{}",
+      "title": "华为"
+    },
+    {
+      "actionUrlWap": "",
+      "actionUrlWeb": "https://www.vmall.com/portal/activity/index.html?pageId=401022361",
+      "actonUrl": "",
+      "bgColor": "#ED2E35",
+      "dataSourceCode": "DB000044",
+      "dataSourceType": "ad",
+      "id": 839,
+      "imgUrl": "/uomcdn/CN/cms/202202/55338EF54406E2D3D6FAC2BF6C9D231D.png",
+      "imgWebpUrlMap": {
+        "webp_1": "/uomcdn/CN/cms/202202/55338EF54406E2D3D6FAC2BF6C9D231D.png.25.webp",
+        "webp_2": "/uomcdn/CN/cms/202202/55338EF54406E2D3D6FAC2BF6C9D231D.png.50.webp",
+        "webp_3": "/uomcdn/CN/cms/202202/55338EF54406E2D3D6FAC2BF6C9D231D.png.75.webp",
+        "webp_4": "/uomcdn/CN/cms/202202/55338EF54406E2D3D6FAC2BF6C9D231D.png.webp"
+      },
+      "tagSelected": "{}",
+      "title": "教育办公"
+    },
+    {
+      "actionUrlMp": "",
+      "actionUrlWap": "",
+      "actionUrlWeb": "https://www.vmall.com/portal/activity/index.html?pn=harmonyosconnectpc",
+      "actonUrl": "",
+      "bgColor": "#ED2E35",
+      "dataSourceCode": "DB000044",
+      "dataSourceType": "ad",
+      "id": 29135,
+      "imgUrl": "/uomcdn/CN/cms/202202/B53ABB8B90DC11AABDDE6F379FF57866.png",
+      "imgWebpUrlMap": {
+        "webp_1": "/uomcdn/CN/cms/202202/B53ABB8B90DC11AABDDE6F379FF57866.png.25.webp",
+        "webp_2": "/uomcdn/CN/cms/202202/B53ABB8B90DC11AABDDE6F379FF57866.png.50.webp",
+        "webp_3": "/uomcdn/CN/cms/202202/B53ABB8B90DC11AABDDE6F379FF57866.png.75.webp",
+        "webp_4": "/uomcdn/CN/cms/202202/B53ABB8B90DC11AABDDE6F379FF57866.png.webp"
+      },
+      "tagSelected": "{}",
+      "title": "行业"
+    },
+    {
+      "actionUrlWap": "",
+      "actionUrlWeb": "https://www.vmall.com/portal/activity/index.html?pn=zhixuanpc",
+      "actonUrl": "",
+      "bgColor": "#ED2E35",
+      "dataSourceCode": "DB000044",
+      "dataSourceType": "ad",
+      "id": 9059,
+      "imgUrl": "/uomcdn/CN/cms/202202/15550D184131C453A2CED9E443AEDDF8.jpg",
+      "imgWebpUrlMap": {
+        "webp_1": "/uomcdn/CN/cms/202202/15550D184131C453A2CED9E443AEDDF8.jpg.25.webp",
+        "webp_2": "/uomcdn/CN/cms/202202/15550D184131C453A2CED9E443AEDDF8.jpg.50.webp",
+        "webp_3": "/uomcdn/CN/cms/202202/15550D184131C453A2CED9E443AEDDF8.jpg.75.webp",
+        "webp_4": "/uomcdn/CN/cms/202202/15550D184131C453A2CED9E443AEDDF8.jpg.webp"
+      },
+      "tagSelected": "{}",
+      "title": "智选"
+    },
+    {
+      "actionUrlWap": "",
+      "actionUrlWeb": "https://www.vmall.com/portal/activity/index.html?pn=zhcxaitoweb",
+      "actonUrl": "",
+      "bgColor": "#ED2E35",
+      "dataSourceCode": "DB000044",
+      "dataSourceType": "ad",
+      "id": 18893,
+      "imgUrl": "/uomcdn/CN/cms/202201/3E994BF010D07F8CD8E8B445514A06F5.png",
+      "imgWebpUrlMap": {
+        "webp_1": "/uomcdn/CN/cms/202201/3E994BF010D07F8CD8E8B445514A06F5.png.25.webp",
+        "webp_2": "/uomcdn/CN/cms/202201/3E994BF010D07F8CD8E8B445514A06F5.png.50.webp",
+        "webp_3": "/uomcdn/CN/cms/202201/3E994BF010D07F8CD8E8B445514A06F5.png.75.webp",
+        "webp_4": "/uomcdn/CN/cms/202201/3E994BF010D07F8CD8E8B445514A06F5.png.webp"
+      },
+      "tagSelected": "{}",
+      "title": "AITO"
+    },
+    {
+      "actionUrlMp": "",
+      "actionUrlWap": "",
+      "actionUrlWeb": "https://www.vmall.com/portal/activity/index.html?pageId=401021384",
+      "actonUrl": "",
+      "bgColor": "#ED2E35",
+      "dataSourceCode": "DB000044",
+      "dataSourceType": "ad",
+      "id": 29439,
+      "imgUrl": "/uomcdn/CN/cms/202202/B1726D36C05F0486A3D07605F34A4C7D.png",
+      "imgWebpUrlMap": {
+        "webp_1": "/uomcdn/CN/cms/202202/B1726D36C05F0486A3D07605F34A4C7D.png.25.webp",
+        "webp_2": "/uomcdn/CN/cms/202202/B1726D36C05F0486A3D07605F34A4C7D.png.50.webp",
+        "webp_3": "/uomcdn/CN/cms/202202/B1726D36C05F0486A3D07605F34A4C7D.png.75.webp",
+        "webp_4": "/uomcdn/CN/cms/202202/B1726D36C05F0486A3D07605F34A4C7D.png.webp"
+      },
+      "tagSelected": "{}",
+      "title": "智慧办公"
+    },
+    {
+      "actionUrlWap": "",
+      "actionUrlWeb": "https://www.vmall.com/portal/activity/index.html?pageId=301002069",
+      "actonUrl": "",
+      "bgColor": "#ED2E35",
+      "dataSourceCode": "DB000044",
+      "dataSourceType": "ad",
+      "id": 19369,
+      "imgUrl": "/uomcdn/CN/cms/202202/083AA2A10A88835A2BE7A786DC18F85F.jpg",
+      "imgWebpUrlMap": {
+        "webp_1": "/uomcdn/CN/cms/202202/083AA2A10A88835A2BE7A786DC18F85F.jpg.25.webp",
+        "webp_2": "/uomcdn/CN/cms/202202/083AA2A10A88835A2BE7A786DC18F85F.jpg.50.webp",
+        "webp_3": "/uomcdn/CN/cms/202202/083AA2A10A88835A2BE7A786DC18F85F.jpg.75.webp",
+        "webp_4": "/uomcdn/CN/cms/202202/083AA2A10A88835A2BE7A786DC18F85F.jpg.webp"
+      },
+      "tagSelected": "{}",
+      "title": "莫塞尔"
+    }
+  ]
+  ```
+  :::
+
+  ::: details Click me to view the code html
+  ```html
+  <div class="banner">
+    <!-- 1.图片 -->
+    <ul class="images"></ul>
+
+    <!-- 2.左右按钮 -->
+    <div class="control prev"></div>
+    <div class="control next"></div>
+
+    <!-- 3.指示器(小圆点) -->
+    <div class="indicator"></div>
+  </div>
+  ```
+  :::
+
+  ::: details Click me to view the code js
+  ```js
+  <script src="./json/banner_data.js"></script>
+
+  // 0.资源服务器地址
+  var serverURL = "https://res.vmallres.com"
+
+  // 1.获取元素
+  var bannerEl = document.querySelector(".banner")
+  var imagesEl = bannerEl.querySelector(".images")
+  var indicatorEl = bannerEl.querySelector(".indicator")
+
+  // 2.定义变量
+  var bannersCount = banners.length // banners的长度大小
+
+  // 3.根据数据动态添加页面内容
+  // 3.1 动态添加图片相关内容
+  for (var i = 0; i < bannersCount; i++) {
+    // 3.1 获取数据
+    var banner = banners[i]
+
+    // 3.2创建li元素
+    var itemEl = document.createElement("li")
+    itemEl.classList.add("item")
+    imagesEl.append(itemEl)
+
+    // 🚚 方法一: 一个一个创建元素
+
+    // 3.3创建a元素
+    // var aEl = document.createElement("a")
+    // aEl.href = "#"
+    // itemEl.append(aEl)
+
+    // // 3.4创建img元素
+    // var imgEl = document.createElement("img")
+    // imgEl.src = `${serverURL}${banner.imgUrl}`
+    // aEl.append(imgEl)
+
+    // 🚚 方法二: innerHTML
+    itemEl.innerHTML = `
+      <a href="#">
+        <img src = "${serverURL}${banner.imgUrl}">
+      </a>
+    `
+
+    // 设置itemEl的样式(left)
+    itemEl.style.left = `${i * 100}%`
+  }
+
+  // 3.2 动态添加指示器(小圆点)内容
+  for (var i = 0; i < bannersCount; i++) {
+    var itemEl = document.createElement("div")
+    itemEl.classList.add("item")
+    // 默认显示第一张图片
+    if (i === 0) itemEl.classList.add("active")
+    indicatorEl.append(itemEl)
+  }
+  ```
+  :::
+
+### 3. 自动轮播
+
+  ::: details Click me to view the code js
+  ::: code-group
+  ```js
+  ...
+
+  // 2.定义变量
+  ...
+  var currentIndex = 0 // 当前索引
+  var imagesActiveEl = imagesEl.querySelector(".active") // 图片选中
+  var indicatorActiveEl = indicatorEl.querySelector(".active") // 指示器(小圆点)选中
+  ...
+  
+  // 4.自动轮播
+  setInterval(function () {
+    currentIndex++
+    if (currentIndex === bannersCount) currentIndex = 0
+
+    // 切换轮播图
+    switchBanner()
+  }, 3000)
+
+  // 封装函数: 切换轮播图
+  function switchBanner() {
+    // 1.切换图片的item
+    imagesEl.style.transform = `translateX(${-currentIndex * 100}%)`
+    imagesEl.style.transition = "all 1000ms ease"
+
+
+    // 2.切换指示器(小圆点)的item
+    indicatorActiveEl.classList.remove("active")
+    var currentInItemEl = indicatorEl.children[currentIndex]
+    currentInItemEl.classList.add("active")
+    indicatorActiveEl = currentInItemEl
+  }
+  ```
+
+  ```js
+  ...
+
+  // 2.定义变量
+  ...
+  var currentIndex = 0 // 当前索引
+  var previousIndex = 0 // 上一个索引
+  var currentIndex = 0 // 当前索引
+  ...
+  
+  // 4.自动轮播
+  setInterval(function () {
+    previousIndex = currentIndex
+    currentIndex++
+    if (currentIndex === bannersCount) currentIndex = 0
+
+    // 切换轮播图
+    switchBanner()
+  }, 3000)
+
+  // 封装函数: 切换轮播图
+  function switchBanner() {
+    // 1.切换图片的item
+    imagesEl.style.transform = `translateX(${-currentIndex * 100}%)`
+    imagesEl.style.transition = "all 1000ms ease"
+  
+    // 2.切换指示器(小圆点)的item
+    var currentInItemEl = indicatorEl.children[currentIndex]
+    var previousInItemEl = indicatorEl.children[previousIndex]
+    previousInItemEl.classList.remove("active")
+    currentInItemEl.classList.add("active")
+  }
+  ```
+  :::
+
+  `👆🏻方法 推荐使用第二种方法`
+
+### 4. 鼠标移动到banner上清除定时器
+
+  ::: details Click me to view the code js
+  ```js
+  ...
+
+  // 2.定义变量
+  ...
+  var timeID = null // 定时器
+
+  ...
+
+  // 4.自动轮播(开启定时器)
+  startTime()
+
+  // 5.鼠标移动到banner上清除定时器
+  bannerEl.onmouseenter = function () {
+    // 清除定时器
+    stopTime()
+  }
+
+  // 6.鼠标离开banner开启定时器
+  bannerEl.onmouseleave = function () {
+    //开启定时器
+    startTime()
+  }
+
+  ...
+
+  // 封装函数: 开启定时器
+  function startTime() {
+    if (timeID) return
+    timeID = setInterval(function () {
+      previousIndex = currentIndex
+      currentIndex++
+      if (currentIndex === bannersCount) currentIndex = 0
+
+      // 切换轮播图
+      switchBanner()
+    }, 3000)
+  }
+
+  // 封装函数: 清除定时器
+  function stopTime() {
+    if (!timeID) return
+    clearInterval(timeID)
+    timeID = null // 清除定时器之后, 必须timeID赋值为null
+  }
+  ```
+  :::
+
+### 5. 指示器(小圆点)的点击
+
+  ::: details Click me to view the code js
+  ::: code-group
+  ```js
+  ...
+
+  // 3.2 动态添加指示器(小圆点)内容
+  for (var i = 0; i < bannersCount; i++) {
+    ...
+
+    // 监听指示器(小圆点)的点击
+    // 🚚 方法一
+    // 获取索引
+    itemEl.index = i
+    itemEl.onclick = function() {
+      previousIndex = currentIndex
+      currentIndex = this.index
+      // 切换轮播图
+      switchBanner()
+    }
+  }
+  ...
+  ```
+  ```js
+  // 7.监听指示器(小圆点)的点击
+  indicatorEl.onclick = function (event) {
+    if (event.target === this) return
+    var currentInItemEl = event.target
 
     // 获取索引
     // 🚚 方法一: for
