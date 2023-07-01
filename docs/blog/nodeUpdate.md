@@ -3,9 +3,9 @@ layout: doc
 ---
 # 节点更新
 
-## 1. 知风(未新)
+## 1. 知风(更新)
 
-https://suo.yt/S5TVUvR
+https://suo.yt/mcGmtKH
 
 ## 2. 阿伟科技(未更新)
 
