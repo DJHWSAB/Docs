@@ -5,7 +5,7 @@ layout: doc
 
 ## 1. 知风(更新)
 
-https://suo.yt/mcGmtKH
+https://suo.yt/J9sbV2K
 
 ## 2. 阿伟科技(未更新)
 
@@ -13,11 +13,11 @@ https://www.lanzoub.com/b0bu3ur4b 密码：109
 
 ## 3. 节点日记(已更新)
 
-https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/6/c7-1
+https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/6/c2
 
 ## 4. 由零开始(已更新)
 
-https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/6/c7-1
+https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/6/c2
 
 ## 5. 玉豆节点(未更新)
 
