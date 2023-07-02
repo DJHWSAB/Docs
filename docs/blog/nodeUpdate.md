@@ -19,9 +19,9 @@ https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/6/c2
 
 https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/6/c2
 
-## 5. 玉豆节点(未更新)
+## 5. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202306/2023.6.30C44tlash.yaml
+http://yy.yudou66.top/202307/2023.7.2Clss2ash.yaml
   
 ## 6. yu科技(未更新)
 
