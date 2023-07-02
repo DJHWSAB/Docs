@@ -170,7 +170,7 @@ layout: doc
   ![vscode](/vscode_21.png)
 
   10. 控制台输出时滚动条自动滚动
-  ![vscode](https://img-blog.csdnimg.cn/20200701173459525.png)
+  ![vscode](/vscode_22.png)
 
 ### 4.2 完整的配置
 
