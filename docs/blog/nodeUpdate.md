@@ -9,8 +9,7 @@ https://suo.yt/WO11H3J 密码：6369
 
 ## 2. 阿伟科技(未更新)
 
-https://www.lanzoub.com/b0bu43dah 密码：702
-
+https://www.lanzoub.com/b0bu4cfve 密码：960
 ## 3. 节点日记(已更新)
 
 https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/6/c4
