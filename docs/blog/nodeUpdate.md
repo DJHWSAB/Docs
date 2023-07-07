@@ -20,7 +20,7 @@ https://raw.githubusercontent.com/blue1972/07/clash/c7
 
 ## 5. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202307/2023.7.6Clddash.yaml
+http://yy.yudou66.top/202307/2023.7.7Cla2ash.yaml
   
 ## 6. yu科技(未更新)
 
