@@ -23,7 +23,7 @@ layout: doc
 > 重置前将安装的插件和热键备份，在下次重装时就省很多事情，具体操作方式请看下面的章节
 
 ### 2.1 mac
-  
+
   1. 首先删除 vscode 软件（可以使用腾讯柠檬清理删除）
 
   2. 执行以下命令删除 vscode 本地数据
@@ -41,11 +41,11 @@ layout: doc
   ```
 
 ### 2.2 window
-  
+
   1. 首先删除 vscode 软件
-  
+
   2. window 系统删除以下文件夹 将houdunren 换成你的帐号
-  
+
   ```shell
   C:\Users\houdunren\.vscode
   C:\Users\houdunren\AppData\Roaming\Code
@@ -66,9 +66,9 @@ layout: doc
   ![vscode](/vscode_05.png)
 
   4. Live Server 自动在浏览器中打开网页
-  
+
   ![vscode](/vscode_06.png)
-  
+
   > 如果状态栏没有 `Go Live`,可以考虑降级
 
   5. 翻译(英汉词典)
@@ -92,7 +92,7 @@ layout: doc
   9. Error Lens 错误语法提示
 
   ![vscode](/vscode_12.png)
-  
+
   ![vscode](/vscode_13.png)
 
   10. ES7+ React/Redux/React-Native snippets 打印语句(console.log)
@@ -114,6 +114,10 @@ layout: doc
   14. Code Runner
 
   ![vscode](/vscode_31.png)
+
+  15. Trailing Spaces 高亮标识出你末尾多余的space，并帮你快速删除它们
+
+  ![vscode](/vscode_35.png)
 
 
 ## 4. 配置
@@ -166,7 +170,7 @@ layout: doc
   9. 修改终端的 光标 和 字体大小
 
   ![vscode](/vscode_20.png)
-  
+
   ![vscode](/vscode_21.png)
 
   10. 控制台输出时滚动条自动滚动
@@ -179,79 +183,58 @@ layout: doc
   {
     // 关闭欢迎界面
     "workbench.startupEditor": "none",
-    
     // 颜色主题
     "workbench.colorTheme": "Atom One Dark",
-    
-    // 文件图标主题
-    "workbench.iconTheme": "vscode-great-icons",
-    
     // 终端字体大小
     "terminal.integrated.fontSize": 18,
-    
     // 终端光标类型
     "terminal.integrated.cursorStyle": "line",
-    
     // 字体大小
     "editor.fontSize": 18,
-    
     // 自动保存
     "files.autoSave": "afterDelay",
-    
-    // 代码自动换行
+    // 👇🏻两行代码 ----- 实现代码自动换行
     "editor.wordWrap": "on",
     "diffEditor.wordWrap": "on",
-    
     // 空格的渲染方式
     "editor.renderWhitespace": "all",
-    
     // 代码缩进2个空格
     "editor.tabSize": 2,
-    
     // 行内元素(a、span、i...)自动换行
     "emmet.syntaxProfiles": {
         "html": {
             "inline_break": 1
         }
     },
-
-    // 代码块出现提示线
+    // 👇🏻两行代码 ----- 实现代码块出现提示线
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active",
-    
     // 滚动条滚动时出现代码层级
     "editor.stickyScroll.enabled": true,
-    
     // 允许打开未受信任的文件
     "security.workspace.trust.untrustedFiles": "open",
-    
     // 报错语法提示
     "typescript.locale": "zh-CN",
-    
     // 显示索略图
     "editor.minimap.autohide": true,
-    
     // Live Server扩展的信息提示
     "liveServer.settings.donotShowInfoMsg": true,
-    
     // 保存时自动格式化代码功能
     "editor.formatOnSave": true,
-    
     // 更换HTML元素(更换开始标签,结束标签同步更改 / 更换结束标签,开始标签同步更改)
     "editor.linkedEditing": true,
-
     // 修改liveServer端口
     "liveServer.settings.port": 8080,
-    
     // 开启悬停显示翻译结果
     "EnglishChineseDictionary.enableHover": true,
-
     // Code Spell Checker 标记后不会被认为是拼写错误
     "cSpell.userWords": [
         "autohide",
-        "donot"
+        "coderccb",
+        "donot",
+        "Matebook",
+        "vitepress"
     ],
-
     // template-string-converter 相关配置(只需要输入${},自动将 双引号"" 转换成 模版字符串`${}`)
     // 扩展适用的语言
     "template-string-converter.validLanguages": [
@@ -259,18 +242,21 @@ layout: doc
         "typescript",
         "javascript",
         "typescriptreact",
-        "javascriptreact"
+        "javascriptreact",
+        "js"
     ],
-    
     // 👇🏻两行代码 ----- 删除 `${}` 中的 $, {, } 都会自动转换成 双引号
     "template-string-converter.autoRemoveTemplateString": true,
-    "template-string-converter.convertWithinTemplateString": false, 
-    
+    "template-string-converter.convertWithinTemplateString": false,
     // 禁止突出显示歧义字符
     "editor.unicodeHighlight.ambiguousCharacters": false,
+    // 文件主题颜色
+    "workbench.iconTheme": "vscode-great-icons",
+    // 保存自动删除空格
+    "trailing-spaces.trimOnSave": true
   }
   ```
-::: 
+:::
 
 ## 5. 平滑移动
 
@@ -294,7 +280,7 @@ layout: doc
 
 ::: details Click me to view the code
   ```shell
-  单行注释: ⌘ + / 
+  单行注释: ⌘ + /
 
   多行注释: ⌥ + ⇧ + A
 
@@ -340,12 +326,12 @@ layout: doc
 
   终端: ⌃ + `
   ```
-::: 
+:::
 
 ## 7. 常见问题
 
 ### 7.1 vscode中回车与自动补全起冲突
-  
+
   1. 打开键盘快捷方式
 
   ![vscode](/vscode_23.png)
@@ -356,11 +342,11 @@ layout: doc
 
   3. 找到acceptSelectSuggestion，默认情况下一条绑定Tab键，一条绑定Enter键，选中Enter的那条右键删除键绑定。
 
-  4. 取消了之后不能像我们取消时的操作那样，用添加键绑定加回去。这时需按下 `ctrl+shift+p` ,调出 `命令面板` ,然后输入 `keyboard` ,选择这一个: 
+  4. 取消了之后不能像我们取消时的操作那样，用添加键绑定加回去。这时需按下 `ctrl+shift+p` ,调出 `命令面板` ,然后输入 `keyboard` ,选择这一个:
 
   ![vscode](/vscode_25.png)
 
-  进去以后在 `keybindings.json` 文件中加入这段代码: 
+  进去以后在 `keybindings.json` 文件中加入这段代码:
 
   ```json
   {
@@ -395,7 +381,7 @@ layout: doc
   ~/.vscode
   open extensions
   ```
-  
+
   ![vscode](/vscode_32.png)
 
   4. win 打开extensions
