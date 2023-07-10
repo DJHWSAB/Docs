@@ -7,9 +7,9 @@ layout: doc
 
 https://suo.yt/ag4Ndaf 密码：6369
 
-## 2. 阿伟科技(未更新)
+## 2. 阿伟科技(已更新)
 
-https://www.lanzoub.com/b0bu4xozi 密码：590
+https://www.lanzoub.com/b0bu51wje 密码：871
 
 ## 3. 节点日记(已更新)
 
