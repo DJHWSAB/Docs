@@ -17,11 +17,11 @@ https://lj.ylkszy.eu.org/2023/0710c
 
 ## 4. 由零开始(已更新)
 
-https://lj.ylkszy.eu.org/2023/0710c
+https://lj.ylkszy.eu.org/2023/11c
 
 ## 5. 玉豆节点(未更新)
 
-http://yy.yudou66.top/202307/2023.7.9Cl44rash.yaml
+http://yy.yudou66.top/202307/2023.7.10Cla3fsh.yaml
   
 ## 6. yu科技(未更新)
 
