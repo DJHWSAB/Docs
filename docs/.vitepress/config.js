@@ -29,6 +29,7 @@ export default defineConfig({
         activeMatch: '/interview/',
         items: [
           { text: 'js', link: '/interview/' },
+          { text: 'js高级', link: '/interview/js高级' },
         ]
       },
       {
