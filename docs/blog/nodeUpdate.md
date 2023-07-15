@@ -25,4 +25,4 @@ http://yy.yudou66.top/202307/2023.7.15Cl33eash.yaml
   
 ## 6. yu科技(未更新)
 
-https://www.lanzoub.com/iqlcN12bgvkh 密码: 666
+https://www.lanzoub.com/i1Xcv12jhc3a 密码: 744
