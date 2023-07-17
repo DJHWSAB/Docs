@@ -9,7 +9,7 @@ https://suo.yt/v4qR2rg 密码：6369
 
 ## 2. 阿伟科技(未更新)
 
-https://wwhb.lanzouw.com/b0bu5rp4d 密码：630
+https://www.lanzoub.com/b0bu5rp4d 密码：630
 
 ## 3. 节点日记(已更新)
 
@@ -25,4 +25,4 @@ http://yy.yudou66.top/202307/2023.7.17Clad3sh.yaml
   
 ## 6. yu科技(已更新)
 
-https://www.lanzoub.com/i4A5z12luach 密码: 
+https://www.lanzoub.com/inhLH12qet4h 密码: 888
