@@ -5,7 +5,7 @@ layout: doc
 
 ## 1. 知风(已更新)
 
-https://suo.yt/v4qR2rg 密码：6369
+https://suo.yt/hZDQjrq 密码：6369
 
 ## 2. 阿伟科技(已更新)
 
@@ -21,8 +21,8 @@ https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/7/17
 
 ## 5. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202307/2023.7.17Clad3sh.yaml
+http://yy.yudou66.top/202307/2023.7.18Cr4lash.yaml
   
 ## 6. yu科技(已更新)
 
-https://www.lanzoub.com/inhLH12qet4h 密码: 888
+https://www.lanzoub.com/i9rag12sz3pa 密码: 566
