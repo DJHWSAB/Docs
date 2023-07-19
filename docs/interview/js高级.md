@@ -92,4 +92,7 @@ layout: doc
   - defer对于script元素没有外部引用是无效的
 
 - async
-  - 独立下载独立运行
+  - 浏览器<font color="red">不会因 async 脚本而阻塞</font>（与 defer 类似）；
+  - <font color="red">async脚本不能保证顺序，它是独立下载、独立运行，不会等待其他脚本</font>；
+  - <font color="red">async不能保证在DOMContentLoaded之前或者之后执行</font>；
+  - 通常用于独立的脚本，对其他脚本，DOM没有依赖
