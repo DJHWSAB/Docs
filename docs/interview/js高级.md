@@ -79,3 +79,17 @@ layout: doc
   - 对于某些元素使用position:absolute/fixed
     - 开销较小 不会对其他元素造成影响
 
+## 5. 说说async和defer的使⽤以及区别？
+
+- script 会阻塞DOM Tree构建，需要优先下载和执行JavaScript代码，再继续构建DOM Tree
+- 为了解决这个问题，script元素给我们提供了两个属性（attribute）：`defer` 和 ` async`
+
+- defer
+  - 脚本<font color="red">会由浏览器来进行下载，但是不会阻塞DOM Tree</font>的构建过程；
+  - 如果脚本提前下载好了，它会<font color="red">等待DOM Tree构建完成，在DOMContentLoaded事件之前先执行defer中的代码</font>；
+  - 同时多个defer属性的script标签会按照顺序执⾏
+  - 从性能的角度最好放到head中
+  - defer对于script元素没有外部引用是无效的
+
+- async
+  - 独立下载独立运行
