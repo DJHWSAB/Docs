@@ -5,7 +5,7 @@ layout: doc
 
 ## 1. 知风(已更新)
 
-https://suo.yt/wOITWBE 密码：6369
+https://suo.yt/zAgv182 密码：6369
 
 ## 2. 阿伟科技(已更新)
 
