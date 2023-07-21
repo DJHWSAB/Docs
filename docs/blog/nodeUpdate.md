@@ -13,11 +13,11 @@ https://www.lanzoub.com/icAeC131f25i 密码: 960
 
 ## 3. 节点日记(已更新)
 
-https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/7/20
+https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/7/21c
 
 ## 4. 由零开始(已更新)
 
-https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/7/20
+https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/7/21c
 
 ## 5. 玉豆节点(已更新)
 
@@ -25,4 +25,4 @@ http://yy.yudou66.top/202307/2023.7.21Cldfash.yaml
   
 ## 6. yu科技(已更新)
 
-https://www.lanzoub.com/i3n3c12zgkdi 密码: 666
+https://www.lanzoub.com/iWEi0132y8xc 密码: 677
