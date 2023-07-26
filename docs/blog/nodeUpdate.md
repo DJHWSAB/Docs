@@ -9,7 +9,7 @@ https://suo.yt/Lbp7sOS 密码：6369
 
 ## 2. 阿伟科技(已更新)
 
-https://wwhb.lanzouw.com/b0bu7coej 密码: 630
+https://wwhb.lanzouw.com/b0bu7h9te 密码: 125
 
 ## 3. 节点日记(已更新)
 
