@@ -5,23 +5,23 @@ layout: doc
 
 ## 1. 知风(已更新)
 
-https://suo.yt/Lbp7sOS 密码：6369
+https://suo.yt/y4DjCly 密码：6369
 
 ## 2. 阿伟科技(已更新)
 
-https://wwhb.lanzouw.com/b0bu7h9te 密码: 125
+https://www.lanzoub.com/b0bu7h9te 密码: 125
 
 ## 3. 节点日记(已更新)
 
-https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/7/026c
+https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/7/c27
 
 ## 4. 由零开始(已更新)
 
-https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/7/026c
+https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/7/c27
 
 ## 5. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202307/2023.7.26Clasw3h.yaml
+http://yy.yudou66.top/202307/2023.7.27Clae3sh.yaml
   
 ## 6. yu科技(已更新)
 
