@@ -9,7 +9,7 @@ https://suo.yt/iRHgnFU 密码：7966
 
 ## 2. 阿伟科技(已更新)
 
-https://www.lanzoub.com/b0bu82n0f 密码: 570
+https://wwhb.lanzouw.com/b0bu87whg 密码: 810
 
 ## 3. 节点日记(已更新)
 
