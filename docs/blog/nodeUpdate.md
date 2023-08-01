@@ -9,7 +9,7 @@ https://suo.yt/8GIZ995 密码：6369
 
 ## 2. 阿伟科技(已更新)
 
-https://www.lanzoub.com/b0bu7xmba 密码: 041
+https://wwhb.lanzouw.com/b0bu82n0f 密码: 570
 
 ## 3. 节点日记(已更新)
 
