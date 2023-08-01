@@ -5,7 +5,7 @@ layout: doc
 
 ## 1. 知风(已更新)
 
-https://suo.yt/8GIZ995 密码：6369
+https://suo.yt/iRHgnFU 密码：7966
 
 ## 2. 阿伟科技(已更新)
 
