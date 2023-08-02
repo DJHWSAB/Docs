@@ -9,7 +9,7 @@ https://suo.yt/XhAJACG 密码：7966
 
 ## 2. 阿伟科技(已更新)
 
-https://www.lanzoub.com/b0bu87whg 密码: 810
+https://wwhb.lanzouw.com/b0bu8buyf 密码: 140
 
 ## 3. 由零开始(已更新)
 
