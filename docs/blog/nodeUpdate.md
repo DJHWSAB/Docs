@@ -21,4 +21,4 @@ http://yy.yudou66.top/202308/2023.8.3Clad3sh.yaml
   
 ## 5. yu科技(已更新)
 
-https://www.lanzoub.com/iwYyA13xtlwf 密码: 233
+https://www.lanzoub.com/iKGo8149o82j 密码: 666
