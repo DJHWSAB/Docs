@@ -9,11 +9,11 @@ https://suo.yt/gJAbwme 密码：7966
 
 ## 2. 阿伟科技(已更新)
 
-https://www.lanzoub.com/b0bu8kwda 密码: 690
+https://www.lanzoub.com/b0bu8wkeb 密码: 157
 
 ## 3. 由零开始(已更新)
 
-https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/8/5c
+https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/8/c6
 
 ## 4. 玉豆节点(已更新)
 
@@ -21,4 +21,4 @@ http://yy.yudou66.top/202308/2023.8.5Clashfg4.yaml
   
 ## 5. yu科技(已更新)
 
-https://www.lanzoub.com/iKGo8149o82j 密码: 666
+https://www.lanzoub.com/i4Tox14juwbi 密码: 988
