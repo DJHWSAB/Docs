@@ -9,7 +9,7 @@ https://suo.yt/WWQ6HMJ 密码：7966
 
 ## 2. 阿伟科技(已更新)
 
-https://wwhb.lanzouw.com/b0bu99m1i 密码: 156
+https://wwhb.lanzouw.com/iH1GQ14tfa0f 密码: 102
 
 ## 3. 由零开始(已更新)
 
