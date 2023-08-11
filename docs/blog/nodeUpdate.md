@@ -9,7 +9,7 @@ https://suo.yt/cois35o 密码：7966
 
 ## 2. 阿伟科技(已更新)
 
-https://www.lanzoub.com/ioxwK1504acd 密码: 184
+https://wwhb.lanzouw.com/b0bua28pc 密码: 167
 
 ## 3. 由零开始(已更新)
 
@@ -21,4 +21,4 @@ http://yy.yudou66.top/202308/2023.8.11Clagrsh.yaml
   
 ## 5. yu科技(已更新)
 
-https://www.lanzoub.com/iqdk614usxda 密码: 777
+https://www.lanzoub.com/iABVi152jilc 密码: 677
