@@ -17,8 +17,8 @@ https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/8/c12
 
 ## 4. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202308/2023.8.11Clagrsh.yaml
-  
+http://yy.yudou66.top/202308/2023.8.12Classdah.yaml
+
 ## 5. yu科技(已更新)
 
 https://www.lanzoub.com/iABVi152jilc 密码: 677
