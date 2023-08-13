@@ -5,15 +5,15 @@ layout: doc
 
 ## 1. 知风(已更新)
 
-https://suo.yt/Q6Q9OMt 密码：7966
+https://suo.yt/NlWMKXA 密码：7966
 
 ## 2. 阿伟科技(已更新)
 
-https://www.lanzoub.com/b0bua28pc 密码: 167
+https://www.lanzoub.com/b0buaazda 密码: 161
 
 ## 3. 由零开始(已更新)
 
-https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/8/c12
+https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/8/13c
 
 ## 4. 玉豆节点(已更新)
 
