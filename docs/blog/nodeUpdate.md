@@ -9,7 +9,7 @@ https://suo.yt/NlWMKXA 密码：7966
 
 ## 2. 阿伟科技(已更新)
 
-https://www.lanzoub.com/b0buaazda 密码: 161
+https://www.lanzoub.com/b0buaqoah 密码: 109
 
 ## 3. 由零开始(已更新)
 
