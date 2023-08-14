@@ -21,4 +21,4 @@ http://yy.yudou66.top/202308/2023.8.14Clf33ash.yaml
 
 ## 5. yu科技(已更新)
 
-https://www.lanzoub.com/iABVi152jilc 密码: 677
+https://www.lanzoub.com/iKvba15dh61e 密码：888
