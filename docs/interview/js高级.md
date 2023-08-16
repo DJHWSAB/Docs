@@ -175,11 +175,17 @@ layout: doc
 - 纯函数在react和redux中应⽤⽐较多。
 - 编写纯函数：
 ```js
-//⼀般的数学⽅法可以写成纯函数,例如相加
-function sum(...args) {
-  var result = args.reduce((perValue, item) => {
-                 return preValue + item
-               }, 0)
-  return result
-}
+  function sum(num1, num2){
+    return num1 + num2
+  }
+```
+
+```js
+  //⼀般的数学⽅法可以写成纯函数,例如相加
+  function sum(...args) {
+    var result = args.reduce((perValue, item) => {
+                   return preValue + item
+                 }, 0)
+    return result
+  }
 ```
