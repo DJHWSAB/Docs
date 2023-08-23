@@ -290,6 +290,9 @@ layout: doc
   79. curry 柯里化
 
   80. double 双(两倍)
+
+  81. compose 组合
+
   ```
   :::
 
