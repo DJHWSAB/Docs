@@ -286,6 +286,10 @@ layout: doc
   77. mouse 鼠标
   
   78. key（onkeyup 键盘弹起事件） 键盘
+
+  79. curry 柯里化
+
+  80. double 双(两倍)
   ```
   :::
 
