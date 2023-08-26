@@ -22,3 +22,6 @@ http://yy.yudou66.top/202308/2023.8.26Clas3eh.yaml
 ## 5. yu科技(已更新)
 
 https://www.lanzoub.com/iBooV16d66ib 密码：667
+
+## 6. 分享日记(已更新）
+https://www.lanzoub.com/iQg8k16gjrch 密码：770
