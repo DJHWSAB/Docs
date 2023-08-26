@@ -271,3 +271,37 @@ JavaScript代码，⼀些不规范的写法和错误也会直接抛出。
 
 - 属性描述符可以精准的添加或修改对象的属性，使用 `Object.defineProperty` 来对属性进行添加或者修改
 
+- `Object.defineProperty()` 方法会直接在一个对象上定义一个新属性，或者修改一个对象的现有属性，并返回此对象。
+  - 有三个参数：
+    - 第一个参数：定义属性的对象
+    - 第二个参数：定义或修改属性的名称
+    - 第三个参数： 定义或修改属性描述符
+
+  - 同时定义多个属性: Object.defineProperties()
+   
+- 属性描述符分为 `数据属性`描述符 和 `存取属性`描述符
+
+  - `数据属性`描述符: 对某一个对象的属性来做一个具体的描述
+    - 有四个特性：
+      - configurable: 告诉js引擎, 对象的属性不可以被删除
+      - enumerable: 告诉js引擎, 对象的属性不可以枚举(for...in / Object.keys)
+      - writable: 告诉js引擎，对象的属性不写入(只读属性 readonly)
+      - value: 告诉js引擎, 返回这个value
+    - 默认情况下，在现有的对象的属性中前三个特性为true，如果是通过`Object.defineProperty()`定义一个新属性，前三个特性默认为false，value默认为undefined
+
+- `存取属性`描述符: 取出一个属性或者设置一个属性的时候,这个时候会调用一个对应的函数,跟vue2响应式原理的get方法和set方法一样
+    - 有四个特性：
+      - configurable: 告诉js引擎, 对象的属性不可以被删除
+      - enumerable: 告诉js引擎, 对象的属性不可以枚举(for...in / Object.keys)
+      - get: 获取属性时会执行的函数。默认为undefined
+      - set: 设置属性时会执行的函数。默认为undefined
+
+    - 获取对象的属性描述符:
+      - Object.getOwnPropertyDescriptor(obj, "name")
+      - Object.getOwnPropertyDescriptors(obj)
+    
+    - 禁止对象扩展新属性(给一个对象添加新的属性会失败（在严格模式下会报错）): Object.preventExtensions(obj)
+ 
+    - 密封对象，`不允许配置和删除属性`(不能删除对象的属性、不能添加新的属性)：Object.seal(obj)
+ 
+    - 冻结对象，不允许修改现有属性(不能删除对象的属性、不能添加新的属性、不能修改对象的属性)： Object.freeze(obj)
