@@ -15,51 +15,82 @@ layout: doc
   - apply/call
 
   - bind
+
 - new绑定：
+
   - 创建⼀个全新对象
+
   - 新对象被执⾏prototype链接
+
   - 新对象绑定到函数调⽤的this
+
   - 如果函数没有返回其他对象，表达式会返回这个对象
 
 ## 2. 说出apply、call、bind函数的⽤法和区别？
 
   - ⽤法：
+  
     - apply
+    
       - 第⼀个参数: 绑定this
+
       - 第⼆个参数: 传⼊额外的实参, 以数组的形式
+
     - call
+    
       - 第⼀个参数: 绑定this
+
       - 参数列表: 后续的参数以多参数的形式传递, 会作为实参
+
     - bind(不希望obj对象身上有函数)
 
   - 区别：
+
     - call、apply和bind都可以改变函数的this指向
+
     - call、apply和bind第⼀个参数的是this要指向的对象
+
     - call、apply和bind都可以后续为函数传参，apply是将参数并成⼀个数组，call和bind是将参数依次列出
+
     - call、apply都是直接调⽤，bind⽣成的this指向改变函数需要⼿动调⽤。
 
 ## 3. 说说你对作⽤域和作⽤域链的理解？
 
   - 作⽤域
+
     - 在ES5中，全局是⼀个作⽤域，函数也会产⽣作⽤域。
+
     - 在ES6中，代码块、let、const等都会有属于⾃⼰的作⽤域。
+  
   - 作⽤域链
+  
     - 当进⼊到⼀个执⾏上下⽂时，执⾏上下⽂会关联⼀个作⽤域链。
+
     - 通常作用域链在解析时就被确定， 因此作用域链与函数的定义位置有关，而与它的调用位置无关
 
 
 ## 4. 浏览器输入一个URL到页面显示的过程
 
   - 首先在浏览器中输入域名，通过DNS服务器进行域名解析
+  
   - 解析出对应的IP地址 然后从ip地址对应的主机发送http请求 获取对应的静态资源
+  
   - 默认情况服务器会返回index.html文件
+  
   - 然后浏览器内核开始解析HTML
+  
   - 首先 会解析对应的html 生成 <font color="red">DOM Tree</font>
+  
   - 解析过程中 如果遇到css的link标签 则会下载对应的css文件
+  
     - 下载css文件和生成DOM树是同时进行
+  
   - 下载完对应的css文件后会进行css解析 生成 <font color="red">CSSOM</font> ( CSS object model)
+  
   - 当DOM Tree和CSSTree都解析完成之后 会进行合并用来生成 <font color="red">Render Tree</font> (渲染树)
+  
   - 初步生成的渲染树会显示节点以及部分样式 但是并不表示每个节点的尺寸、位置信息，于是进行 <font color="red">Layout(布局)</font> 来生成渲染树中节点的宽度、高度位置信息
+  
   - 经过Layout之后，浏览器内核将布局时的每个 <font color="red">frame</font> 转为屏幕上的每个像素点，将每个节点绘制到屏幕上
 
 ## 5. 网页的渲染过程 / 浏览器是如何渲染UI的？
