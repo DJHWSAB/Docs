@@ -316,12 +316,13 @@ JavaScript代码，⼀些不规范的写法和错误也会直接抛出。
     - 默认情况下，对现有对象的属性，前三个特性为true(可被删除、可被枚举、可被修改)，如果通过`Object.defineProperty()`定义新属性，则默认前三个特性为false，value默认为undefined
 
 - `存取属性`描述符: 用于取出者设置属性时调用相应的函数,与vue2响应式原理中的get方法和set方法类似，具有四个特性：
-    - configurable: 告诉js引擎, 对象的属性不可以被删除
-    - enumerable: 告诉js引擎, 对象的属性不可以枚举(for...in / Object.keys)
-    - get: 获取属性时会执行的函数。默认为undefined
-    - set: 设置属性时会执行的函数。默认为undefined
+   - configurable: 告诉js引擎, 对象的属性是否可以被删除
+  - enumerable: 告诉js引擎, 对象的属性是否可以被枚举(for...in / Object.keys)
+  - get: 获取属性时会执行的函数。默认为undefined
+  - set: 设置属性时会执行的函数。默认为undefined
+  - 默认情况下，跟`数据属性`描述符一样，对现有对象的属性，前2个特性为true(可被删除、可被枚举)
     
-    - 下面是一个示例代码，展示了如何使用属性描述符：
+  - 下面是一个示例代码，展示了如何使用属性描述符：
       
       ```js
         var obj = {
