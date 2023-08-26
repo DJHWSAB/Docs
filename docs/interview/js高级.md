@@ -269,5 +269,5 @@ JavaScript代码，⼀些不规范的写法和错误也会直接抛出。
  
 ## 16. 说说属性描述符以及应用？
 
-- 属性描述符可以精准的添加或修改对象的属性，使用 <font color="red">Object.defineProperty</font> 来对属性进行添加或者修改
+- 属性描述符可以精准的添加或修改对象的属性，使用 `Object.defineProperty` 来对属性进行添加或者修改
 
