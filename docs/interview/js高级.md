@@ -296,6 +296,29 @@ JavaScript代码，⼀些不规范的写法和错误也会直接抛出。
       - get: 获取属性时会执行的函数。默认为undefined
       - set: 设置属性时会执行的函数。默认为undefined
 
+      ```js
+        var obj = {
+          name: "ccb",
+          height: 1.85,
+          age: 18
+        }
+        
+        var _name = ""
+        Object.defineProperty(obj, "name", {
+          set: function (value) {
+            console.log("set方法被调用了~", value)
+            _name = value
+          },
+          get: function () {
+            console.log("get方法被调用了~")
+            return _name
+          }
+        })
+        
+        obj.name = "kobe" // set方法被调用了~ kobe
+        console.log(obj.name) // get方法被调用了~ kobe
+      ```
+
     - 获取对象的属性描述符:
       - Object.getOwnPropertyDescriptor(obj, "name")
       - Object.getOwnPropertyDescriptors(obj)
