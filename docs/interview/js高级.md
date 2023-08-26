@@ -269,33 +269,60 @@ JavaScript代码，⼀些不规范的写法和错误也会直接抛出。
  
 ## 16. 说说属性描述符以及应用？
 
-- 属性描述符可以精准的添加或修改对象的属性，使用 `Object.defineProperty` 来对属性进行添加或者修改
+- 属性描述符可以对对象进行精确定义或修改的机制，你可以使用 `Object.defineProperty()` 方法来对添加或者修改属性
 
-- `Object.defineProperty()` 方法会直接在一个对象上定义一个新属性，或者修改一个对象的现有属性，并返回此对象。
+- `Object.defineProperty()` 方法直接在一个对象上定义一个新属性，或者修改一个已属性，并返回此对象。
   - 有三个参数：
-    - 第一个参数：定义属性的对象
-    - 第二个参数：定义或修改属性的名称
-    - 第三个参数： 定义或修改属性描述符
+    - 定义属性的对象
+    - 定义或修改属性的名称
+    - 定义或修改属性描述符
 
-  - 同时定义多个属性: Object.defineProperties()
+  - 如果要同时定义多个属性: 你可以使用 `Object.defineProperties()`方法
+
+  - 下面是一个示例代码，展示了如何使用属性描述符：
+      
+      ```js
+        var obj = {
+          name: "why",
+          age: 18,
+          height: 1.88
+        }
+        
+        // Object.defineProperty(obj, "name", {})
+        // Object.defineProperty(obj, "age", {})
+        // Object.defineProperty(obj, "height", {})
+        
+        // 新增的方法
+        Object.defineProperties(obj, {
+          name: {
+            configurable: true,
+            enumerable: true,
+            writable: false
+          },
+          age: {
+          },
+          height: {
+          }
+        })
+      ``` 
    
 - 属性描述符分为 `数据属性`描述符 和 `存取属性`描述符
 
-  - `数据属性`描述符: 对某一个对象的属性来做一个具体的描述
-    - 有四个特性：
-      - configurable: 告诉js引擎, 对象的属性不可以被删除
-      - enumerable: 告诉js引擎, 对象的属性不可以枚举(for...in / Object.keys)
-      - writable: 告诉js引擎，对象的属性不写入(只读属性 readonly)
-      - value: 告诉js引擎, 返回这个value
-    - 默认情况下，在现有的对象的属性中前三个特性为true，如果是通过`Object.defineProperty()`定义一个新属性，前三个特性默认为false，value默认为undefined
+  - `数据属性`描述符: 用于对对象的属性进行具体描述，具有四个特性：
+    - configurable: 告诉js引擎, 对象的属性是否可以被删除
+    - enumerable: 告诉js引擎, 对象的属性是否可以被枚举(for...in / Object.keys)
+    - writable: 告诉js引擎，对象的属性是否可以被修改(只读属性 readonly)
+    - value: 告诉js引擎, 返回该属性的值
+    - 默认情况下，对现有对象的属性，前三个特性为true(可被删除、可被枚举、可被修改)，如果通过`Object.defineProperty()`定义新属性，则默认前三个特性为false，value默认为undefined
 
-- `存取属性`描述符: 取出一个属性或者设置一个属性的时候,这个时候会调用一个对应的函数,跟vue2响应式原理的get方法和set方法一样
-    - 有四个特性：
-      - configurable: 告诉js引擎, 对象的属性不可以被删除
-      - enumerable: 告诉js引擎, 对象的属性不可以枚举(for...in / Object.keys)
-      - get: 获取属性时会执行的函数。默认为undefined
-      - set: 设置属性时会执行的函数。默认为undefined
-
+- `存取属性`描述符: 用于取出者设置属性时调用相应的函数,与vue2响应式原理中的get方法和set方法类似，具有四个特性：
+    - configurable: 告诉js引擎, 对象的属性不可以被删除
+    - enumerable: 告诉js引擎, 对象的属性不可以枚举(for...in / Object.keys)
+    - get: 获取属性时会执行的函数。默认为undefined
+    - set: 设置属性时会执行的函数。默认为undefined
+    
+    - 下面是一个示例代码，展示了如何使用属性描述符：
+      
       ```js
         var obj = {
           name: "ccb",
