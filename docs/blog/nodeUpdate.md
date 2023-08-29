@@ -13,20 +13,20 @@ https://agit.ai/231/123321312/raw/branch/master/8/8.22clawkj.yml
 
 ## 3. 由零开始(已更新)
 
-https://suo.yt/ZxaMZBu
+https://suo.yt/hp6llZi
 
 ## 4. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202308/2023.8.28Clar2sh.yaml
+https://suo.yt/BZvspOK
 
 ## 5. yu科技(已更新)
 
-https://suo.yt/RELlUpP
+https://suo.yt/TezPH2Q
 
 ## 6. nodefree(已更新）
 
-https://nodefree.org/dy/2023/08/20230827.yaml
+https://nodefree.org/dy/2023/08/20230828.yaml
 
 ## 7. 面具人共享科技(已更新)
 
-https://suo.yt/gmMK60M
+https://suo.yt/mJgko9q
