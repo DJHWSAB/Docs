@@ -9,15 +9,15 @@ https://suo.yt/IkwKOcD 密码：7966
 
 ## 2. 阿伟科技(已更新)
 
-https://agit.ai/231/123321312/raw/branch/master/8/8.22clawkj.yml
+https://suo.yt/eESrWAG
 
 ## 3. 由零开始(已更新)
 
-https://suo.yt/hp6llZi
+https://suo.yt/exUZVrD
 
 ## 4. 玉豆节点(已更新)
 
-https://suo.yt/aelMn68
+https://suo.yt/ycf40T8
 
 ## 5. yu科技(已更新)
 
@@ -25,8 +25,8 @@ https://suo.yt/TezPH2Q
 
 ## 6. nodefree(已更新）
 
-https://nodefree.org/dy/2023/08/20230828.yaml
+https://nodefree.org/dy/2023/08/20230829.yaml
 
 ## 7. 面具人共享科技(已更新)
 
-https://suo.yt/mJgko9q
+https://suo.yt/NDDzOUD
