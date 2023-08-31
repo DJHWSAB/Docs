@@ -17,7 +17,7 @@ https://suo.yt/68TaU4n
 
 ## 4. 玉豆节点(已更新)
 
-https://suo.yt/PFrI246
+https://suo.yt/q4SqWNY
 
 ## 5. yu科技(已更新)
 
