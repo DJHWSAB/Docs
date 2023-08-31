@@ -5,7 +5,7 @@ layout: doc
 
 ## 1. 知风(已更新)
 
-https://suo.yt/IkwKOcD 密码：7966
+https://suo.yt/g5OmPTR 密码：7966
 
 ## 2. 阿伟科技(已更新)
 
@@ -13,20 +13,16 @@ https://suo.yt/eESrWAG
 
 ## 3. 由零开始(已更新)
 
-https://suo.yt/exUZVrD
+https://suo.yt/68TaU4n
 
 ## 4. 玉豆节点(已更新)
 
-https://suo.yt/ycf40T8
+https://suo.yt/PFrI246
 
 ## 5. yu科技(已更新)
 
-https://suo.yt/TezPH2Q
+https://suo.yt/LVQkUhH
 
-## 6. nodefree(已更新）
+## 6. 面具人共享科技(已更新)
 
-https://nodefree.org/dy/2023/08/20230829.yaml
-
-## 7. 面具人共享科技(已更新)
-
-https://suo.yt/NDDzOUD
+https://suo.yt/YNLAcSv
