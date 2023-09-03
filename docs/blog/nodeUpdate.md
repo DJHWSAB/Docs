@@ -13,7 +13,7 @@ https://suo.yt/eESrWAG
 
 ## 3. 由零开始(已更新)
 
-https://suo.yt/UYwsanq
+https://suo.yt/ECF2IuE
 
 ## 4. 玉豆节点(已更新)
 
@@ -21,8 +21,8 @@ https://suo.yt/Mi22hDW
 
 ## 5. yu科技(已更新)
 
-https://suo.yt/YUeR4dE
+https://suo.yt/BhkI726
 
 ## 6. 面具人共享科技(已更新)
 
-https://suo.yt/dLPTy16
+https://suo.yt/t5QEMEP
