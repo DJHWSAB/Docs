@@ -9,7 +9,7 @@ https://suo.yt/X8HnIdN 密码：1916
 
 ## 2. 阿伟科技(已更新)
 
-https://suo.yt/eESrWAG
+https://suo.yt/QMrx0B2
 
 ## 3. 由零开始(已更新)
 
