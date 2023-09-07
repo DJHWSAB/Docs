@@ -5,7 +5,7 @@ layout: doc
 
 ## 1. 知风(已更新)
 
-https://suo.yt/X8HnIdN 密码：1916
+https://reurl.cc/L61qRa 密码：1916
 
 ## 2. 阿伟科技(已更新)
 
@@ -21,8 +21,8 @@ https://suo.yt/3saIbxr
 
 ## 5. yu科技(已更新)
 
-https://suo.yt/6Z6zlXn
+https://oss.v2rayse.com/proxies/data/2023-09-07/nVLbuJV.txt
 
 ## 6. 面具人共享科技(已更新)
 
-https://suo.yt/j1rrN4E
+https://oss.v2rayse.com/custom/data/2023_09_06/wMzS4E.yaml
