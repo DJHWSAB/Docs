@@ -13,11 +13,11 @@ https://suo.yt/QMrx0B2
 
 ## 3. 由零开始(已更新)
 
-https://suo.yt/IIrPaH7
+https://agit.ai/blue/youlingkaishi/raw/branch/master/moon/c7
 
 ## 4. 玉豆节点(已更新)
 
-https://suo.yt/3saIbxr
+http://yy.yudou66.top/202309/2023.9.7Clad2sh.yaml
 
 ## 5. yu科技(已更新)
 
