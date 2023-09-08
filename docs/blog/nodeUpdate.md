@@ -17,7 +17,7 @@ https://suo.yt/FPwnvQX
 
 ## 4. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202309/2023.9.7Clad2sh.yaml
+http://yy.yudou66.top/202309/2023.9.8Clas5th.yaml
 
 ## 5. yu科技(已更新)
 
