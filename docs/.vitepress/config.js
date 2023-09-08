@@ -122,6 +122,7 @@ export default defineConfig({
             { text: 'thor', link: '/tools/hoist/thor' }, // /tools/hoist/thor.md
             { text: 'google', link: '/tools/hoist/google' }, // /tools/hoist/google.md
             { text: 'npkill', link: '/tools/hoist/npkill' }, // /tools/hoist/npkill.md
+            { text: 'U盘', link: '/tools/hoist/U盘' }, // /tools/hoist/U盘.md
           ],
           // 是否收缩
           collapsible: true,
