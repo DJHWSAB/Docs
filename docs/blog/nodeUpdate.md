@@ -26,3 +26,25 @@ https://suo.yt/sQ8IMni
 ## 6. 面具人共享科技(已更新)
 
 https://suo.yt/z86JJP7
+
+## 7. 梦歌(已更新)
+
+解压码：66926
+
+https://paste.ee/r/UDObD/0
+
+https://paste.ee/r/ASRm4/0
+
+https://paste.ee/r/srKwX/0
+
+https://paste.ee/r/EgUcK/0
+
+https://paste.ee/r/S9J8Q/0
+
+https://paste.ee/r/bsUXF/0
+
+https://paste.ee/r/qMyKF/0
+
+## 8. 米贝分享(已更新)
+
+http://mm.mibei77.com/202309/09.07Clashjkmc.yaml
