@@ -13,7 +13,7 @@ https://suo.yt/QMrx0B2
 
 ## 3. 由零开始(已更新)
 
-https://agit.ai/blue/youlingkaishi/raw/branch/master/moon/c7
+https://suo.yt/FPwnvQX
 
 ## 4. 玉豆节点(已更新)
 
@@ -21,8 +21,8 @@ http://yy.yudou66.top/202309/2023.9.7Clad2sh.yaml
 
 ## 5. yu科技(已更新)
 
-https://oss.v2rayse.com/proxies/data/2023-09-07/nVLbuJV.txt
+https://suo.yt/sQ8IMni
 
 ## 6. 面具人共享科技(已更新)
 
-https://oss.v2rayse.com/custom/data/2023_09_06/wMzS4E.yaml
+https://suo.yt/z86JJP7
