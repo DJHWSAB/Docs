@@ -5,7 +5,7 @@ layout: doc
 
 ## 1. 知风(已更新)
 
-https://reurl.cc/L61qRa 密码：1916
+https://suo.yt/IYrTdQD 密码：1916
 
 ## 2. 阿伟科技(已更新)
 
