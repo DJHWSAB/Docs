@@ -33,14 +33,6 @@ https://suo.yt/z86JJP7
 
 https://paste.ee/r/2zasi/0
 
-https://paste.ee/r/bsUXF/0
-
-https://paste.ee/r/qMyKF/0
-
-## 8. 米贝分享(已更新)
-
-https://paste.ee/r/2zasi/0
-
 https://paste.ee/r/q6YOn/0
 
 https://paste.ee/r/n6xqF/0
@@ -50,3 +42,7 @@ https://paste.ee/r/jNAPC/0
 https://paste.ee/r/u4Jb1/0
 
 https://paste.ee/r/kt5PH/0
+
+## 8. 米贝分享(已更新)
+
+http://mm.mibei77.com/202309/09.09Clashjksw.yaml
