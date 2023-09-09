@@ -25,7 +25,7 @@ https://suo.yt/AJh0xwg
 
 ## 6. 面具人共享科技(已更新)
 
-https://suo.yt/z86JJP7
+https://oss.v2rayse.com/custom/data/2023_09_09/PqG8DI.yaml
 
 ## 7. 梦歌(已更新)
 
