@@ -31,13 +31,13 @@ https://oss.v2rayse.com/custom/data/2023_09_11/iOWpwr.yaml
 
 解压码：66926
 
-https://paste.ee/r/Ibz4G/0
+https://paste.ee/r/4RxDP/0
 
-https://paste.ee/r/jngKJ/0
+https://paste.ee/r/bx2Jq/0
 
-https://paste.ee/r/sB5Qd/0
+https://paste.ee/r/vtOZf/0
 
-https://paste.ee/r/GZWUE/0
+https://paste.ee/r/3dEye/0
 
 ## 8. 米贝分享(已更新)
 
