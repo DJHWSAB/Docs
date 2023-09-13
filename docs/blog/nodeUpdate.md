@@ -13,7 +13,7 @@ https://suo.yt/QMrx0B2
 
 ## 3. 由零开始(已更新)
 
-https://agit.ai/blue/youlingkaishi/raw/branch/master/moon/12c
+https://agit.ai/blue/youlingkaishi/raw/branch/master/moon/c013
 
 ## 4. 玉豆节点(已更新)
 
@@ -31,13 +31,9 @@ https://oss.v2rayse.com/custom/data/2023_09_12/ue3eLP.yaml
 
 解压码：66926
 
-https://paste.ee/r/4RxDP/0
+https://paste.ee/r/t1nKK/0
 
-https://paste.ee/r/bx2Jq/0
-
-https://paste.ee/r/vtOZf/0
-
-https://paste.ee/r/3dEye/0
+https://paste.ee/r/WwGpi/0
 
 ## 8. 米贝分享(已更新)
 
