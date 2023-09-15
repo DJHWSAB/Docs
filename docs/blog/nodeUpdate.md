@@ -5,7 +5,7 @@ layout: doc
 
 ## 1. 知风(已更新)
 
-https://suo.yt/2lYvxXn 密码：1916
+https://suo.yt/qX9XGWm 密码：1916
 
 ## 2. 阿伟科技(已更新)
 
@@ -17,11 +17,11 @@ https://agit.ai/blue/youlingkaishi/raw/branch/master/moon/c14
 
 ## 4. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202309/2023.9.14Clasdsh.yaml
+http://yy.yudou66.top/202309/2023.9.15Cladssh.yaml
 
 ## 5. yu科技(已更新)
 
-https://suo.yt/MHDWlmP
+https://suo.yt/hjRajCS
 
 ## 6. 面具人共享科技(已更新)
 
