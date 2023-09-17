@@ -13,7 +13,7 @@ https://suo.yt/QMrx0B2
 
 ## 3. 由零开始(已更新)
 
-https://agit.ai/blue/youlingkaishi/raw/branch/master/moon/c16
+https://agit.ai/blue/youlingkaishi/raw/branch/master/moon/17c
 
 ## 4. 玉豆节点(已更新)
 
