@@ -5,7 +5,7 @@ layout: doc
 
 ## 1. 知风(已更新)
 
-https://suo.yt/sV3DNOg 密码：1916
+https://suo.yt/JH0ONqA 密码：1916
 
 ## 2. 阿伟科技(已更新)
 
@@ -29,15 +29,7 @@ https://oss.v2rayse.com/custom/data/2023_09_19/pL0VcJ.yaml
 
 ## 7. 梦歌(已更新)
 
-https://paste.ee/r/J8ARn/0
-
-https://paste.ee/r/tyPVR/0
-
-https://paste.ee/r/muQtL/0
-
-https://paste.ee/r/cJnHU/0
-
-https://paste.ee/r/8CglA/0
+https://paste.ee/r/13SVg/0
 
 ## 8. 米贝分享(已更新)
 
