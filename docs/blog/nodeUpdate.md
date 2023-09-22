@@ -17,7 +17,7 @@ https://agit.ai/blue/youlingkaishi/raw/branch/master/moon/22c
 
 ## 4. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202309/2023.9.21Clf3ash.yaml
+http://yy.yudou66.top/202309/2023.9.22Clad3sh.yaml
 
 ## 5. yu科技(已更新)
 
@@ -29,13 +29,17 @@ https://oss.v2rayse.com/custom/data/2023_09_21/F6L392.yaml
 
 ## 7. 梦歌(已更新)
 
-https://paste.ee/r/UmoVu/0
+https://paste.ee/r/FqqBQ/0
 
-https://paste.ee/r/cprL5/0
+https://paste.ee/r/YSBh1/0
 
-https://paste.ee/r/kX38S/0
+https://paste.ee/r/QJpgh/0
 
-https://paste.ee/r/qY855/0
+https://paste.ee/r/WrfEn/0
+
+https://paste.ee/r/BBcls/0
+
+https://paste.ee/r/GMkMI/0
 
 ## 8. 米贝分享(已更新)
 
