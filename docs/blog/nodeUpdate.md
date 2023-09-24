@@ -17,7 +17,7 @@ https://agit.ai/blue/youlingkaishi/raw/branch/master/moon/0924c
 
 ## 4. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202309/2023.9.23Claddsh.yaml
+http://yy.yudou66.top/202309/2023.9.24Claseeh.yaml
 
 ## 5. yu科技(已更新)
 
