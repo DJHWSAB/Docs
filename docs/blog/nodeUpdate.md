@@ -29,9 +29,7 @@ https://oss.v2rayse.com/custom/data/2023_09_26/MG8ILB.yaml
 
 ## 7. 梦歌(已更新)
 
-https://paste.ee/r/E5PFZ/0
-
-https://paste.ee/r/3Lken/0
+https://paste.ee/r/oBu0W/0
 
 ## 8. 米贝分享(已更新)
 
