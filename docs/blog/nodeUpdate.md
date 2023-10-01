@@ -17,7 +17,7 @@ https://agit.ai/blue/youlingkaishi/raw/branch/master/moo0/c01
 
 ## 4. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202309/2023.9.30Clas1sh.yaml
+http://yy.yudou66.top/202310/2023.10.1Clae2sh.yaml
 
 ## 5. yu科技(已更新)
 
@@ -25,7 +25,7 @@ https://suo.yt/JSfEHpI
 
 ## 6. 面具人共享科技(已更新)
 
-https://oss.v2rayse.com/custom/data/2023_09_29/elJlRL.yaml
+http://mm.mibei77.com/202310/10.01Clashjklm.yaml
 
 ## 7. 梦歌(已更新)
 
