@@ -21,7 +21,7 @@ http://yy.yudou66.top/202310/2023.10.5Clr2ash.yaml
 
 ## 5. yu科技(已更新)
 
-https://oss.v2rayse.com/proxies/data/2023-10-05/5yzvZnv.txt
+https://oss.v2rayse.com/proxies/data/2023-10-06/RBRGNHG.txt
 
 ## 6. 面具人共享科技(已更新)
 
