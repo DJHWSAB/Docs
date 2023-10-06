@@ -41,4 +41,4 @@ https://paste.ee/r/HZhGE/0
 
 ## 8. 米贝分享(已更新)
 
-http://mm.mibei77.com/202309/09.30Clashklm.yaml
+http://mm.mibei77.com/202310/10.05Clashjklo.yaml
