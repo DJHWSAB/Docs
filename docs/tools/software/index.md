@@ -180,80 +180,90 @@ layout: doc
 
 ::: details Click me to view the code
   ```json
-  {
-    // 关闭欢迎界面
-    "workbench.startupEditor": "none",
-    // 颜色主题
-    "workbench.colorTheme": "Atom One Dark",
-    // 终端字体大小
-    "terminal.integrated.fontSize": 18,
-    // 终端光标类型
-    "terminal.integrated.cursorStyle": "line",
-    // 字体大小
-    "editor.fontSize": 18,
-    // 自动保存
-    "files.autoSave": "afterDelay",
-    // 👇🏻两行代码 ----- 实现代码自动换行
-    "editor.wordWrap": "on",
-    "diffEditor.wordWrap": "on",
-    // 空格的渲染方式
-    "editor.renderWhitespace": "all",
-    // 代码缩进2个空格
-    "editor.tabSize": 2,
-    // 行内元素(a、span、i...)自动换行
-    "emmet.syntaxProfiles": {
-        "html": {
-            "inline_break": 1
-        }
-    },
-    // 👇🏻两行代码 ----- 实现代码块出现提示线
-    "editor.bracketPairColorization.enabled": true,
-    "editor.guides.bracketPairs": "active",
-    // 滚动条滚动时出现代码层级
-    "editor.stickyScroll.enabled": true,
-    // 允许打开未受信任的文件
-    "security.workspace.trust.untrustedFiles": "open",
-    // 报错语法提示
-    "typescript.locale": "zh-CN",
-    // 显示索略图
-    "editor.minimap.autohide": true,
-    // Live Server扩展的信息提示
-    "liveServer.settings.donotShowInfoMsg": true,
-    // 保存时自动格式化代码功能
-    "editor.formatOnSave": true,
-    // 更换HTML元素(更换开始标签,结束标签同步更改 / 更换结束标签,开始标签同步更改)
-    "editor.linkedEditing": true,
-    // 修改liveServer端口
-    "liveServer.settings.port": 8080,
-    // 开启悬停显示翻译结果
-    "EnglishChineseDictionary.enableHover": true,
-    // Code Spell Checker 标记后不会被认为是拼写错误
-    "cSpell.userWords": [
-        "autohide",
-        "coderccb",
-        "donot",
-        "Matebook",
-        "vitepress"
-    ],
-    // template-string-converter 相关配置(只需要输入${},自动将 双引号"" 转换成 模版字符串`${}`)
-    // 扩展适用的语言
-    "template-string-converter.validLanguages": [
-        "svelte",
-        "typescript",
-        "javascript",
-        "typescriptreact",
-        "javascriptreact",
-        "js"
-    ],
-    // 👇🏻两行代码 ----- 删除 `${}` 中的 $, {, } 都会自动转换成 双引号
-    "template-string-converter.autoRemoveTemplateString": true,
-    "template-string-converter.convertWithinTemplateString": false,
-    // 禁止突出显示歧义字符
-    "editor.unicodeHighlight.ambiguousCharacters": false,
-    // 文件主题颜色
-    "workbench.iconTheme": "vscode-great-icons",
-    // 保存自动删除空格
-    "trailing-spaces.trimOnSave": true
+    {
+      // 关闭欢迎界面
+      "workbench.startupEditor": "none",
+      // 颜色主题
+      "workbench.colorTheme": "Atom One Dark",
+      // 终端字体大小
+      "terminal.integrated.fontSize": 18,
+      // 终端光标类型
+      "terminal.integrated.cursorStyle": "line",
+      // 字体大小
+      "editor.fontSize": 18,
+      // 自动保存
+      "files.autoSave": "afterDelay",
+      // 👇🏻两行代码 ----- 实现代码自动换行
+      "editor.wordWrap": "on",
+      "diffEditor.wordWrap": "on",
+      // 空格的渲染方式
+      "editor.renderWhitespace": "all",
+      // 代码缩进2个空格
+      "editor.tabSize": 2,
+      // 行内元素(a、span、i...)自动换行
+      "emmet.syntaxProfiles": {
+          "html": {
+              "inline_break": 1
+          }
+      },
+      // 👇🏻两行代码 ----- 实现代码块出现提示线
+      "editor.bracketPairColorization.enabled": true,
+      "editor.guides.bracketPairs": "active",
+      // 滚动条滚动时出现代码层级
+      "editor.stickyScroll.enabled": true,
+      // 允许打开未受信任的文件
+      "security.workspace.trust.untrustedFiles": "open",
+      // 报错语法提示
+      "typescript.locale": "zh-CN",
+      // 显示索略图
+      "editor.minimap.autohide": true,
+      // Live Server扩展的信息提示
+      "liveServer.settings.donotShowInfoMsg": true,
+      // 保存时自动格式化代码功能
+      "editor.formatOnSave": true,
+      // 更换HTML元素(更换开始标签,结束标签同步更改 / 更换结束标签,开始标签同步更改)
+      "editor.linkedEditing": true,
+      // 修改liveServer端口
+      "liveServer.settings.port": 8080,
+      // 开启悬停显示翻译结果
+      "EnglishChineseDictionary.enableHover": true,
+      // Code Spell Checker 标记后不会被认为是拼写错误
+      "cSpell.userWords": [
+          "autohide",
+          "coderccb",
+          "donot",
+          "Matebook",
+          "vitepress"
+      ],
+      // template-string-converter 相关配置(只需要输入${},自动将 双引号"" 转换成 模版字符串`${}`)
+      // 扩展适用的语言
+      "template-string-converter.validLanguages": [
+          "svelte",
+          "typescript",
+          "javascript",
+          "typescriptreact",
+          "javascriptreact",
+          "js"
+      ],
+      // 👇🏻两行代码 ----- 删除 `${}` 中的 $, {, } 都会自动转换成 双引号
+      "template-string-converter.autoRemoveTemplateString": true,
+      "template-string-converter.convertWithinTemplateString": false,
+      // 禁止突出显示歧义字符
+      "editor.unicodeHighlight.ambiguousCharacters": false,
+      // 文件主题颜色
+      "workbench.iconTheme": "vscode-great-icons",
+      // 保存自动删除空格
+      "trailing-spaces.trimOnSave": true,
+      // drawio 绘图插件的主题
+      "hediet.vscode-drawio.theme": "atlas",
+      // chatgp语言
+      "chatgpt.lang": "cn",
+      // 函数声明时,不加空格 function foo () {}
+      "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+      // 函数表达式时,不加空格 var bar = function foo() {}
+      "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+      // 函数{}如果没有内容默认不加空格
+      "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
   }
   ```
 :::
