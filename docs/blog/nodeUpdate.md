@@ -13,15 +13,15 @@ https://suo.yt/QMrx0B2
 
 ## 3. 由零开始(已更新)
 
-https://agit.ai/blue/youlingkaishi/raw/branch/master/moo0/c6
+https://agit.ai/blue/youlingkaishi/raw/branch/master/moo0/c07
 
 ## 4. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202310/2023.10.6Clad3sh.yaml
+http://yy.yudou66.top/202310/2023.10.7s4Clash.yaml
 
 ## 5. yu科技(已更新)
 
-https://oss.v2rayse.com/proxies/data/2023-10-06/RBRGNHG.txt
+https://oss.v2rayse.com/proxies/data/2023-10-07/ibcYakE.txt
 
 ## 6. 面具人共享科技(已更新)
 
@@ -41,4 +41,4 @@ https://paste.ee/r/HZhGE/0
 
 ## 8. 米贝分享(已更新)
 
-http://mm.mibei77.com/202310/10.05Clashjklo.yaml
+http://mm.mibei77.com/202310/10.07Clashhjkl.yaml
