@@ -17,7 +17,7 @@ https://agit.ai/blue/youlingkaishi/raw/branch/master/moo0/8c
 
 ## 4. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202310/2023.10.7s4Clash.yaml
+http://yy.yudou66.top/202310/2023.10.8Clasf6h.yaml
 
 ## 5. yu科技(已更新)
 
@@ -36,7 +36,6 @@ https://paste.ee/r/9LknN/0
 https://paste.ee/r/kWekh/0
 
 https://paste.ee/r/3OkCL/0
-
 https://paste.ee/r/HZhGE/0
 
 ## 8. 米贝分享(已更新)
