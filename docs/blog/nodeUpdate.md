@@ -29,14 +29,13 @@ https://oss.v2rayse.com/custom/data/2023_10_05/HsQh17.yaml
 
 ## 7. 梦歌(已更新)
 
-https://paste.ee/r/OeZvV/0
+https://paste.ee/r/Onyx3/0
 
-https://paste.ee/r/9LknN/0
+https://paste.ee/r/zpLMa/0
 
-https://paste.ee/r/kWekh/0
+https://paste.ee/r/u2XyI/0
 
-https://paste.ee/r/3OkCL/0
-https://paste.ee/r/HZhGE/0
+https://paste.ee/r/iP5sO/0
 
 ## 8. 米贝分享(已更新)
 
