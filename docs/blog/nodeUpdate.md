@@ -29,14 +29,11 @@ https://oss.v2rayse.com/custom/data/2023_10_10/GDfJkW.yaml
 
 ## 7. 梦歌(已更新)
 
-https://paste.ee/r/CFX5Q/0
+https://paste.ee/r/fZRuh/0
 
-https://paste.ee/r/ctMBy/0
+https://paste.ee/r/PFBI8/0
 
-https://paste.ee/r/X7FUh/0
-
-https://paste.ee/r/Pgbc0/0
-
+https://paste.ee/r/loP6s/0
 
 ## 8. 米贝分享(已更新)
 
@@ -45,5 +42,3 @@ http://mm.mibei77.com/202310/10.16Clashjkiy.yaml
 ## 9. bigyb（已更新）
 
 https://bigybyun.obs.cn-north-4.myhuaweicloud.com:443/10%E6%9C%88/10.15/v2rayse_2023-10-15%2013_17_10.yaml?AccessKeyId=FJC6TKERIQKAUIF3XAAG&Expires=1699852807&Signature=Q8XilrSYLqIloawmxIHWwP5yEts%3D
-
-https://drive.google.com/uc?export=download&id=1mu_Iv1HE1jjzgJ8pjDGu2whdRYNZRIer
