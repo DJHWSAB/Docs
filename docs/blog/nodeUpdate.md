@@ -7,9 +7,9 @@ layout: doc
 
 https://suo.yt/HzLVGcS 密码：1916
 
-## 2. 阿伟科技(已更新)
+## 2. 资源分享师(已更新)
 
-https://suo.yt/QMrx0B2
+https://drive.google.com/uc?export=download&id=1h4jGU88oaHGlJNVuK0crGff6XWDB_-nf
 
 ## 3. 由零开始(已更新)
 
@@ -21,7 +21,7 @@ http://yy.yudou66.top/202310/2023.10.16Clah2sh.yaml
 
 ## 5. yu科技(已更新)
 
-https://oss.v2rayse.com/proxies/data/2023-10-15/Mu26eK1.txt
+https://oss.v2rayse.com/proxies/data/2023-10-16/VXyR7Nm.txt
 
 ## 6. 面具人共享科技(已更新)
 
@@ -41,4 +41,4 @@ http://mm.mibei77.com/202310/10.16Clashjkiy.yaml
 
 ## 9. bigyb（已更新）
 
-https://bigybyun.obs.cn-north-4.myhuaweicloud.com:443/10%E6%9C%88/10.15/v2rayse_2023-10-15%2013_17_10.yaml?AccessKeyId=FJC6TKERIQKAUIF3XAAG&Expires=1699852807&Signature=Q8XilrSYLqIloawmxIHWwP5yEts%3D
+https://bigybyun.obs.cn-north-4.myhuaweicloud.com:443/10%E6%9C%88/10.16/v2rayse_2023-10-16%2018_19_29.yaml?AccessKeyId=FJC6TKERIQKAUIF3XAAG&Expires=1700043654&Signature=CEHYtgJPz2KWMTQQ46HWhsvqZLg%3D
