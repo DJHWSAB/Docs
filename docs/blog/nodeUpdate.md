@@ -47,4 +47,3 @@ http://mm.mibei77.com/202310/10.16Clashjkiy.yaml
 https://bigybyun.obs.cn-north-4.myhuaweicloud.com:443/10%E6%9C%88/10.15/v2rayse_2023-10-15%2013_17_10.yaml?AccessKeyId=FJC6TKERIQKAUIF3XAAG&Expires=1699852807&Signature=Q8XilrSYLqIloawmxIHWwP5yEts%3D
 
 
-https://1drv.ms/f/s!AnnhSFFOCF_ Ngi77052w_ K7ozzHM?e=ewczed
