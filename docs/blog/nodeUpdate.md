@@ -13,7 +13,7 @@ https://drive.google.com/uc?export=download&id=1h4jGU88oaHGlJNVuK0crGff6XWDB_-nf
 
 ## 3. 由零开始(已更新)
 
-https://agit.ai/blue/youlingkaishi/raw/branch/master/moo0/c16
+https://agit.ai/blue/youlingkaishi/raw/branch/master/moo0/17c
 
 ## 4. 玉豆节点(已更新)
 
@@ -37,7 +37,7 @@ https://paste.ee/r/loP6s/0
 
 ## 8. 米贝分享(已更新)
 
-http://mm.mibei77.com/202310/10.16Clashjkiy.yaml
+http://mm.mibei77.com/202310/10.17Clashhjko.yaml
 
 ## 9. bigyb（已更新）
 
