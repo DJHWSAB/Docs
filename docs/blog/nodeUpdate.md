@@ -3,9 +3,9 @@ layout: doc
 ---
 # 节点更新
 
-## 1. 知风(已更新)
+## 1. 免费节点(已更新)
 
-https://suo.yt/HzLVGcS 密码：1916
+https://tt.vg/freeclash
 
 ## 2. 资源分享师(已更新)
 
@@ -43,6 +43,10 @@ https://paste.ee/r/OMg6N/0
 
 http://mm.mibei77.com/202310/10.17Clashhjko.yaml
 
-## 9. bigyb（已更新）
+## 9. bigyb(已更新)
 
 https://bigybyun.obs.cn-north-4.myhuaweicloud.com:443/10%E6%9C%88/10.17/v2rayse_2023-10-17%2018_19_29.yaml?AccessKeyId=FJC6TKERIQKAUIF3XAAG&Expires=1700043708&Signature=xVBZnKVuSqiIqfDpbdMomhflweE%3D
+
+## 10. NodeBird(已更新)
+
+https://nodebird.net/wp-content/uploads/2023/10/20231017.yaml
