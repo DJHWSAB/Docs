@@ -41,4 +41,4 @@ http://mm.mibei77.com/202310/10.17Clashhjko.yaml
 
 ## 9. bigyb（已更新）
 
-https://bigybyun.obs.cn-north-4.myhuaweicloud.com:443/10%E6%9C%88/10.16/v2rayse_2023-10-16%2018_19_29.yaml?AccessKeyId=FJC6TKERIQKAUIF3XAAG&Expires=1700043654&Signature=CEHYtgJPz2KWMTQQ46HWhsvqZLg%3D
+https://bigybyun.obs.cn-north-4.myhuaweicloud.com:443/10%E6%9C%88/10.17/v2rayse_2023-10-17%2018_19_29.yaml?AccessKeyId=FJC6TKERIQKAUIF3XAAG&Expires=1700043708&Signature=xVBZnKVuSqiIqfDpbdMomhflweE%3D
