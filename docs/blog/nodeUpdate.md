@@ -21,7 +21,7 @@ http://yy.yudou66.top/202310/2023.10.17Claso0h.yaml
 
 ## 5. yu科技(已更新)
 
-https://oss.v2rayse.com/proxies/data/2023-10-16/VXyR7Nm.txt
+https://oss.v2rayse.com/proxies/data/2023-10-17/vuLTNWm.txt
 
 ## 6. 面具人共享科技(已更新)
 
