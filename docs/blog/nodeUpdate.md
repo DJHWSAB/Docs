@@ -9,7 +9,7 @@ https://suo.yt/HzLVGcS 密码：1916
 
 ## 2. 资源分享师(已更新)
 
-https://drive.google.com/uc?export=download&id=1h4jGU88oaHGlJNVuK0crGff6XWDB_-nf
+https://drive.google.com/uc?export=download&id=1P7E5rT3D1wdYiemuQ63biwyn8f_emwK9
 
 ## 3. 由零开始(已更新)
 
@@ -29,11 +29,15 @@ https://oss.v2rayse.com/custom/data/2023_10_10/GDfJkW.yaml
 
 ## 7. 梦歌(已更新)
 
-https://paste.ee/r/fZRuh/0
+https://paste.ee/r/XUpYa/0
 
-https://paste.ee/r/PFBI8/0
+https://paste.ee/r/E9vin/0
 
-https://paste.ee/r/loP6s/0
+https://paste.ee/r/CGa7r/0
+
+https://paste.ee/r/xu7pH/0
+
+https://paste.ee/r/OMg6N/0
 
 ## 8. 米贝分享(已更新)
 
