@@ -26,6 +26,7 @@ https://oss.v2rayse.com/proxies/data/2023-10-18/zZOMJkv.txt
 ## 6. 面具人共享科技(已更新)
 
 https://oss.v2rayse.com/custom/data/2023_10_18/wAkEU6.yaml
+
 ## 7. 梦歌(已更新)
 
 https://paste.ee/r/2e1hr/0
@@ -34,7 +35,7 @@ https://paste.ee/r/qT1Xl/0
 
 ## 8. 米贝分享(已更新)
 
-http://mm.mibei77.com/202310/10.18Clashhjk.yaml
+http://mm.mibei77.com/202310/10.19Clashhjv.yaml
 
 ## 9. bigyb(已更新)
 
