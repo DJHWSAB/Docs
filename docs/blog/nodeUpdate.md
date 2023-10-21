@@ -17,7 +17,7 @@ https://agit.ai/blue/youlingkaishi/raw/branch/master/moo0/021c
 
 ## 4. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202310/2023.10.20Clast3h.yaml
+http://yy.yudou66.top/202310/2023.10.21Clu5ash.yaml
 
 ## 5. yu科技(已更新)
 
@@ -25,7 +25,7 @@ https://oss.v2rayse.com/proxies/data/2023-10-21/ezoxSIZ.txt
 
 ## 6. 面具人共享科技(已更新)
 
-https://oss.v2rayse.com/custom/data/2023_10_20/N2mYty.yaml
+https://oss.v2rayse.com/custom/data/2023_10_21/0EG5TT.yaml
 
 ## 7. 梦歌(已更新)
 
@@ -35,7 +35,7 @@ https://paste.ee/r/qT1Xl/0
 
 ## 8. 米贝分享(已更新)
 
-http://mm.mibei77.com/202310/10.20Clashhjki.yaml
+http://mm.mibei77.com/202310/10.21Clashhjkl.yaml
 
 ## 9. bigyb(已更新)
 
