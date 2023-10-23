@@ -17,11 +17,11 @@ https://agit.ai/blue/youlingkaishi/raw/branch/master/moo0/c023
 
 ## 4. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202310/2023.10.22Clg67ash.yaml
+http://yy.yudou66.top/202310/2023.10.23Clasd4h.yaml
 
 ## 5. yu科技(已更新)
 
-https://oss.v2rayse.com/proxies/data/2023-10-22/N7lDAan.txt
+https://oss.v2rayse.com/proxies/data/2023-10-23/zsh4UTl.txt
 
 ## 6. 面具人共享科技(已更新)
 
