@@ -21,11 +21,11 @@ http://yy.yudou66.top/202310/2023.10.24Clarrsh.yaml
 
 ## 5. yu科技(已更新)
 
-https://oss.v2rayse.com/proxies/data/2023-10-23/zsh4UTl.txt
+https://oss.v2rayse.com/proxies/data/2023-10-24/w9EXqdI.txt
 
 ## 6. 面具人共享科技(已更新)
 
-https://oss.v2rayse.com/custom/data/2023_10_21/0EG5TT.yaml
+https://oss.v2rayse.com/custom/data/2023_10_24/hLA9mZ.yaml
 
 ## 7. 梦歌(已更新)
 
