@@ -35,7 +35,7 @@ https://paste.ee/r/qT1Xl/0
 
 ## 8. 米贝分享(已更新)
 
-http://mm.mibei77.com/202310/10.24Clashhjkb.yaml
+http://mm.mibei77.com/202310/10.25Clashhjrt.yaml
 
 ## 9. bigyb(已更新)
 
@@ -43,4 +43,4 @@ https://bigybyun.obs.cn-north-4.myhuaweicloud.com:443/10%E6%9C%88/10.24/v2rayse_
 
 ## 10. NodeBird(已更新)
 
-https://nodebird.net/wp-content/uploads/2023/10/20231024.yaml
+https://nodebird.net/wp-content/uploads/2023/10/20231025.yaml
