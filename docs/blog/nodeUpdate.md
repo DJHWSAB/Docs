@@ -9,15 +9,15 @@ https://tt.vg/freeclash
 
 ## 2. 资源分享师(已更新)
 
-https://drive.google.com/uc?export=download&id=1ghEJ31Nl2AXopoUoo2iR0rTGmd5zKyub
+https://drive.google.com/uc?export=download&id=1Vdx1YrB0Frd4jexJ884epZVWnfkupwBq
 
 ## 3. 由零开始(已更新)
 
-https://agit.ai/blue/youlingkaishi/raw/branch/master/moo0/24c
+https://agit.ai/blue/youlingkaishi/raw/branch/master/moo0/025c
 
 ## 4. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202310/2023.10.24Clarrsh.yaml
+http://yy.yudou66.top/202310/2023.10.25Claiksh.yaml
 
 ## 5. yu科技(已更新)
 
@@ -39,7 +39,7 @@ http://mm.mibei77.com/202310/10.25Clashhjrt.yaml
 
 ## 9. bigyb(已更新)
 
-https://bigybyun.obs.cn-north-4.myhuaweicloud.com:443/10%E6%9C%88/10.24/v2rayse_2023-10-24%2019_53_21.yaml?AccessKeyId=FJC6TKERIQKAUIF3XAAG&Expires=1700740527&Signature=2jPuhL6ZntH%2BHxboWHh3ysWLxbI%3D
+https://bigybyun.obs.cn-north-4.myhuaweicloud.com:443/10%E6%9C%88/10.25/v2rayse_2023-10-25%2019_53_21.yaml?AccessKeyId=FJC6TKERIQKAUIF3XAAG&Expires=1700740578&Signature=X/KPhxVuQ4rW52DfLTqC2tnpnwY%3D
 
 ## 10. NodeBird(已更新)
 
