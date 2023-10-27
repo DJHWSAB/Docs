@@ -9,15 +9,15 @@ https://tt.vg/freeclash
 
 ## 2. 资源分享师(已更新)
 
-https://drive.google.com/uc?export=download&id=1Vdx1YrB0Frd4jexJ884epZVWnfkupwBq
+https://drive.google.com/uc?export=download&id=12DMBW6SGtCJLA0ubhS0T_Ege3eFVktr0
 
 ## 3. 由零开始(已更新)
 
-https://agit.ai/blue/youlingkaishi/raw/branch/master/moo0/025c
+https://agit.ai/blue/youlingkaishi/raw/branch/master/moo0/c27
 
 ## 4. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202310/2023.10.25Claiksh.yaml
+http://yy.yudou66.top/202310/2023.10.27Cls1ash.yaml
 
 ## 5. yu科技(已更新)
 
@@ -25,7 +25,7 @@ https://oss.v2rayse.com/proxies/data/2023-10-24/w9EXqdI.txt
 
 ## 6. 面具人共享科技(已更新)
 
-https://oss.v2rayse.com/custom/data/2023_10_24/hLA9mZ.yaml
+https://oss.v2rayse.com/custom/data/2023_10_27/KDa5R8.yaml
 
 ## 7. 梦歌(已更新)
 
@@ -35,7 +35,7 @@ https://paste.ee/r/qT1Xl/0
 
 ## 8. 米贝分享(已更新)
 
-http://mm.mibei77.com/202310/10.25Clashhjrt.yaml
+http://mm.mibei77.com/202310/10.27Clashhyjn.yaml
 
 ## 9. bigyb(已更新)
 
@@ -43,4 +43,4 @@ https://bigybyun.obs.cn-north-4.myhuaweicloud.com:443/10%E6%9C%88/10.25/v2rayse_
 
 ## 10. NodeBird(已更新)
 
-https://nodebird.net/wp-content/uploads/2023/10/20231025.yaml
+https://nodebird.net/wp-content/uploads/2023/10/20231027.yaml
