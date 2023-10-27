@@ -21,7 +21,7 @@ http://yy.yudou66.top/202310/2023.10.27Cls1ash.yaml
 
 ## 5. yu科技(已更新)
 
-https://oss.v2rayse.com/proxies/data/2023-10-24/w9EXqdI.txt
+https://oss.v2rayse.com/proxies/data/2023-10-26/lcBOlvN.txt
 
 ## 6. 面具人共享科技(已更新)
 
@@ -39,7 +39,7 @@ http://mm.mibei77.com/202310/10.27Clashhyjn.yaml
 
 ## 9. bigyb(已更新)
 
-https://bigybyun.obs.cn-north-4.myhuaweicloud.com:443/10%E6%9C%88/10.25/v2rayse_2023-10-25%2019_53_21.yaml?AccessKeyId=FJC6TKERIQKAUIF3XAAG&Expires=1700740578&Signature=X/KPhxVuQ4rW52DfLTqC2tnpnwY%3D
+https://bigybyun.obs.cn-north-4.myhuaweicloud.com:443/10%E6%9C%88/10.27/v2rayse_2023-10-27%2018_14_46.yaml?AccessKeyId=FJC6TKERIQKAUIF3XAAG&Expires=1700907514&Signature=aua6xkpT51F0gmOV6PPhMsbjf9c%3D
 
 ## 10. NodeBird(已更新)
 
