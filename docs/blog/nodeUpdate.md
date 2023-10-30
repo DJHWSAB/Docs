@@ -13,7 +13,7 @@ https://drive.google.com/uc?export=download&id=1poMIT2lAg6gIxQMeBLCw0bHlgN-007kC
 
 ## 3. 由零开始(已更新)
 
-https://agit.ai/blue/youlingkaishi/raw/branch/master/moo0/29c
+https://agit.ai/blue/youlingkaishi/raw/branch/master/moo0/c30
 
 ## 4. 玉豆节点(已更新)
 
