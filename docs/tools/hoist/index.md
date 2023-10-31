@@ -132,3 +132,9 @@ layout: doc
   ```shell
   ipconfig /flushdns
   ```
+
+## 4. github镜像网站 和 github文件加速下载
+
+  github镜像网站：https://githubfast.com/
+
+  github文件加速下载：https://ghproxy.com/
