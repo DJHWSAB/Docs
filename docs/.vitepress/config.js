@@ -106,6 +106,7 @@ export default defineConfig({
             { text: 'Chrome', link: '/tools/software/chrome' }, // /tools/software/chrome.md
             { text: 'Souhu', link: '/tools/software/souhu' }, // /tools/software/souhu.md
             { text: 'Typora', link: '/tools/software/typora' }, // /tools/software/typora.md
+            { text: 'clash_Verge', link: '/tools/software/clash_Verge' }, // /tools/software/clash_Verge.md
           ]
         },
         {
@@ -123,6 +124,7 @@ export default defineConfig({
             { text: 'google', link: '/tools/hoist/google' }, // /tools/hoist/google.md
             { text: 'npkill', link: '/tools/hoist/npkill' }, // /tools/hoist/npkill.md
             { text: 'U盘', link: '/tools/hoist/U盘' }, // /tools/hoist/U盘.md
+            { text: 'LX', link: '/tools/hoist/music' }, // /tools/hoist/music.md
           ],
           // 是否收缩
           collapsible: true,
