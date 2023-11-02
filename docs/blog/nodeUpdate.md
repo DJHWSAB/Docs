@@ -33,7 +33,7 @@ https://paste.ee/r/vJoNg/0
 
 ## 8. 米贝分享(已更新)
 
-http://mm.mibei77.com/202311/11.01Clashhjy.yaml
+http://mm.mibei77.com/202311/11.02Clashghyu.yaml
 
 ## 9. bigyb(已更新)
 
