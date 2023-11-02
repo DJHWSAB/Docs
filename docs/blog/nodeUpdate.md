@@ -13,11 +13,11 @@ https://drive.google.com/uc?export=download&id=1X67pQcj-1_8biAqxHjQjrXHnYk9ZmLVs
 
 ## 3. 由零开始(已更新)
 
-https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/moo11/1c
+https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/moo11/02c
 
 ## 4. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202311/2023.11.1Clay7sh.yaml
+http://yy.yudou66.top/202311/2023.11.2Clasg8h.yaml
 
 ## 5. yu科技(已更新)
 
