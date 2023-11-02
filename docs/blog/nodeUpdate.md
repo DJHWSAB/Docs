@@ -29,7 +29,9 @@ https://oss.v2rayse.com/custom/data/2023_10_27/saePhY.yaml
 
 ## 7. 梦歌(已更新)
 
-https://paste.ee/r/vJoNg/0
+https://v1.mk/rJIJLxv
+
+密码：20231102
 
 ## 8. 米贝分享(已更新)
 
