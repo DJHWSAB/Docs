@@ -43,4 +43,4 @@ https://bigybyun.obs.cn-north-4.myhuaweicloud.com:443/10%E6%9C%88/10.27/v2rayse_
 
 ## 10. NodeBird(已更新)
 
-https://nodebird.net/wp-content/uploads/2023/11/20231101.yaml
+https://nodebird.net/wp-content/uploads/2023/11/20231104.yaml
