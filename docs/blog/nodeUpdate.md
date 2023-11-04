@@ -25,7 +25,7 @@ https://oss.v2rayse.com/proxies/data/2023-10-29/UmiKTvs.txt
 
 ## 6. 面具人共享科技(已更新)
 
-https://oss.v2rayse.com/custom/data/2023_10_27/saePhY.yaml
+https://oss.v2rayse.com/custom/data/2023_11_04/ciSClj.yaml
 
 ## 7. 梦歌(已更新)
 
