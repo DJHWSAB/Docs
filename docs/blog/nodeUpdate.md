@@ -35,4 +35,4 @@ http://mm.mibei77.com/202311/11.03Clashhjyt.yaml
 
 ## 8. NodeBird(已更新)
 
-https://nodebird.net/wp-content/uploads/2023/11/20231104.yaml
+https://nodebird.net/wp-content/uploads/2023/11/20231105.yaml
