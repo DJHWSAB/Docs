@@ -10,4 +10,4 @@ layout: doc
   
   ![lx](/lx_02.png)
 
-链接: https://pan.baidu.com/s/11rBHGRHfZJKu0cwFQ2jc1g?pwd=p8a9 提取码: p8a9
+链接: https://pan.baidu.com/s/11rBHGRHfZJKu0cwFQ2jc1g?pwd=p8a9
