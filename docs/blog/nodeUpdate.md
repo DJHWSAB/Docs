@@ -9,7 +9,7 @@ https://tt.vg/freeclash
 
 ## 2. 由零开始(已更新)
 
-https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/moo11/6
+https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/moo11/07
 
 ## 3. 玉豆节点(已更新)
 
@@ -37,4 +37,4 @@ http://mm.mibei77.com/202311/11.03Clashhjyt.yaml
 
 ## 8. NodeBird(已更新)
 
-https://nodebird.net/wp-content/uploads/2023/11/20231106.yaml
+https://nodebird.net/wp-content/uploads/2023/11/20231107.yaml
