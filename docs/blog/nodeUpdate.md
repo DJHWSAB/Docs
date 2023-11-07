@@ -27,7 +27,9 @@ https://oss.v2rayse.com/custom/data/2023_11_04/ciSClj.yaml
 
 https://paste.gg/p/anonymous/12ed41b14cda44d9a0cb0b3f8526fb6b/files/7c79d866c46243a9ba49d89f2de1f3f0/raw
 
-https://paste.ee/r/B5vK4/0
+https://paste.ee/r/vzXjZ/0
+
+https://paste.ee/r/eBF8w/0
 
 密码：20231102
 
