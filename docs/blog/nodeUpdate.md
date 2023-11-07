@@ -13,7 +13,7 @@ https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/moo11/07
 
 ## 3. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202311/2023.11.6Clasi9h.yaml
+http://yy.yudou66.top/202311/2023.11.7Clj2ash.yaml
 
 ## 4. yu科技(已更新)
 
@@ -25,11 +25,7 @@ https://oss.v2rayse.com/custom/data/2023_11_04/ciSClj.yaml
 
 ## 6. 梦歌(已更新)
 
-https://paste.gg/p/anonymous/12ed41b14cda44d9a0cb0b3f8526fb6b/files/7c79d866c46243a9ba49d89f2de1f3f0/raw
-
-https://paste.ee/r/vzXjZ/0
-
-https://paste.ee/r/eBF8w/0
+https://paste.ee/r/8XpCX/0
 
 密码：20231102
 
