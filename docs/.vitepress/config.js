@@ -125,6 +125,7 @@ export default defineConfig({
             { text: 'npkill', link: '/tools/hoist/npkill' }, // /tools/hoist/npkill.md
             { text: 'U盘', link: '/tools/hoist/U盘' }, // /tools/hoist/U盘.md
             { text: 'LX', link: '/tools/hoist/music' }, // /tools/hoist/music.md
+            { text: '字幕生成', link: '/tools/hoist/字幕生成' }, // /tools/hoist/字幕生成.md
           ],
           // 是否收缩
           collapsible: true,
