@@ -25,7 +25,7 @@ https://oss.v2rayse.com/custom/data/2023_11_04/ciSClj.yaml
 
 ## 6. 梦歌(已更新)
 
-https://v1.mk/L9qROJJ
+https://v1.mk/ze16Nim
 
 密码：20231102
 
@@ -35,9 +35,8 @@ http://mm.mibei77.com/202311/11.09Clashghyu.yaml
 
 ## 8. NodeBird(已更新)
 
-https://nodebird.net/wp-content/uploads/2023/11/20231108.yaml
+https://nodebird.net/wp-content/uploads/2023/11/20231109.yaml
 
 ## 9. 资源共享师（已更新）
 
-https://drive.google.com/uc?export=download&id=1Sb_AIfWvUFkXFj-fkk9PCp-l_Lm1yKll
-
+https://drive.google.com/uc?export=download&id=1TRZCt1BpOHBX9GxfnaE0aOPYGfsH_5fx
