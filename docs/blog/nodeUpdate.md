@@ -9,7 +9,7 @@ https://tt.vg/freeclash
 
 ## 2. 由零开始(已更新)
 
-https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/moo11/9c
+https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/moo11/c10
 
 ## 3. 玉豆节点(已更新)
 
