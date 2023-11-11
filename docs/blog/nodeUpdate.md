@@ -25,7 +25,11 @@ https://oss.v2rayse.com/custom/data/2023_11_04/ciSClj.yaml
 
 ## 6. 梦歌(已更新)
 
-https://v1.mk/ze16Nim
+https://paste.ee/r/KhyiV/0
+
+https://v1.mk/va59wBY
+
+https://suo.yt/d4aOjPO
 
 密码：20231102
 
