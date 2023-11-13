@@ -31,12 +31,12 @@ https://suo.yt/zMhVAT1
 
 ## 7. 米贝分享(已更新)
 
-http://mm.mibei77.com/202311/11.10Clashhjyu.yaml
+http://mm.mibei77.com/202311/11.13Clashhjyu.yaml
 
 ## 8. NodeBird(已更新)
 
-https://nodebird.net/wp-content/uploads/2023/11/20231110.yaml
+https://nodebird.net/wp-content/uploads/2023/11/20231113.yaml
 
 ## 9. 资源共享师（已更新）
 
-https://v1.mk/f7ehBHC
+https://suo.yt/kNQRqUD
