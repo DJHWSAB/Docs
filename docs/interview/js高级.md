@@ -186,9 +186,8 @@ layout: doc
       return x + y;
     }
   }
-
-const add5 = createAdder(5);
-console.log(add5(3)); // 输出 8
+  const add5 = createAdder(5);
+  console.log(add5(3)); // 输出 8
   ```
 
 ## 10. 什么是纯函数？如何编写纯函数？
