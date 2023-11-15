@@ -13,7 +13,7 @@ https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/moo11/c14
 
 ## 3. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202311/2023.11.14Clas1sh.yaml
+http://yy.yudou66.top/202311/2023.11.15Clasg7h.yaml
 
 ## 4. yu科技(已更新)
 
@@ -21,7 +21,7 @@ https://suo.yt/iAMmwhy
 
 ## 5. 面具人共享科技(已更新)
 
-https://suo.yt/egEoRa9
+https://suo.yt/8xr02Qh
 
 ## 6. 梦歌(已更新)
 
