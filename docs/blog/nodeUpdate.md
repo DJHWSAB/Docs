@@ -9,11 +9,11 @@ https://tt.vg/freeclash
 
 ## 2. 由零开始(已更新)
 
-https://suo.yt/KVUrr5M
+https://agit.ai/blue/youlingkaishi/raw/branch/master/2023-1/c18
 
 ## 3. 玉豆节点(已更新)
 
-https://suo.yt/qJnRVH7
+http://yy.yudou66.top/202311/2023.11.18Clasf2h.yaml
 
 ## 4. yu科技(已更新)
 
@@ -25,7 +25,7 @@ https://suo.yt/yzgOndQ
 
 ## 6. 梦歌(已更新)
 
-https://suo.yt/qxnoPTA
+https://suo.yt/PBlWkG4
 
 密码：20231102
 
@@ -35,7 +35,7 @@ http://mm.mibei77.com/202311/11.15Clashhjuy.yaml
 
 ## 8. NodeBird(已更新)
 
-https://suo.yt/OFCahOM
+https://suo.yt/dplDwdj
 
 ## 9. 资源共享师（已更新）
 
