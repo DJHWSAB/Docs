@@ -9,11 +9,11 @@ https://tt.vg/freeclash
 
 ## 2. 由零开始(已更新)
 
-https://agit.ai/blue/youlingkaishi/raw/branch/master/2023-1/c21
+https://agit.ai/blue/youlingkaishi/raw/branch/master/2023-1/c23
 
 ## 3. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202311/2023.11.21Clasd2h.yaml
+http://yy.yudou66.top/202311/2023.11.23Clad2sh.yaml
 
 ## 4. yu科技(已更新)
 
@@ -39,4 +39,4 @@ https://nodebird.net/wp-content/uploads/2023/11/20231121.yaml
 
 ## 9. 资源共享师（已更新）
 
-https://drive.google.com/uc?export=download&id=1fVICWxHPYlpb3u8ayE-CnbMhtvtAohJL
+https://suo.yt/fxS247e
