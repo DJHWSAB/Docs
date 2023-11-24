@@ -9,11 +9,11 @@ https://tt.vg/freeclash
 
 ## 2. 由零开始(已更新)
 
-https://agit.ai/blue/youlingkaishi/raw/branch/master/2023-1/c23
+https://agit.ai/blue/youlingkaishi/raw/branch/master/2023-1/1124c
 
 ## 3. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202311/2023.11.23Clad2sh.yaml
+http://yy.yudou66.top/202311/2023.11.24Clad2sh.yaml
 
 ## 4. yu科技(已更新)
 
@@ -21,7 +21,7 @@ https://suo.yt/xK3nwTt
 
 ## 5. 面具人共享科技(已更新)
 
-https://oss.v2rayse.com/custom/data/2023_11_21/k8iIKz.yaml
+https://oss.v2rayse.com/custom/data/2023_11_24/bJyRt6.yaml
 
 ## 6. 梦歌(已更新)
 
@@ -31,12 +31,12 @@ https://suo.yt/2mQX1tj
 
 ## 7. 米贝分享(已更新)
 
-http://mm.mibei77.com/202311/11.21Clashhjuy.yaml
+http://mm.mibei77.com/202311/11.24Clashhjuy.yaml
 
 ## 8. NodeBird(已更新)
 
-https://nodebird.net/wp-content/uploads/2023/11/20231121.yaml
+https://nodebird.net/wp-content/uploads/2023/11/20231124.yaml
 
 ## 9. 资源共享师（已更新）
 
-https://suo.yt/fxS247e
+https://drive.google.com/uc?export=download&id=15u97eevjvS1FqwJo1sJpgX_MdeIaCqgB
