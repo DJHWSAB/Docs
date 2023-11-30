@@ -142,9 +142,3 @@ Iterm2 是苹果系统增加的命令行工具，定制化很强使用方便，�
   3. 关闭iTerm2应用程序，再次打开时，关闭时将不再提示是否关闭
 
   ![iterm2](/iterm_12.png)
-
-## 9. 检查版本和更新版本
-
-  1. 更新版本：brew upgrade --cask iterm2
-
-  2. 检查版本：echo $TERM_PROGRAM_VERSION

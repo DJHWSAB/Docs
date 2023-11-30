@@ -192,6 +192,11 @@ layout: doc
   plugins=((git ... zsh-autosuggestions))
   ```
 
+  让插件生效
+  ```sh
+  source ~/.zshrc
+  ```
+
   **2. 额外的自动补全**
 
   > tab键提示
@@ -204,6 +209,28 @@ layout: doc
 
   ```.zshrc
   plugins=(git ... zsh-autosuggestions zsh-completions)
+  ```
+
+  让插件生效
+  ```sh
+  source ~/.zshrc
+  ```
+
+  **3. zsh-syntax-highlighting 语法高亮插件**
+
+  ```sh
+  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+  ```
+
+  下载后在配置文件的 `plugins` 选项的最后面添加即可
+
+  ```.zshrc
+  plugins=(git ... zsh-syntax-highlighting)
+  ```
+
+  让插件生效
+  ```sh
+  source ~/.zshrc
   ```
 
   :loudspeaker: 如果不进入有关git的文件夹，只会显示 ~

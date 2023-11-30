@@ -14,11 +14,29 @@ layout: doc
 
 ### 2.1 远程主机 
 
+  - 方法一:
+
   ![github](/github_01.png)
 
   https://gitlab.com/ineo6/hosts/-/raw/master/next-hosts
 
   ![github](/github_02.png)
+
+
+  - 方法二:
+  
+  进入 [ipaddress](www.ipaddress.com) 网站，在打开的网站中将 raw.githubusercontent.com 复制到查询栏中进行搜索，可以看到域名对应的IP地址信息：
+
+  ![github](/github_10.png)
+
+  在 `hosts` 文件中追加以下对应关系：
+
+  ```shell
+  185.199.108.133 raw.githubusercontent.com
+  185.199.108.133 user-images.githubusercontent.com
+  185.199.108.133 avatars2.githubusercontent.com
+  185.199.108.133 avatars1.githubusercontent.com
+  ```
 
 ### 2.2 本地主持服务
 
@@ -120,7 +138,7 @@ layout: doc
   最后刷新缓存：
 
   ```shell
-  sudo killall -HUP mDNSResponder
+  sudo killall -HUP mDNSResponder 
   ```
 
   2. Windows

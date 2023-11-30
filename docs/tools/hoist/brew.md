@@ -160,46 +160,18 @@ brew 是 MAC 与 LINUX 上的软件包管理器，类似于 Linux 中的 yum 与
 
 > 下面介绍使用 brew 管理软件包的操作。
 
-### 5.1 搜索软件
-  
-  - 查看 PHP 版本信息
-
   ```shell
-  brew info php
-  ```
-
-  - 搜索 php
-
-  ```shell
-  brew search php
-  ```
-
-
-### 5.2 更新软件
-
-  ```shell
-  # 更新 homebrew
-  brew update
-  
-  # 更新软件
-  brew upgrade
-  ```
-
-### 5.3 安装软件
-  
-  ```shell
-  # 安装 xxx 软件
-  brew install xxx
-
-  # 重新安装 xxx 软件
-  brew reinstall xxx
-  ```
-
-### 5.4 删除软件
-
-  ```shell
-  #删除 xxx 软件
-  brew uninstall xxx
+	brew install appName  // 安装任意包，例如 brew install node
+	brew uninstall appName // 卸载任意包，例如 brew uninstall git
+	brew search appName[当不知道具体名字时-这里可直接用关键字搜索]  // 查询可用包
+	brew info appName // 查看任意包信息
+	brew update // 更新Homebrew
+	brew -v // 查看Homebrew版本
+	brew -h // Homebrew帮助信息
+	brew list  或者  brew ls  // 列出已安装的软件
+	brew home // 用浏览器打开brew的官方网站
+  brew deps // 显示包依赖
+	brew upgrade  // 升级到最新版本
   ```
 
 ## 6. 常见问题

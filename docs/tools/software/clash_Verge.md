@@ -10,7 +10,11 @@ layout: doc
   
   ![clash](/clash_02.png)
 
-## 2. 设置
+## 2. 使用
+
+  ![clash](/clash_06.png)
+
+## 3. 设置
   
   ![clash](/clash_03.png)
   
