@@ -9,7 +9,13 @@ iTerm2 是 Terminal 的替代品，也是 iTerm 的继任者。它适用于装�
 Iterm2 是苹果系统增加的命令行工具，定制化很强使用方便，并且外观也好看。
 
 ## 1. [下载](https://iterm2.com/)
+
 ![iterm2](/iterm_01.png)
+
+双击打开iTerm,根据弹窗提示点击Move to Applications Folder即可。
+
+![iterm2](/iterm_13.png)
+
 
 ## 2. [颜色主题](https://iterm2colorschemes.com/#)
 
@@ -115,6 +121,8 @@ Iterm2 是苹果系统增加的命令行工具，定制化很强使用方便，�
  ![iterm2](/iterm_08.png)
 
 ## 6. 全屏窗口下使用iterm2
+> 不推荐使用
+
   - 增加 Hotkey Window
     - Hotkey Window
       - Keys --> Hotkey --> Create a Dedicated Hotkey Window...
@@ -133,7 +141,7 @@ Iterm2 是苹果系统增加的命令行工具，定制化很强使用方便，�
     ⌥ + 空格
     ```
 
-## 8. 取消iterm关闭时询问是否关闭弹窗
+## 7. 取消iterm关闭时询问是否关闭弹窗
 
   1. Preferences -> General -> Closing
   
@@ -142,3 +150,42 @@ Iterm2 是苹果系统增加的命令行工具，定制化很强使用方便，�
   3. 关闭iTerm2应用程序，再次打开时，关闭时将不再提示是否关闭
 
   ![iterm2](/iterm_12.png)
+
+
+## 8. 基本配置
+
+  ![iterm2](/iterm_15.png)
+  
+  ![iterm2](/iterm_16.png)
+
+  - 字体修改
+  
+  ```shell
+  #先使用git命令克隆
+  git clone https://github.com/powerline/fonts.git --depth=1
+
+  # 进入克隆到本地的fonts目录进行安装
+  cd fonts
+  ./install.sh
+
+  # 删除克隆到本地的目录
+  cd .. 
+  rm -rf fonts
+  ```
+  ![iterm2](/iterm_17.png)
+  
+  ![iterm2](/iterm_18.png)
+
+## 9. 常见问题
+
+  ![iterm2](/iterm_19.png)
+
+  打开 设置 -> Advanced -> Session -> Enable session restoration
+  
+  ![iterm2](/iterm_20.png)
+
+  `A control sequence attempted to clear scrollback history. Allow this in the future?Press any key to dismiss this message.`
+
+  试图清除回滚历史记录的控制序列。允许这种事发生在未来？按任意键解除此消息。
+
+  Always Allow （TA） `Always Deny （TD）`
