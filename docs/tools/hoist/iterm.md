@@ -19,7 +19,7 @@ Iterm2 是苹果系统增加的命令行工具，定制化很强使用方便，�
 
   1. 在桌面新建文件，命名：`BlulocoDark.itermcolors`
 
-  2. 把 `BlulocoDark`的代码 复制到 `ColorPresets.plist`
+  2. 把 `BlulocoDark`的代码 复制到 `BlulocoDark.itermcolors`
 
   3. 打开 `item2` 设置界面，按照👇🏻操作，import 导入 `BlulocoDark.itermcolors`
 
