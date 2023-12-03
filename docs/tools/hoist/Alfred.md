@@ -36,7 +36,7 @@ layout: doc
 
   ![Alfred](/Alfred_06.png)
 
-  3. 快速预览图片文件（模糊或精确匹配移动到文件或图片上按shifit）
+  3. 快速预览图片文件（模糊或精确匹配移动到文件或图片上按shift）
   
   ![Alfred](/Alfred_07.png)
 
@@ -135,3 +135,48 @@ layout: doc
     - 输入命令 `cloneto de` ，克隆到本地
 
     ![Alfred](/Alfred_21.png)
+
+  - frontiterm 全局快捷键 command + ` 打开/激活 iterm
+
+    ![Alfred](/Alfred_22.png)
+
+    ![Alfred](/Alfred_23.png)
+
+  - sequence 生成序列，多用于列编辑
+
+    ![Alfred](/Alfred_24.png)
+    
+    ![Alfred](/Alfred_25.png)
+
+    ![Alfred](/Alfred_26.png)
+
+  - css 把写好的css【内联样式】和【内部样式之间】互相转换
+
+    1. 内联->内部：复制内联样式（不包含style=""，仅复制里面的样式内容），alfred命令 style
+
+    ![Alfred](/Alfred_27.png)
+
+    ![Alfred](/Alfred_28.png)
+    
+    ![Alfred](/Alfred_29.png)
+
+    2. 内部->内联：复制内部样式（不包含<style></style>，仅复制里面的样式内容），alfred命令 inline
+    
+    ![Alfred](/Alfred_30.png)
+    
+    ![Alfred](/Alfred_31.png)
+    
+    ![Alfred](/Alfred_32.png)
+
+  - TerminalFinder 在 Finder(访达) 和 终端（包括iterm）之间来回切换的组件
+
+    1. 打开 桌面 Finder(访达)
+
+    ![Alfred](/Alfred_33.png)
+    
+    ![Alfred](/Alfred_34.png)
+
+    2. 打开 访达 的 终端
+    > 默认情况下,必须有 Finder(访达) ,否则打不开 终端（包括iterm）
+    
+    ![Alfred](/Alfred_35.png)
