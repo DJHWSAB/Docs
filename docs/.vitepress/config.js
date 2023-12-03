@@ -107,7 +107,11 @@ export default defineConfig({
             { text: 'Souhu', link: '/tools/software/souhu' }, // /tools/software/souhu.md
             { text: 'Typora', link: '/tools/software/typora' }, // /tools/software/typora.md
             { text: 'clash_Verge', link: '/tools/software/clash_Verge' }, // /tools/software/clash_Verge.md
-          ]
+          ],
+          // 是否收缩
+          collapsible: true,
+          // 是否折叠
+          collapsed: false,
         },
         {
           text: '效率提升',
