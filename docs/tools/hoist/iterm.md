@@ -14,7 +14,7 @@ Iterm2 是苹果系统增加的命令行工具，定制化很强使用方便，�
 
 双击打开iTerm,根据弹窗提示点击Move to Applications Folder即可。
 
-![iterm2](/iterm_13.png)
+![iterm2](/iterm_14.png)
 
 
 ## 2. [颜色主题](https://iterm2colorschemes.com/#)
