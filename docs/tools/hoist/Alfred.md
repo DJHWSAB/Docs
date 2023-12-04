@@ -136,11 +136,15 @@ layout: doc
 
     ![Alfred](/Alfred_21.png)
 
-  - frontiterm 全局快捷键 command + ` 打开/激活 iterm
+  - frontiterm 全局快捷键 option(⌥) + 1 打开/激活 Typora
 
     ![Alfred](/Alfred_22.png)
 
     ![Alfred](/Alfred_23.png)
+    
+    ![Alfred](/Alfred_35.png)
+    
+    ![Alfred](/Alfred_36.png)
 
   - sequence 生成序列，多用于列编辑
 
