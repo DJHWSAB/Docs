@@ -9,7 +9,7 @@ https://tt.vg/freeclash
 
 ## 2. 由零开始(已更新)
 
-https://agit.ai/blue/youlingkaishi/raw/branch/master/2023-1/c2
+https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/twelve/c4
 
 ## 3. 玉豆节点(已更新)
 
@@ -27,11 +27,11 @@ https://oss.v2rayse.com/custom/data/2023_12_01/HFwudK.yaml
 
 https://suo.yt/sD5uKnD
 
-密码：20231102
+密码：952768
 
 ## 7. 米贝分享(已更新)
 
-http://mm.mibei77.com/202312/12.02Clashuytb.yaml
+http://mm.mibei77.com/202312/12.04Clashjkuy.yaml
 
 ## 8. NodeBird(已更新)
 
@@ -39,5 +39,5 @@ https://nodebird.net/wp-content/uploads/2023/12/20231202.yaml
 
 ## 9. 资源共享师（已更新）
 
-https://drive.google.com/uc?export=download&id=11VDhavOBl43dptit1G_hsRjgb28HyAER
+https://drive.google.com/uc?export=download&id=1oXMu0mPv4psEwORXo8WoZSxzYOlr3XSA
 https://suo.yt/0Gu09Ml
