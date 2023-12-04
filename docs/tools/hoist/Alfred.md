@@ -141,10 +141,10 @@ layout: doc
     ![Alfred](/Alfred_22.png)
 
     ![Alfred](/Alfred_23.png)
-    
-    ![Alfred](/Alfred_35.png)
-    
+        
     ![Alfred](/Alfred_36.png)
+    
+    ![Alfred](/Alfred_37.png)
 
   - sequence 生成序列，多用于列编辑
 
