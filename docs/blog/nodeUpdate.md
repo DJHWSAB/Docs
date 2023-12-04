@@ -25,7 +25,7 @@ https://oss.v2rayse.com/custom/data/2023_12_01/HFwudK.yaml
 
 ## 6. 梦歌(已更新)
 
-https://suo.yt/sD5uKnD
+https://v1.mk/vS79d4O
 
 密码：952768
 
