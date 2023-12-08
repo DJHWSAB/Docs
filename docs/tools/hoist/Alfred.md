@@ -136,11 +136,25 @@ layout: doc
 
     ![Alfred](/Alfred_21.png)
 
-  - frontiterm 全局快捷键 option(⌥) + 1 打开/激活 Typora
+  - procedure 全局快捷键 option(⌥) + 1 打开/激活 Typora
 
     ![Alfred](/Alfred_22.png)
 
     ![Alfred](/Alfred_23.png)
+
+    ```shell
+    on alfred_script(q)
+       tell application "Typora"
+          if not running then
+             run
+             delay 0.5
+          end if
+          reopen
+    	  activate
+          set miniaturized of every window to false
+       end tell
+    end alfred_script
+    ```
         
     ![Alfred](/Alfred_36.png)
     
