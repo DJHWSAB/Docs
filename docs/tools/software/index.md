@@ -202,9 +202,9 @@ layout: doc
       "editor.tabSize": 2,
       // 行内元素(a、span、i...)自动换行
       "emmet.syntaxProfiles": {
-          "html": {
-              "inline_break": 1
-          }
+        "html": {
+          "inline_break": 1
+        }
       },
       // 👇🏻两行代码 ----- 实现代码块出现提示线
       "editor.bracketPairColorization.enabled": true,
@@ -229,21 +229,30 @@ layout: doc
       "EnglishChineseDictionary.enableHover": true,
       // Code Spell Checker 标记后不会被认为是拼写错误
       "cSpell.userWords": [
-          "autohide",
-          "coderccb",
-          "donot",
-          "Matebook",
-          "vitepress"
+        "autohide",
+        "coderccb",
+        "djhwsabio",
+        "donot",
+        "drawio",
+        "hediet",
+        "iterm",
+        "listary",
+        "Matebook",
+        "npkill",
+        "OVGKU",
+        "Souhu",
+        "Typora",
+        "vitepress"
       ],
       // template-string-converter 相关配置(只需要输入${},自动将 双引号"" 转换成 模版字符串`${}`)
       // 扩展适用的语言
       "template-string-converter.validLanguages": [
-          "svelte",
-          "typescript",
-          "javascript",
-          "typescriptreact",
-          "javascriptreact",
-          "js"
+        "svelte",
+        "typescript",
+        "javascript",
+        "typescriptreact",
+        "javascriptreact",
+        "js"
       ],
       // 👇🏻两行代码 ----- 删除 `${}` 中的 $, {, } 都会自动转换成 双引号
       "template-string-converter.autoRemoveTemplateString": true,
@@ -256,15 +265,13 @@ layout: doc
       "trailing-spaces.trimOnSave": true,
       // drawio 绘图插件的主题
       "hediet.vscode-drawio.theme": "atlas",
-      // chatgp语言
-      "chatgpt.lang": "cn",
       // 函数声明时,不加空格 function foo () {}
       "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
       // 函数表达式时,不加空格 var bar = function foo() {}
       "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
-      // 函数{}如果没有内容默认不加空格
-      "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
-  }
+      // 删除时,是否确认
+      "explorer.confirmDelete": false,
+    }
   ```
 :::
 
