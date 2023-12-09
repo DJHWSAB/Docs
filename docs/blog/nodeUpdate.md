@@ -9,11 +9,11 @@ https://tt.vg/freeclash
 
 ## 2. 由零开始(已更新)
 
-https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/twelve/08c
+https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/twelve/c9
 
 ## 3. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202312/2023.12.8Classsh.yaml
+http://yy.yudou66.top/202312/2023.12.9Clash6h.yaml
 
 ## 4. yu科技(已更新)
 
