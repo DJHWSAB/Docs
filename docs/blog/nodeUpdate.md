@@ -13,7 +13,7 @@ https://agit.ai/blue/youlingkaishi/raw/branch/master/2023/twelve/012c
 
 ## 3. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202312/2023.12.11Clasd2h.yaml
+http://yy.yudou66.top/202312/2023.12.12Clasf5h.yaml
 
 ## 4. yu科技(已更新)
 
@@ -31,13 +31,12 @@ https://paste.ee/r/BecSY/0
 
 ## 7. 米贝分享(已更新)
 
-http://mm.mibei77.com/202312/12.11Clashhjuy.yaml
+http://mm.mibei77.com/202312/12.12Clashhjuy.yaml
 
 ## 8. NodeBird(已更新)
 
-https://nodebird.net/wp-content/uploads/2023/12/20231211.yaml
+https://nodebird.net/wp-content/uploads/2023/12/20231212.yaml
 
 ## 9. 资源共享师（已更新）
 
-https://drive.google.com/uc?export=download&id=1GP33kGoyuidAWft2LnlBVTBE0Q-PqMey
-https://suo.yt/qHoNJUm
+https://drive.google.com/uc?export=download&id=1uPtW2E1_5IUzcQD57jUaQPjVdQKkOjnJ
