@@ -13,7 +13,7 @@ https://paste.ee/d/KOqMc
 
 ## 3. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202312/2023.12.13Claf2sh.yaml
+http://yy.yudou66.top/202312/2023.12.15Clast3h.yaml
 
 ## 4. yu科技(已更新)
 
@@ -25,8 +25,8 @@ https://oss.v2rayse.com/custom/data/2023_12_01/HFwudK.yaml
 
 ## 6. 梦歌(已更新)
 
-https://suo.yt/azJCKyJ
-https://paste.ee/r/BecSY/0
+https://suo.yt/EcD8i9p
+https://suo.yt/URNLqAZ
 密码：952768
 
 ## 7. 米贝分享(已更新)
@@ -35,8 +35,8 @@ http://mm.mibei77.com/202312/12.15Clashkuyt.yaml
 
 ## 8. NodeBird(已更新)
 
-https://nodebird.net/wp-content/uploads/2023/12/20231214.yaml
+https://nodebird.net/wp-content/uploads/2023/12/20231215.yaml
 
 ## 9. 资源共享师（已更新）
 
-https://drive.google.com/uc?export=download&id=1uJH24vUdSfzyIEtkpNpi7gFwW4Kty8tR
+https://drive.google.com/uc?export=download&id=1MwhgxNM4o7XHFTgRjNGS1zHrObrOXb7n
