@@ -13,7 +13,7 @@ https://paste.ee/d/23QWx
 
 ## 3. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202312/2023.12.15Clast3h.yaml
+http://yy.yudou66.top/202312/2023.12.16Clg3ash.yaml
 
 ## 4. yu科技(已更新)
 
@@ -35,7 +35,7 @@ http://mm.mibei77.com/202312/12.15Clashkuyt.yaml
 
 ## 8. NodeBird(已更新)
 
-https://nodebird.net/wp-content/uploads/2023/12/20231215.yaml
+https://nodebird.net/wp-content/uploads/2023/12/20231216.yaml
 
 ## 9. 资源共享师（已更新）
 
