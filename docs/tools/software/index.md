@@ -220,7 +220,7 @@ layout: doc
     // Live Server扩展的信息提示
     "liveServer.settings.donotShowInfoMsg": true,
     // 保存时自动格式化代码功能
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     // 更换HTML元素(更换开始标签,结束标签同步更改 / 更换结束标签,开始标签同步更改)
     "editor.linkedEditing": true,
     // 修改liveServer端口
@@ -269,12 +269,18 @@ layout: doc
     "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
     // 函数表达式时,不加空格 var bar = function foo() {}
     "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
-    // 删除时,是否确认
+    // 是否删除文件或文件夹
     "explorer.confirmDelete": false,
     // 打开新的文件时不会关闭原来的文件
     "workbench.editor.enablePreview": false,
     // 选项卡过多时自动换行
     "workbench.editor.wrapTabs": true,
+    // 控制在树中启用粘性滚动
+    "workbench.tree.enableStickyScroll": true,
+    // 是否移动文件或文件夹
+    "explorer.confirmDragAndDrop": false,
+    // 不使用屏幕阅读器
+    "editor.accessibilitySupport": "off",
   }
   ```
 :::
