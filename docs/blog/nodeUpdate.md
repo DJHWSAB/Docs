@@ -9,7 +9,7 @@ https://tt.vg/freeclash
 
 ## 2. 由零开始(已更新)
 
-https://paste.ee/d/KOqMc
+https://paste.ee/d/23QWx
 
 ## 3. 玉豆节点(已更新)
 
