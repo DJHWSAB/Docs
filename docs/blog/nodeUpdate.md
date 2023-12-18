@@ -25,8 +25,8 @@ https://oss.v2rayse.com/custom/data/2023_12_01/HFwudK.yaml
 
 ## 6. 梦歌(已更新)
 
-https://suo.yt/EcD8i9p
-https://suo.yt/URNLqAZ
+https://v1.mk/ylgFKjn
+https://v1.mk/LfQQZwA
 密码：952768
 
 ## 7. 米贝分享(已更新)
@@ -35,8 +35,8 @@ http://mm.mibei77.com/202312/12.15Clashkuyt.yaml
 
 ## 8. NodeBird(已更新)
 
-https://nodebird.net/wp-content/uploads/2023/12/20231216.yaml
+https://nodebird.net/wp-content/uploads/2023/12/20231218.yaml
 
 ## 9. 资源共享师（已更新）
 
-https://drive.google.com/uc?export=download&id=1MwhgxNM4o7XHFTgRjNGS1zHrObrOXb7n
+https://drive.google.com/uc?export=download&id=1zXLFID1zZo-c_74pbUCDYE8kSAK8ZlCP
