@@ -13,7 +13,7 @@ https://paste.ee/d/5Ltgv
 
 ## 3. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202312/2023.12.18Clag5sh.yaml
+http://yy.yudou66.top/202312/2023.12.19Clg3ash.yaml
 
 ## 4. yu科技(已更新)
 
@@ -25,8 +25,8 @@ https://oss.v2rayse.com/custom/data/2023_12_01/HFwudK.yaml
 
 ## 6. 梦歌(已更新)
 
-https://v1.mk/ylgFKjn
-https://v1.mk/LfQQZwA
+https://v1.mk/8b7zLnw
+https://v1.mk/0SoEdp7
 密码：952768
 
 ## 7. 米贝分享(已更新)
