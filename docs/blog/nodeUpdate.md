@@ -31,11 +31,11 @@ https://v1.mk/LfQQZwA
 
 ## 7. 米贝分享(已更新)
 
-http://mm.mibei77.com/202312/12.15Clashkuyt.yaml
+http://mm.mibei77.com/202312/12.19Clashhjk.yaml
 
 ## 8. NodeBird(已更新)
 
-https://nodebird.net/wp-content/uploads/2023/12/20231218.yaml
+https://nodebird.net/wp-content/uploads/2023/12/20231219.yaml
 
 ## 9. 资源共享师（已更新）
 
