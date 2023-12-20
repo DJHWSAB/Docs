@@ -13,7 +13,7 @@ https://paste.ee/d/5Ltgv
 
 ## 3. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202312/2023.12.19Clg3ash.yaml
+http://yy.yudou66.top/202312/2023.12.20Claf3sh.yaml
 
 ## 4. yu科技(已更新)
 
@@ -21,7 +21,7 @@ https://suo.yt/xK3nwTt
 
 ## 5. 面具人共享科技(已更新)
 
-https://oss.v2rayse.com/custom/data/2023_12_01/HFwudK.yaml
+https://oss.v2rayse.com/custom/data/2023_12_19/DZFvWe.yaml
 
 ## 6. 梦歌(已更新)
 
@@ -31,12 +31,12 @@ https://v1.mk/0SoEdp7
 
 ## 7. 米贝分享(已更新)
 
-http://mm.mibei77.com/202312/12.19Clashhjk.yaml
+http://mm.mibei77.com/202312/12.20Clashjuyt.yaml
 
 ## 8. NodeBird(已更新)
 
-https://nodebird.net/wp-content/uploads/2023/12/20231219.yaml
+https://nodebird.net/wp-content/uploads/2023/12/20231220.yaml
 
 ## 9. 资源共享师（已更新）
 
-https://drive.google.com/uc?export=download&id=1zXLFID1zZo-c_74pbUCDYE8kSAK8ZlCP
+https://drive.google.com/uc?export=download&id=16d5gc-7IAvW2HuUPB_hOe5EnrlYvSbIm
