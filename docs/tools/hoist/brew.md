@@ -199,3 +199,16 @@ brew 是 MAC 与 LINUX 上的软件包管理器，类似于 Linux 中的 yum 与
   ```shell
   git config --global --list
   ```
+
+  ![brew](/brew_05.png)
+  
+  ```shell
+  cd /opt/homebrew/Library/Taps/homebrew/homebrew-services
+  git remote -v
+  ```
+  
+  ![brew](/brew_06.png)
+
+  ```shell
+  git config --global --add safe.directory /opt/homebrew/Library/Taps/homebrew/homebrew-services
+  ```
