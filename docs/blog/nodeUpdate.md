@@ -25,8 +25,12 @@ https://oss.v2rayse.com/custom/data/2023_12_24/0XU6I4.yaml
 
 ## 6. 梦歌(已更新)
 
-https://suo.yt/D7BAh6K
-https://suo.yt/zq3mzbI
+https://paste.ee/r/RU4vh/0
+https://paste.ee/r/46CxK/0
+https://paste.ee/r/b0pDO/0
+https://paste.ee/r/SImvI/0
+https://v1.mk/TQrQPeT
+https://v1.mk/O5bxyjk
 密码：952768
 
 ## 7. 米贝分享(已更新)
