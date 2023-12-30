@@ -9,11 +9,11 @@ https://tt.vg/freeclash
 
 ## 2. 由零开始(已更新)
 
-https://paste.ee/d/2UXav
+https://paste.ee/d/6LI92
 
 ## 3. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202312/2023.12.29Clg8ash.yaml
+http://yy.yudou66.top/202312/2023.12.30Clay8sh.yaml
 
 ## 4. yu科技(已更新)
 
@@ -25,10 +25,8 @@ https://oss.v2rayse.com/custom/data/2023_12_27/6izQjQ.yaml
 
 ## 6. 梦歌(已更新)
 
-https://paste.ee/r/mE5tZ/0
-https://paste.ee/r/Ybz2p/0
-https://v1.mk/OkW78b6
-https://v1.mk/3wssq6G
+https://v1.mk/YO0fRdM
+https://v1.mk/NeIBcQH
 
 密码：952768
 
@@ -38,7 +36,7 @@ http://mm.mibei77.com/202312/12.29Clashjty.yaml
 
 ## 8. NodeBird(已更新)
 
-https://nodebird.net/wp-content/uploads/2023/12/20231229.yaml
+https://nodebird.net/wp-content/uploads/2023/12/20231230.yaml
 
 ## 9. 资源共享师（已更新）
 
