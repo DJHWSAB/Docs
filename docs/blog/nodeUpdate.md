@@ -13,7 +13,7 @@ https://paste.ee/d/fsoDU
 
 ## 3. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202401/2024.1.1Clat3sh.yaml
+http://yy.yudou66.top/202401/2024.1.2Clau9sh.yaml
 
 ## 4. yu科技(已更新)
 
