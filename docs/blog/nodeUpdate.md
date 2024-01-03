@@ -9,7 +9,9 @@ https://tt.vg/freeclash
 
 ## 2. 由零开始(已更新)
 
-https://paste.ee/d/fsoDU
+https://paste.ee/d/XAe3u
+https://paste.ee/d/e9v3G
+
 
 ## 3. 玉豆节点(已更新)
 
@@ -32,7 +34,7 @@ https://v1.mk/NeIBcQH
 
 ## 7. 米贝分享(已更新)
 
-http://mm.mibei77.com/202312/12.29Clashjty.yaml
+http://mm.mibei77.com/202401/01.03Clashjuy.yaml
 
 ## 8. NodeBird(已更新)
 
