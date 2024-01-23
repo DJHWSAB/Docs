@@ -37,11 +37,11 @@ https://v1.mk/pUKIvhy
 
 ## 7. 米贝分享(已更新)
 
-http://mm.mibei77.com/202401/01.15clashkliu.yaml
+http://mm.mibei77.com/202401/01.23Clashjuy.yaml
 
 ## 8. NodeBird(已更新)
 
-https://nodebird.net/wp-content/uploads/2024/01/20240115.yaml
+https://nodebird.net/wp-content/uploads/2024/01/20240123.yaml
 
 ## 9. 资源共享师（已更新）
 
