@@ -14,11 +14,11 @@ https://paste.ee/d/XzvsW
 
 ## 3. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202401/2024.1.30Clad2sh.yaml
+http://yy.yudou66.top/202402/2024.2.4Clae3sh.yaml
 
 ## 4. yu科技(已更新)
 
-https://oss.v2rayse.com/proxies/data/2024-01-30/RzC8fSS.yaml
+https://oss.v2rayse.com/proxies/data/2024-02-03/4wfVb1P.yaml
 
 ## 5. 面具人共享科技(已更新)
 
@@ -42,4 +42,4 @@ https://nodebird.net/wp-content/uploads/2024/01/20240126.yaml
 
 ## 9. 资源共享师（已更新）
 
-https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBbm5oU0ZGT0NGX05obE1PS2xUTzdDNnBTRGRLP2U9RmtuT0Rs.jpg
+https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBbm5oU0ZGT0NGX05obW1OZWFmQmp0cDNXWkxqP2U9OTlpY1Nk.jpg
