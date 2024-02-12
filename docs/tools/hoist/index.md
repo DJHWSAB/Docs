@@ -151,8 +151,21 @@ layout: doc
   ipconfig /flushdns
   ```
 
-## 4. github镜像网站 和 github文件加速下载
+## 4. 解决下载速度慢
 
-  github镜像网站：https://githubfast.com/
+```
+# 项目只有一个仓库 https://ghproxy.net/https://github.com/DJHWSAB/Docs.git
+https://ghproxy.net/
+```
+
+```
+# 项目不只有一个仓库
+git submodule update --init --recursive
+
+# 如果 👆🏻 卡主，加上代理后重新执行👆🏻
+vim .git/config
+```
+
+
 
   github文件加速下载：https://ghproxy.com/
