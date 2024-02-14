@@ -206,7 +206,7 @@ brew 是 MAC 与 LINUX 上的软件包管理器，类似于 Linux 中的 yum 与
 
 ## 6. 常见问题
 
-  > 安装brew时出现的问题
+  > **安装brew时出现的问题**
 
   ![brew](/brew_10.png)
 
@@ -232,6 +232,8 @@ brew 是 MAC 与 LINUX 上的软件包管理器，类似于 Linux 中的 yum 与
    xcode-select --version
   ```
   这将显示当前安装的 Xcode 命令行工具的版本。
+
+  > **安装brew时出现的问题**
 
   ![brew](/brew_12.png)
 
@@ -263,13 +265,64 @@ brew 是 MAC 与 LINUX 上的软件包管理器，类似于 Linux 中的 yum 与
 
   4. **验证更新**： 更新完成后，你可以使用 `git status` 命令来检查本地仓库的状态，确保没有未跟踪的更改。
 
-​  请注意，如果你不熟悉 Git 或 Homebrew 的操作，建议在执行这些命令之前备份你的数据。如果你不确定如何操作，可以查阅 Homebrew 的官方文档或寻求社区的帮助。此外，如果你只是想更新 Homebrew 的软件包，通常你只需要运行 `brew update` 和 `brew upgrade` 命令，而不需要手动更新每个 tap。
+  > **安装brew时出现的问题**
+
+  ![brew](/brew_04.png)
+
+  这个错误信息表明你尝试更新 Homebrew 时遇到了一个问题，因为 `master` 分支被工作树（worktree）占用，无法强制更新。这通常发生在你已经有一个本地的 `master` 分支，而 Homebrew 试图更新到一个新的 `master` 分支时。
+
+  要解决这个问题，你可以尝试以下步骤：
+
+  1. **卸载 Homebrew 的核心和 Cask 仓库**：
+
+  ```shell
+   brew untap homebrew/core
+   brew untap homebrew/cask
+  ```
+
+  2. **删除本地的 Homebrew 仓库**： 这将删除 `/opt/homebrew` 目录，这是 Homebrew 的安装位置。请确保你已经备份了任何重要的数据，因为这一步会删除所有安装的软件。
+
+  ```shell
+   sudo rm -rf /opt/homebrew
+  ```
+
+  3. **重新安装 Homebrew**： 使用以下命令重新安装 Homebrew。这将创建一个新的工作树，并且不会包含之前的 `master` 分支问题。
+
+  ```shell
+   /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
+  ```
+
+  4. **更新 Homebrew**： 重新安装 Homebrew 后，运行以下命令来更新它：
+
+  ```shell
+   brew update
+  ```
+
+  ## 7. 日常操作
+
+  如果你只是想更新 Homebrew 的软件包，通常你只需要运行 `brew update` 和 `brew upgrade` 命令，而不需要手动更新每个tap。
 
   ![brew](/brew_14.png)
 
   ```shell
   # 查看 Git 全局配置(按q退出)
   git config --global --list
+
   ```
+
+  ![brew](/brew_02.png)
+
+  ```shell
+  # 编辑 Git 全局配置(按q退出)
+  nano ~/.gitconfig
+
+  ```
+
+  保存并关闭文件。在 `nano` 中，你可以按 `control + X`，然后按 `Y` 确认保存更改，最后按 `Enter` 键保存文件。
+
+  ![brew](/brew_05.png)
+
+
+  为了确认更改，你可以再次运行 `git config --global --list` 来查看配置列表。
 
   ![brew](/brew_02.png)
