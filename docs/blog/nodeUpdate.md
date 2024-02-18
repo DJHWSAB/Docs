@@ -9,13 +9,12 @@ https://tt.vg/freeclash
 
 ## 2. 由零开始(已更新)
 
-https://paste.ee/d/BQHc5
-https://paste.ee/d/REblQ
-https://paste.ee/d/8lp5g
+https://agit.ai/blue/v/raw/branch/master/v2/2-17亚洲节点.yaml
+https://agit.ai/blue/v/raw/branch/master/v2/2-17精选节点.yaml
 
 ## 3. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202402/2024.2.12Clah4sh.yaml
+http://yy.yudou66.top/202402/2024.2.18Clasd3h.yaml
 
 ## 4. yu科技(已更新)
 
@@ -37,10 +36,11 @@ https://suo.yt/wU5TMx5
 
 http://mm.mibei77.com/202402/02.12Clashuyr.yaml
 
-## 8. NodeBird(已更新)
+## 8. 
+(已更新)
 
-https://nodebird.net/wp-content/uploads/2024/02/20240212.yaml
+https://nodebird.net/wp-content/uploads/2024/02/20240218.yaml
 
 ## 9. 资源共享师（已更新）
 
-https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBbm5oU0ZGT0NGX05od0lrbG5wd1pmemM0YzctP2U9UWljbTNB.jpg
+https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBbm5oU0ZGT0NGX05oeFU0VjNPT3NJZER6clQ4P2U9TVVkd1Rt.jpg
