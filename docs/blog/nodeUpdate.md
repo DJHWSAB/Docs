@@ -9,8 +9,7 @@ https://tt.vg/freeclash
 
 ## 2. 由零开始(已更新)
 
-https://paste.gg/p/anning123/859afafad2014191b826b50c78b1b525/files/400db2897d784a3ebd2dd5002b4c08ed/raw
-https://paste.gg/p/anning123/859afafad2014191b826b50c78b1b525/files/fe696560028f43c88dcb5ed566f49982/raw
+https://paste.gg/p/anning123/a09e5203c33e44f58c90ed87970959db/files/e51970a9d31e426b87b7201716a86f4b/raw
 
 ## 3. 玉豆节点(已更新)
 
