@@ -42,4 +42,4 @@ https://nodebird.net/wp-content/uploads/2024/02/20240227.yaml
 
 ## 9. 资源共享师（已更新）
 
-https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBbm5oU0ZGT0NGX05oem5qRkJjUC1DZ1JYRWRVP2U9Z3p4Z0dN.jpg
+https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBbm5oU0ZGT0NGX05oejIyZWxySXgwN2t5QjJ4P2U9alJ0cUlz.jpg
