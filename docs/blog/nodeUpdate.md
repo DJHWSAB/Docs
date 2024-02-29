@@ -38,7 +38,7 @@ http://mm.mibei77.com/202402/02.28Clashujg.yaml
 
 ## 8. nodebird(已更新)
 
-https://nodebird.net/wp-content/uploads/2024/02/20240227.yaml
+https://nodebird.net/wp-content/uploads/2024/02/20240229.yaml
 
 ## 9. 资源共享师（已更新）
 
