@@ -34,7 +34,7 @@ layout: doc
 
 ## 4. 常见问题
 
-  1. Chrome控制台提示“Slow network is detected. Fallback font will be used while loading
+  - Chrome控制台提示“Slow network is detected. Fallback font will be used while loading
 
   新版本的Chrome在网络环境较差的时候会在控制台输出`Slow network is detected. Fallback font will be used while loading`，但有时会对调试造成不便，可以在chrome配置中禁用该项：
 
@@ -53,6 +53,26 @@ layout: doc
   3. 下面这个地方勾掉也不会出那些xhr
 
   ![chrome](/chrome_07.png)
+
+  - 警告：请勿将您不理解或未自行检查的代码粘贴到开发者工具控制台中。这可能会导致攻击者趁机窃取您的身份信息或控制您的计算机。请在下方输入“允许粘贴”以允许粘贴。
+
+  ![chrome](/chrome_09.png)
+
+  解决方法:
+
+  1. 在控制台输入"允许粘贴",取消警告并启用粘贴功能。
+
+  2. 打开控制台 - Settings（设置）- Experiments（实验），搜索 past ，取消勾选 Show warning
+  about Self-XSS when pasting code。
+
+  ![chrome](/chrome_10.png)
+
+  ![chrome](/chrome_11.png)
+
+  3. 关闭设置，点击顶部的 Reload DevTools 按钮，重新加载控制台，就可以正常粘贴了。
+
+  ![chrome](/chrome_12.png)
+
 
 ## 5. Google搜索技巧
 
