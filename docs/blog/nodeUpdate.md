@@ -13,7 +13,7 @@ https://paste.gg/p/anning123/d83cc6c37f4e467da310b35519ae789a/files/9b63d312cf14
 
 ## 3. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202403/2024.3.17Clah9sh.yaml
+http://yy.yudou66.top/202403/2024.3.19Clas2sh.yaml
 
 ## 4. yu科技(已更新)
 
