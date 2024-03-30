@@ -12,7 +12,7 @@ layout: doc
 
 ## 2. 使用方式
 
-### 2.1 远程主机 
+### 2.1 远程主机
 
   - 方法一:
 
@@ -24,7 +24,7 @@ layout: doc
 
 
   - 方法二:
-  
+
   进入 [ipaddress](www.ipaddress.com) 网站，在打开的网站中将 raw.githubusercontent.com 复制到查询栏中进行搜索，可以看到域名对应的IP地址信息：
 
   ![github](/github_10.png)
@@ -70,7 +70,7 @@ layout: doc
   ```
 
   ![github](/github_03.png)
-  
+
   ![github](/github_04.png)
 
   下一次我们可以通过以下方式启动软件:
@@ -80,7 +80,7 @@ layout: doc
   ![github](/github_04.png)
 
   也可以直接修改端口号
-  
+
   ```shell
   # 指定端口号
   ./hosts-server --port=9999
@@ -94,7 +94,7 @@ layout: doc
   ```
 
   3. Windows
-  
+
   下载 https://github.com/ineo6/hosts/releases/download/v1.0.1/hosts-server-pkg-win-x64.zip ，解压后执行下面命令，服务会运行在： http://localhost:8888
 
   ```shell
@@ -126,7 +126,7 @@ layout: doc
   hosts文件位置：`/etc/hosts`
 
   ![github](/github_08.png)
-  
+
   ![github](/github_09.png)
 
   复制hosts文件到桌面上，鼠标右键右击它，选择「打开方式」—「文本编辑」，打开这个hosts文件，把前面的hosts内容复制进来。
@@ -153,19 +153,8 @@ layout: doc
 
 ## 4. 解决下载速度慢
 
-```
-# 项目只有一个仓库 https://ghproxy.net/https://github.com/DJHWSAB/Docs.git
-https://ghproxy.net/
-```
+  [fastgithub][https://greasyfork.org/zh-CN/scripts/412245-github-增强-高速下载]
 
-```
-# 项目不只有一个仓库
-git submodule update --init --recursive
-
-# 如果 👆🏻 卡主，加上代理后重新执行👆🏻
-vim .git/config
-```
-
-
-
-  github文件加速下载：https://ghproxy.com/
+  ![github](/github_11.png)
+  
+  ![github](/github_12.png)
