@@ -67,19 +67,19 @@ layout: doc
 
   4. Live Server 自动在浏览器中打开网页
 
-  ![vscode](/vscode_06.png)
-
   > 如果状态栏没有 `Go Live`,可以考虑降级
+
+  ![vscode](/vscode_06.png)
 
   5. 翻译(英汉词典)
 
   ![vscode](/vscode_07.png)
 
-  6. Path Intellisens 路径
+  6. CSS Peek 查看当前类(class)/id 或者 跳转当前类(class)/id
 
   ![vscode](/vscode_08.png)
 
-  7. Svg Preview svg 图片预览
+  7. Import Cost 自动检查导入包（库）大小
 
   ![vscode](/vscode_09.png)
 
@@ -95,15 +95,15 @@ layout: doc
 
   ![vscode](/vscode_13.png)
 
-  10. ES7+ React/Redux/React-Native snippets 打印语句(console.log)
+  10. ES7+ React/Redux/React-Native snippets 打印语句(clg => console.log)
 
   ![vscode](/vscode_14.png)
 
-  11. Code Spell Checke
+  11. Code Spell Checke 检查单词是否正确
 
   ![vscode](/vscode_28.png)
 
-  12. Template String Converter
+  12. Template String Converter 模版字符串转换
 
   ![vscode](/vscode_29.png)
 
@@ -111,18 +111,23 @@ layout: doc
 
   ![vscode](/vscode_30.png)
 
-  14. Code Runner
+  14. Code Runner 控制台输出
 
   ![vscode](/vscode_31.png)
 
-  15. Trailing Spaces 高亮标识出你末尾多余的space，并帮你快速删除它们
+  15. Draw.io Integration 绘图
 
-  ![vscode](/vscode_35.png)
+  ![vscode](/vscode_33.png)
 
+  16. Time Master 时间管理
+
+  ![vscode](/vscode_34.png)
 
 ## 4. 配置
 
 ### 4.1 相关配置
+
+  > 建议直接跳到完整配置!!!
 
   1. Auto Save: 自动保存
 
@@ -174,7 +179,7 @@ layout: doc
   ![vscode](/vscode_21.png)
 
   10. 控制台输出时滚动条自动滚动
-  ![vscode](/vscode_34.png)
+  ![vscode](/vscode_32.png)
 
 ### 4.2 完整的配置
 
@@ -191,6 +196,8 @@ layout: doc
     "terminal.integrated.cursorStyle": "line",
     // 字体大小
     "editor.fontSize": 18,
+    // 控制调试控制台中的字体大小
+    "debug.console.fontSize": 18,
     // 自动保存
     "files.autoSave": "afterDelay",
     // 👇🏻两行代码 ----- 实现代码自动换行
@@ -200,51 +207,35 @@ layout: doc
     "editor.renderWhitespace": "all",
     // 代码缩进2个空格
     "editor.tabSize": 2,
-    // 行内元素(a、span、i...)自动换行
+    // 行内元素(a、span、i...)自动换行 (i*2 => <i></i><i></i> 不实现所有行内元素在同一行显示)
     "emmet.syntaxProfiles": {
       "html": {
         "inline_break": 1
       }
     },
-    // 👇🏻两行代码 ----- 实现代码块出现提示线
+    // 👇🏻两行代码 ----- 实现显示代码块范围的提示线
     "editor.bracketPairColorization.enabled": true,
-    "editor.guides.bracketPairs": "active",
+    "editor.guides.bracketPairs": true,
     // 滚动条滚动时出现代码层级
     "editor.stickyScroll.enabled": true,
     // 允许打开未受信任的文件
     "security.workspace.trust.untrustedFiles": "open",
-    // 报错语法提示
+    // 报错语法提示(插件: Error Lens ⭐️)
     "typescript.locale": "zh-CN",
     // 显示索略图
     "editor.minimap.autohide": true,
-    // Live Server扩展的信息提示
-    "liveServer.settings.donotShowInfoMsg": true,
     // 保存时自动格式化代码功能
     "editor.formatOnSave": false,
     // 更换HTML元素(更换开始标签,结束标签同步更改 / 更换结束标签,开始标签同步更改)
     "editor.linkedEditing": true,
+    // 👇🏻两行代码 ----- (插件: Live Server ⭐️)
     // 修改liveServer端口
     "liveServer.settings.port": 8080,
-    // 开启悬停显示翻译结果
+    // 关闭Live Server扩展的信息提示
+    "liveServer.settings.donotShowInfoMsg": true,
+    // 开启悬停显示翻译结果(插件: 翻译(英汉词典) ⭐️)
     "EnglishChineseDictionary.enableHover": true,
-    // Code Spell Checker 标记后不会被认为是拼写错误
-    "cSpell.userWords": [
-      "autohide",
-      "coderccb",
-      "djhwsabio",
-      "donot",
-      "drawio",
-      "hediet",
-      "iterm",
-      "listary",
-      "Matebook",
-      "npkill",
-      "OVGKU",
-      "Souhu",
-      "Typora",
-      "vitepress"
-    ],
-    // template-string-converter 相关配置(只需要输入${},自动将 双引号"" 转换成 模版字符串`${}`)
+    // 👇🏻 51行~62代码 ----- (插件: Template String Converter ⭐️)(只需要在""中输入${},自动将 "" 转换成 模版字符串`${}`)
     // 扩展适用的语言
     "template-string-converter.validLanguages": [
       "svelte",
@@ -254,16 +245,14 @@ layout: doc
       "javascriptreact",
       "js"
     ],
-    // 👇🏻两行代码 ----- 删除 `${}` 中的 $, {, } 都会自动转换成 双引号
+    // 👇🏻两行代码 ----- 删除 `${}` 中的 ${}, 都会自动转换成 ""
     "template-string-converter.autoRemoveTemplateString": true,
     "template-string-converter.convertWithinTemplateString": false,
     // 禁止突出显示歧义字符
     "editor.unicodeHighlight.ambiguousCharacters": false,
-    // 文件主题颜色
+    // 文件夹主题颜色(插件: VSCode Great Icons ⭐️)
     "workbench.iconTheme": "vscode-great-icons",
-    // 保存自动删除空格
-    "trailing-spaces.trimOnSave": true,
-    // drawio 绘图插件的主题
+    // (Draw绘图的主题颜色(插件: Draw.io Integration ⭐️)
     "hediet.vscode-drawio.theme": "atlas",
     // 函数声明时,不加空格 function foo () {}
     "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
@@ -277,9 +266,14 @@ layout: doc
     "workbench.editor.wrapTabs": true,
     // 控制在树中启用粘性滚动
     "workbench.tree.enableStickyScroll": true,
-    // 是否移动文件或文件夹
+    // 移动文件或文件夹不提示信息
     "explorer.confirmDragAndDrop": false,
-    // 不使用屏幕阅读器
+    // 保存时自动删除末尾的空白字符，确保一致的格式
+    "files.trimTrailingWhitespace": true,
+    // 👇🏻两行代码 ----- 实现 "重命名或移动文件时自动更新导入路径的功能"
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    // 不使用屏幕阅读器操作vscode
     "editor.accessibilitySupport": "off",
   }
   ```
