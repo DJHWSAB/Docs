@@ -123,6 +123,10 @@ layout: doc
 
   ![vscode](/vscode_34.png)
 
+  17. Path Intellisens 路径
+
+  ![vscode](/vscode_35.png)
+
 ## 4. 配置
 
 ### 4.1 相关配置
