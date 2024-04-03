@@ -5,11 +5,11 @@ layout: doc
 
 ## 1. 由零开始(已更新)
 
-https://paste.gg/p/anning123/f25bbf9205ba48acb1393f7e6d832032/files/7a98039e7b1d42518b8e15233f17c90c/raw
+https://paste.gg/p/anning123/eadbce0029cf44578451c187f1d54354/files/24d1551012f7435b88d622d22db51118/raw
 
 ## 2. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202404/2024.4.2Clad8sh.yaml
+http://yy.yudou66.top/202404/2024.4.3Cd2lash.yaml
 
 ## 3. yu科技(已更新)
 
@@ -17,10 +17,11 @@ https://oss.v2rayse.com/proxies/data/2024-03-28/RHV3466.yaml
 
 ## 4. 梦歌(已更新)
 
-https://paste.gg/p/anonymous/107653be50c348ee81591a0fa100feed/files/08abf42a9e74468faadd9d7df63b738d/raw
-https://paste.gg/p/anonymous/bfd132cc7ed7413882ca83b2162a8e7f/files/161880ff331542de87e1edec5f54600d/raw
-https://paste.gg/p/anonymous/5ff9b38a62a64996a51efe7fe331ba6f/files/894f3dee3e604f1fa5ec188d4510d946/raw
-https://paste.gg/p/anonymous/eafd8e69c72046e18a03f2606b32d638/files/ad79821cc1db4ad58484f1d6d15b3298/raw
+https://paste.gg/p/anonymous/a17ece68bbef4ae2b13fe84d4a5448d0/files/a7171f2fa66b4520b34992f0b7f63a6e/raw
+https://paste.gg/p/anonymous/cb2d1fa2d7244fcba38aa62c691b8676/files/65dd8405afcc445d9fc9e7478c1832b7/raw
+https://paste.gg/p/anonymous/d19629ff68894e4f9d5e1b4476550276/files/79f910fb50514510b7fdb31819c86f8b/raw
+https://paste.gg/p/anonymous/9c5f3c43d09942e8af9cd8eef2482c33/files/ad29d7924e524dd6994c7317ae3c7a18/raw
+https://paste.gg/p/anonymous/705d064ce66248359b08f77af302640e/files/2f5da176c7c1473bb85b860b176fb75f/raw
 
 ## 5. 米贝分享(已更新)
 
@@ -28,7 +29,7 @@ http://mm.mibei77.com/202404/04.02Clashure.yaml
 
 ## 6. nodebird(已更新)
 
-https://nodebird.net/wp-content/uploads/2024/03/20240331.yaml
+https://nodebird.net/wp-content/uploads/2024/04/20240402.yaml
 
 ## 7. 资源共享师（已更新）
 
