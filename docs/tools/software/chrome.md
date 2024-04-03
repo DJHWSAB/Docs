@@ -34,7 +34,7 @@ layout: doc
 
 ## 4. 常见问题
 
-  > <font color="red">**Chrome控制台提示“Slow network is detected. Fallback font will be used while loading**</font>
+  > <font color="red">Chrome控制台提示“Slow network is detected. Fallback font will be used while loading</font>
 
   新版本的Chrome在网络环境较差的时候会在控制台输出`Slow network is detected. Fallback font will be used while loading`，但有时会对调试造成不便，可以在chrome配置中禁用该项：
 
@@ -52,7 +52,7 @@ layout: doc
 
   ![chrome](/chrome_07.png)
 
-  > <font color="red">**警告：请勿将您不理解或未自行检查的代码粘贴到开发者工具控制台中。这可能会导致攻击者趁机窃取您的身份信息或控制您的计算机。请在下方输入“允许粘贴”以允许粘贴。**</font>
+  > <font color="red">警告：请勿将您不理解或未自行检查的代码粘贴到开发者工具控制台中。这可能会导致攻击者趁机窃取您的身份信息或控制您的计算机。请在下方输入“允许粘贴”以允许粘贴。</font>
 
   ![chrome](/chrome_09.png)
 
@@ -71,13 +71,13 @@ layout: doc
 
   ![chrome](/chrome_12.png)
 
-  > <font color="red">**插件警告**</font>
+  > <font color="red">插件警告</font>
 
-  <font color="red">**通过👇🏻 插件问题，方便以后解决类似问题**</font>
+  <font color="red">通过👇🏻 插件问题，方便以后解决类似问题</font>
 
   沉浸式翻译插件
 
-  <font color="red">**[Violation] Added non-passive event listener to a scroll-blocking 'touchstart' event. Consider marking event handler as 'passive' to make the page more responsive.**</font>
+  <font color="red">[Violation] Added non-passive event listener to a scroll-blocking 'touchstart' event. Consider marking event handler as 'passive' to make the page more responsive.</font>
 
   ![chrome](/chrome_13.png)
 
