@@ -81,9 +81,11 @@ layout: doc
 
   ![chrome](/chrome_13.png)
 
-  - 从👆🏻知道是<font color="red">`沉浸式翻译插件中的content_script.js文件` 出现问题,问`ChatGPT`</font>
+  - 从👆🏻知道是<font color="red">`沉浸式翻译插件中的content_script.js文件` 出现问题</font>
 
   - <font color="red">如何获取解决方法 ？</font>
+
+  - <font color="red">问`ChatGPT`</font>
 
   ```js
   在控制台中出现出现 Added non-passive event listener to a scroll-blocking 'touchstart' event. Consider marking event handler as 'passive' to make the page more responsive.
