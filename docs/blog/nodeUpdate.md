@@ -5,7 +5,7 @@ layout: doc
 
 ## 1. 由零开始(已更新)
 
-https://paste.gg/p/anning123/f1fd007bc781488ea330439d5edd2ed9/files/aeaa4c6fea1141898ee8971b27b19abc/raw
+https://paste.gg/p/anning123/26ff1a8511624053abfe867b1ae6eb22/files/f5089766ec5740c3ac616be319447760/raw
 
 ## 2. 玉豆节点(已更新)
 
@@ -17,9 +17,10 @@ https://oss.v2rayse.com/proxies/data/2024-03-28/RHV3466.yaml
 
 ## 4. 梦歌(已更新)
 
-https://paste.gg/p/anonymous/57c9298f083b4d34bb1909708b2419f8/files/143aa033a3034ffc9fcf34690eddd710/raw
-https://paste.gg/p/anonymous/40ff7622d82842a7ab038d7f18957d34/files/ed4e4106051541b99c33e81e77f053de/raw
-https://paste.gg/p/anonymous/91d80ec2b3a748b2a61fea0f0901e3b9/files/bae8b843d39d4a6cbdffd566073066fc/raw
+https://paste.gg/p/anonymous/553626e5ff5a49228a038ce1f3d80c5a/files/71ac08373bed40bdba90535a909c8208/raw
+https://paste.gg/p/anonymous/8562d67e76404e0f969f181e2b322d41/files/6089b90745f64f8da72492278659d732/raw
+https://paste.gg/p/anonymous/ac73f6dc52254ba18516014f9d969689/files/1069af9b223e4d10b061758df22f1a97/raw
+https://paste.gg/p/anonymous/b2739326cc0c456d931e12b404607544/files/3c2d2a004bdb43e29ff4df3598dc9df6/raw
 
 ## 5. 米贝分享(已更新)
 
