@@ -128,6 +128,10 @@ layout: doc
 
   ![chrome](/chrome_18.png)
 
+  > <font color="red">[DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) <input type="'password" name="password"></font>
+
+  ![chrome](/chrome_19.png)
+
 ## 5. Google搜索技巧
 
   1. 以图搜片
