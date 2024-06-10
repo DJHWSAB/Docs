@@ -17,21 +17,23 @@ https://oss.v2rayse.com/proxies/data/2024-03-28/RHV3466.yaml
 
 ## 4. 梦歌(已更新)
 
-https://paste.gg/p/anonymous/a7af5e0ea339479d9fe5f66177174ead/files/603d278c96e34e1ba1e028521a7d7ff0/raw
-https://paste.gg/p/anonymous/4df23e385df042c7a1771c2839a3b73d/files/c8738356c1754c3bb289e30d663a6187/raw
-https://paste.gg/p/anonymous/b50e4b41f3f44501bbdd1c3f5f9f491e/files/9df368eb7ea24ef88f4a781fa456aa25/raw
-https://paste.gg/p/anonymous/552b4a96cdb74f9d9cce26f379dbc21a/files/7d9b8172b35c454aa9d018102d4b94d3/raw
+https://paste.gg/p/anonymous/7c9ea2277c1b4edd809a2e00f31eb9a4/files/bd1719d7174d42a2bff26e4d3d59c1a2/raw
+https://paste.gg/p/anonymous/8b7f814667284c45a544c08109d52173/files/41221e5c95f94050b60a8f96388c4481/raw
+https://paste.gg/p/anonymous/3940d2bbede1415d85ab88b0e7ee7695/files/cfe9559219fa44cc90e573000e1adc24/raw
+https://paste.gg/p/anonymous/e5b282e6463b421a8a1935f90a874f89/files/072c27c1b6574dcab5f161c17f6b1f49/raw
 
 ## 5. 米贝分享(已更新)
 
-http://mm.mibei77.com/202404/04.10Clashrty.yaml
+http://mm.mibei77.com/202406/06.09Clashszq.yaml
 
 ## 6. nodebird(已更新)
 
 https://nodebird.net/wp-content/uploads/2024/04/20240410.yaml
 
-## 7. 55（已更新）
+## 7. yu科技（已更新）
 
-https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBbm5oU0ZGT0NGX05pUzZtejVwckZRM0JhODBOP2U9VW1qTGI1.jpg
+https://oss.v2rayse.com/proxies/data/2024-06-09/Sd8uBPQ.yaml
+
+
 
 📢：以上顺序不分任何排名，所有节点均来自网上收集！！！
