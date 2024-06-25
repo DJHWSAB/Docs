@@ -5,35 +5,30 @@ layout: doc
 
 ## 1. 由零开始(已更新)
 
-https://paste.ee/d/mI99u
+https://clv.lshan.eu.org/25/Shadowrocket/由零開始-Youtube.txt
 
 ## 2. 玉豆节点(已更新)
 
-http://yy.yudou66.top/202405/2024.5.18Clau6sh.yaml
+http://yy.yudou66.top/202406/2024.6.25Clasf4h.yaml
 
 ## 3. yu科技(已更新)
 
-https://oss.v2rayse.com/proxies/data/2024-03-28/RHV3466.yaml
+https://raw.githubusercontent.com/changfengoss/pub/main/data/2024_06_20/8sKFaL.yaml
 
 ## 4. 梦歌(已更新)
 
-https://paste.gg/p/anonymous/7c9ea2277c1b4edd809a2e00f31eb9a4/files/bd1719d7174d42a2bff26e4d3d59c1a2/raw
-https://paste.gg/p/anonymous/8b7f814667284c45a544c08109d52173/files/41221e5c95f94050b60a8f96388c4481/raw
-https://paste.gg/p/anonymous/3940d2bbede1415d85ab88b0e7ee7695/files/cfe9559219fa44cc90e573000e1adc24/raw
-https://paste.gg/p/anonymous/e5b282e6463b421a8a1935f90a874f89/files/072c27c1b6574dcab5f161c17f6b1f49/raw
+https://paste.gg/p/anonymous/2499b29aec9645edbac06daa5a6495da/files/73d9b40f515546bc97b119c38699480a/raw
+https://paste.gg/p/anonymous/47678d8fd8f84b9bb671171018e72d2d/files/db6f72e76b0d41f2b577f45f331784d4/raw
+https://paste.gg/p/anonymous/312dcebec78843839fe3bcf2c5fa734f/files/98abc5326901423ca4a55f97b1fc9ffa/raw
+https://paste.gg/p/anonymous/596198b13e3947bcbe9f852b2431897f/files/fa11d1f7bf19481aa530a2e2fbb34230/raw
+https://paste.gg/p/anonymous/90499b4e42bd44168049a8e9a1e3ce18/files/2d9b9d93848d4dbd8838d21b40818305/raw
 
 ## 5. 米贝分享(已更新)
 
-http://mm.mibei77.com/202406/06.09Clashszq.yaml
+http://mm.mibei77.com/202406/06.25Clashire.yaml
 
 ## 6. nodebird(已更新)
 
 https://nodebird.net/wp-content/uploads/2024/04/20240410.yaml
-
-## 7. yu科技（已更新）
-
-https://oss.v2rayse.com/proxies/data/2024-06-09/Sd8uBPQ.yaml
-
-
 
 📢：以上顺序不分任何排名，所有节点均来自网上收集！！！
