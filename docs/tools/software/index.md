@@ -214,8 +214,17 @@ layout: doc
     // 行内元素(a、span、i...)自动换行 (i*2 => <i></i><i></i> 不实现所有行内元素在同一行显示)
     "emmet.syntaxProfiles": {
       "html": {
-        "inline_break": 1
+        "inline_break": 1,
+        "profile": "xhtml"
       }
+    },
+    // 👇🏻 七行代码 ---- 实现emmet语法
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "html": "html",
+        "javascript": "javascriptreact",
+        "vue-html": "html",
+        "razor": "html"
     },
     // 👇🏻两行代码 ----- 实现显示代码块范围的提示线
     "editor.bracketPairColorization.enabled": true,
@@ -279,6 +288,8 @@ layout: doc
     "javascript.updateImportsOnFileMove.enabled": "always",
     // 不使用屏幕阅读器操作vscode
     "editor.accessibilitySupport": "off",
+    // 移动或重命名文件时自动更新import语句
+    "vue.updateImportsOnFileMove.enabled": true,
   }
   ```
 :::
