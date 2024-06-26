@@ -116,14 +116,16 @@ layout: doc
     - 修改默认终端
     ```shell
     on alfred_script(q)
-      tell application "iTerm"
-          activate
-          tell current window
-              tell current session
-                  write text q
-              end tell
-          end tell
-      end tell
+    tell application "iTerm"
+        if not running then
+            run
+            delay 1.0
+        end if
+        activate
+        delay 0.5
+        set miniaturized of every window to false
+        reopen
+    end tell
     end alfred_script
     ```
     ![Alfred](/Alfred_19.png)
