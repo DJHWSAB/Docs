@@ -7,9 +7,9 @@ layout: doc
 
 https://clv.lshan.eu.org/25/Shadowrocket/由零開始-Youtube.txt
 
-## 2. 玉豆节点(已更新)
+## 2. 玉豆节点 (已更新)
 
-http://yy.yudou66.top/202406/2024.6.25Clasf4h.yaml
+http://yy.yudou66.top/202407/2024.7.2Clasn8h.yaml
 
 ## 3. yu科技(已更新)
 
@@ -25,10 +25,14 @@ https://paste.gg/p/anonymous/90499b4e42bd44168049a8e9a1e3ce18/files/2d9b9d93848d
 
 ## 5. 米贝分享(已更新)
 
-http://mm.mibei77.com/202406/06.25Clashire.yaml
+http://mm.mibei77.com/202407/07.02Clashuew.yaml
 
 ## 6. nodebird(已更新)
 
 https://nodebird.net/wp-content/uploads/2024/04/20240410.yaml
+
+## 7. 资源分享师(已更新)
+
+https://raw.githubusercontent.com/ZYFXS/ZYFXS001/main/100
 
 📢：以上顺序不分任何排名，所有节点均来自网上收集！！！
