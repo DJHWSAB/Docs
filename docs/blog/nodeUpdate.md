@@ -3,36 +3,33 @@ layout: doc
 ---
 # 节点更新
 
-## 1. 由零开始(已更新)
+## 1. 由零开始(✅)
 
-https://clv.lshan.eu.org/25/Shadowrocket/由零開始-Youtube.txt
+https://clv.lshan.eu.org/08/a18/c.yaml
 
-## 2. 玉豆节点 (已更新)
+## 2. 玉豆节点 (✅)
 
-http://yy.yudou66.top/202407/2024.7.2Clasn8h.yaml
+http://yy.yudou66.top/202408/2024.8.18Clh7ash.yaml
 
-## 3. yu科技(已更新)
+## 3. yu科技(❌)
 
-https://raw.githubusercontent.com/changfengoss/pub/main/data/2024_06_20/8sKFaL.yaml
+https://raw.githubusercontent.com/changfengoss/pub/main/data/2024_08_15/MIeqto.yaml
 
-## 4. 梦歌(已更新)
+## 4. 梦歌(✅)
 
-https://paste.gg/p/anonymous/2499b29aec9645edbac06daa5a6495da/files/73d9b40f515546bc97b119c38699480a/raw
-https://paste.gg/p/anonymous/47678d8fd8f84b9bb671171018e72d2d/files/db6f72e76b0d41f2b577f45f331784d4/raw
-https://paste.gg/p/anonymous/312dcebec78843839fe3bcf2c5fa734f/files/98abc5326901423ca4a55f97b1fc9ffa/raw
-https://paste.gg/p/anonymous/596198b13e3947bcbe9f852b2431897f/files/fa11d1f7bf19481aa530a2e2fbb34230/raw
-https://paste.gg/p/anonymous/90499b4e42bd44168049a8e9a1e3ce18/files/2d9b9d93848d4dbd8838d21b40818305/raw
+https://igdux.top/xhki
+https://igdux.top/aZk4
 
-## 5. 米贝分享(已更新)
+## 5. 米贝分享(✅)
 
-http://mm.mibei77.com/202407/07.02Clashuew.yaml
+http://mm.mibei77.com/202408/08.18Clashied.yaml
 
-## 6. nodebird(已更新)
+## 6. nodebird(✅)
 
 https://nodebird.net/wp-content/uploads/2024/04/20240410.yaml
 
-## 7. 资源分享师(已更新)
+## 7. 资源分享师(✅)
 
-https://raw.githubusercontent.com/ZYFXS/ZYFXS001/main/100
+https://raw.githubusercontent.com/ZYFXS/ZYFXS001/main/020
 
 📢：以上顺序不分任何排名，所有节点均来自网上收集！！！
