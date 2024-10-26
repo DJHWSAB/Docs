@@ -5,11 +5,11 @@ layout: doc
 
 ## 1. 由零开始(✅)
 
-https://clv.lshan.eu.org/2024-10/t8/c.yaml
+https://clv.lshan.eu.org/2024-10/26/c.yaml
 
 ## 2. 玉豆节点 (✅)
 
-http://yy.yudou66.top/202410/2024.10.8Clasg3h.yaml
+http://yy.yudou66.top/202410/2024.10.26Clasf2h.yaml
 
 ## 3. yu科技(❌)
 
