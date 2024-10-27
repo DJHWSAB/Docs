@@ -200,3 +200,6 @@ layout: doc
     > 默认情况下,必须有 Finder(访达) ,否则打不开 终端（包括iterm）
     
     ![Alfred](/Alfred_35.png)
+
+## 7. Alfred搜索不到应用怎么办？
+  https://www.machunjie.com/macos/670.html
