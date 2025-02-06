@@ -9,7 +9,7 @@ https://clv.lshan.eu.org/2024-10/26/c.yaml
 
 ## 2. 玉豆节点 (✅)
 
-http://yy.yudou66.top/202411/2024.11.22Claz2sh.yaml
+http://yy.yudou66.top/202502/2025.2.6Clah4sh.yaml
 
 ## 3. yu科技(❌)
 
@@ -25,6 +25,6 @@ https://nodebird.net/wp-content/uploads/2024/04/20240410.yaml
 
 ## 6. 资源分享师(✅)
 
-https://raw.githubusercontent.com/ZYFXS/ZYFXS001/refs/heads/main/456
+https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9jZDVmMDg0ZTUxNDhlMTc5L0VRWTZ2aXloT0R4UGs1WEtFOF9mUjBnQnZ6WTBmVjg5cXYwOUFucDc5c1cxeGc_ZT04ejVDWHo.jpg
 
 📢：以上顺序不分任何排名，所有节点均来自网上收集！！！
